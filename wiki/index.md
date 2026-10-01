@@ -51,13 +51,22 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Cerebras — Structured Outputs](sources/cerebras-structured-outputs.md) — Strict mode, batas skema JSON, dan JSON mode. (2026-10-01)
 - [Cerebras — Tool Calling](sources/cerebras-tool-calling.md) — Strict mode, multi-turn, dan parallel tool calling. (2026-10-01)
 - [Cerebras — Image Inputs](sources/cerebras-image-inputs.md) — Image inputs Public Preview: base64, batas, token gambar, dan peringatan. (2026-10-01)
+- [Token Harbor docs — Subscription](sources/tokenharbor-docs-subscription.md) — Pass: siklus 4 minggu, boost, toggle overage (hard limit), free access terpisah, lineup dokumen. (2026-10-02)
+- [Token Harbor docs — Credits & top-ups](sources/tokenharbor-docs-credits.md) — Satu wallet USD; top-up $10/$50/$100; refund 30 hari; tiga lapis cache; ledger CSV. (2026-10-02)
+- [Token Harbor docs — Rewards](sources/tokenharbor-docs-rewards.md) — First top-up match s.d. $100; milestone spend; cap reward $500; free allowance rolling 7×24 jam. (2026-10-02)
+- [Token Harbor docs — Rate limits](sources/tokenharbor-docs-rate-limits.md) — Akun berbayar tanpa limit request; free 60/menit & 1.800/jam; limit key = cap USD. (2026-10-02)
+- [Token Harbor docs — Prompt caching on Claude](sources/tokenharbor-docs-prompt-caching.md) — Cache read 0,1× (0,025× Fable 5.1), write 1,25×; auto-mark; TTL 5 menit. (2026-10-02)
+- [Token Harbor docs — Models](sources/tokenharbor-docs-models.md) — Rumus billing per token + markup 0%; cache upstream/semantic/exact; tanpa truncation. (2026-10-02)
+- [Token Harbor docs — Web chat limits](sources/tokenharbor-docs-web-chat-limits.md) — Gambar 10/hari, web search 200/hari, voice 100/hari, file 20/hari; teks TH-Rudder unlimited. (2026-10-02)
+- [Token Harbor docs — How we measure speed](sources/tokenharbor-docs-speed.md) — Dua metrik: tok/s output & prefill; tabel prefill per ukuran prompt; arti "—". (2026-10-02)
+- [Token Harbor vs OpenRouter](sources/tokenharbor-docs-vs-openrouter.md) — Perbandingan gateway; endpoint Anthropic native; CLI connect; migrasi 2 baris. (2026-10-02)
 
 ## Entities
 
-- [Token Harbor](entities/token-harbor.md) — Penyedia satu API untuk banyak model; pass bulanan, mekanisme usage value, dan katalog harga per token. (2026-10-01)
+- [Token Harbor](entities/token-harbor.md) — Penyedia satu API untuk banyak model; pass bulanan, usage value, wallet & rewards, rate limit, cache berlapis, dan toggle overage. (2026-10-02)
 - [Katalog Model Token Harbor](entities/token-harbor-model-catalog.md) — 19 model dengan harga per 1M token, AA Rank, Intelligence Index, varian Fast, dan tarif off-peak. (2026-10-01)
 - [Estimasi Request per Pass](entities/token-harbor-pass-estimates.md) — Tabel gabungan estimasi request Agent/Office/Frontier dan skala antar pass. (2026-10-01)
-- [TH-Rudder](entities/th-rudder.md) — Model gratis tanpa batas khusus web chat; merutekan pesan ke model lain, tanpa nama API. (2026-10-01)
+- [TH-Rudder](entities/th-rudder.md) — Model gratis tanpa batas khusus web chat; merutekan pesan ke model lain, tanpa nama API; kuota web chat terdokumentasi (gambar 10/hari, search 200/hari). (2026-10-02)
 - [OpenCode](entities/opencode.md) — Coding agent open source dengan langganan Go/Go Plus; batas per model, kredit top up menyatu dengan Zen. (2026-10-01)
 - [OpenCode Zen](entities/opencode-zen.md) — Katalog model per-token OpenCode; 81 model, 9 gratis; berbagi saldo kredit dengan Go. (2026-10-01)
 - [Agnes](entities/agnes.md) — Aplikasi agentic + Token Plan multimodal; kuota request 5 jam + media harian, model flash gratis. (2026-10-01)
@@ -71,6 +80,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 ## Concepts
 
 - [Intelligence Index (Artificial Analysis)](concepts/intelligence-index.md) — Metrik peringkat model yang dipakai katalog Token Harbor; nilai 33.7–57.6 pada klip 2026-10-01. (2026-10-01)
+- [Prompt Caching](concepts/prompt-caching.md) — Sintesis cache lintas layanan: Token Harbor 3 lapis, tarif cache read/write, implikasi biaya. (2026-10-02)
 - [Layanan Akses Model](concepts/model-access-services.md) — Pola penjualan akses banyak model (langganan, per token, kredit); contoh: Token Harbor, OpenCode, Agnes, Groq, Manus, Novita, Sail Research. (2026-10-01)
 
 ## Analyses

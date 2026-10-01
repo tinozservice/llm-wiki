@@ -85,3 +85,10 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Dibuat: `wiki/analyses/perhitungan-limit-agent-pass.md` — mekanisme usage value, contoh hitungan, verifikasi rumus estimasi, dan analisis beban konteks besar. Semua angka dolar adalah perhitungan turunan dari tarif katalog, bukan angka penerbit.
 - Diperbarui: `wiki/entities/token-harbor.md` (open question tarif cache + tautan analisis), `wiki/index.md`.
 - Temuan: tarif cache read tidak dipublikasikan Token Harbor; rumus estimasi cocok untuk V4.1 Flash/GPT-6 Luna/GLM 5.3 Flash (Qwen3.8 Flash menyimpang); konteks tumbuh 50k/turn menghabiskan $10 hanya dalam ~36 turn tanpa cache (dengan cache read $0.01/M ≈ 170 turn — asumsi).
+
+## [2026-10-02] ingest | Token Harbor docs (9 klip)
+- Sembilan klip dokumentasi di-ingest dari arsip `raw/2026/oktober/02/` (Subscription, Credits & top-ups, Rewards, Rate limits, Prompt caching on Claude, Models, Web chat limits, How we measure speed, vs OpenRouter).
+- Dibuat: 9 halaman sumber + konsep baru `wiki/concepts/prompt-caching.md`.
+- Diperbarui: `wiki/entities/token-harbor.md` (wallet/rewards, rate limit, cache, toggle overage, free allowance rolling 7×24), `wiki/entities/th-rudder.md` (kuota web chat), `wiki/entities/token-harbor-model-catalog.md` (catatan lineup drift), `wiki/concepts/model-access-services.md` (baris OpenRouter + dimensi cache), `wiki/analyses/perhitungan-limit-agent-pass.md` (koreksi toggle + cache terdokumentasi), `wiki/overview.md`, `wiki/index.md`.
+- Klarifikasi/koreksi: "Nothing stops at the limit" hanya berlaku bila toggle overage aktif; free allowance tidak ditambah/direset pass (route `:free` terpisah); lineup dokumen 2 Okt memakai versi model berbeda dari katalog 1 Okt (dicatat, tidak ditimpa).
+- Open questions terjawab: kuota harian TH-Rudder (gambar 10, search 200), rate limit akun berbayar, tarif cache (Claude 0,1×/1,25×; upstream ~90% off). Sisa: besar free allowance dalam dolar; off-peak pada pass; perlakuan cache tepatnya pada metering pass.

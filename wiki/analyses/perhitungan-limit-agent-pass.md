@@ -3,7 +3,7 @@ title: Perhitungan Limit Agent Pass & Beban Konteks Besar
 type: analysis
 created: 2026-10-02
 updated: 2026-10-02
-sources: [tokenharbor-pricing, tokenharbor-models-value, opencode-zen-price-list, novita-model-libraries]
+sources: [tokenharbor-pricing, tokenharbor-models-value, opencode-zen-price-list, novita-model-libraries, tokenharbor-docs-subscription, tokenharbor-docs-credits, tokenharbor-docs-models, tokenharbor-docs-prompt-caching]
 tags: [token-harbor, agent-pass, pricing, context, analysis]
 ---
 
@@ -15,7 +15,8 @@ proyek ber-codebase besar (mis. konteks tumbuh **50k token input per turn**).
 
 > Semua angka dolar di halaman ini adalah **perhitungan turunan** dari tarif katalog
 > (klip 2026-10-01), bukan angka yang dipublikasikan Token Harbor. Tarif dasar:
-> [Katalog Model Token Harbor](../entities/token-harbor-model-catalog.md).
+> [Katalog Model Token Harbor](../entities/token-harbor-model-catalog.md); mekanisme pass
+> dikonfirmasi [docs Subscription](../sources/tokenharbor-docs-subscription.md) (2 Okt).
 
 ## 1. Mekanisme limit
 
@@ -25,8 +26,8 @@ proyek ber-codebase besar (mis. konteks tumbuh **50k token input per turn**).
 - Bulan = **4 jendela × 7 hari**: $2,50 per jendela; sisa **tidak carry-over**.
 - Satu allowance dipakai bersama semua model. Boost (GLM 5.3 Flash dan Qwen3.8 Flash s.d.
   4 Okt 2026) **tidak berlaku** untuk DeepSeek V4.1 Flash.
-- Free allowance menyatu ke pool yang sama dengan satu progress bar.
-- Lewat limit: panggilan **tidak berhenti** — lanjut ditagih dari saldo dengan diskon **5%**.
+- Free allowance berjalan berdampingan: tidak menggantikan/menambah allowance pass; periode rolling 7×24 jam ([Rewards](../sources/tokenharbor-docs-rewards.md)).
+- Lewat limit: dikendalikan **toggle** *"Keep working after my Pass allowance runs out"* — jika aktif, panggilan lanjut ditagih dari saldo dengan diskon **5%**; jika tidak, pass menjadi **hard limit** sampai jendela berikutnya ([docs Subscription](../sources/tokenharbor-docs-subscription.md)).
 
 ## 2. Tarif dasar DeepSeek V4.1 Flash
 
@@ -61,7 +62,7 @@ ditagih tarif input penuh:
 
 Versi ilustrasi jika cache hit dihargai — memakai cache read **$0.01/M** dari
 [OpenCode Zen](../entities/opencode-zen.md) untuk model yang sama (Novita: $0.006/M; pola
-10% ala Agnes). **Ini bukan tarif Token Harbor**: hit 1.500 ÷ 1.000.000 × $0.01 = $0.000015
+10% ala Agnes). **Ini bukan tarif resmi Token Harbor** — docs TH (2 Okt) menyebut cache upstream "up to 90% off" (prefix ≥1024 token) dan cache read Claude 0,1×, tetapi tarif per model non-Claude tidak dirinci ([docs Models](../sources/tokenharbor-docs-models.md)). Dengan asumsi $0.01/M, hit 1.500 ÷ 1.000.000 × $0.01 = $0.000015
 → prompt 2 = $0.000450 + $0.000015 + $0.000240 = **$0.000705**.
 
 ### Kapasitas pasang prompt 1+2
@@ -102,9 +103,11 @@ Turn ke-n membawa `n × 50k` input → biaya turn = `n × $0.015`; total N turn 
 
 ### C. Jika cache dihargai (kondisional)
 
-Dengan cache read $0.01/M, prefix lama dibaca murah (~$0.0005 per 50k) dan hanya konten baru
-dibayar penuh → **≈ 170 turn/bulan**; jendela pertama ≈ 70–75 turn, jendela berikutnya lebih
-cepat habis karena konteks makin besar. Bergantung pada tarif cache yang tidak dipublikasikan.
+Docs TH (2 Okt) mendokumentasikan cache upstream "up to 90% off" untuk prefix ≥1024 token —
+read ≈ 10% harga input ($0.03/M): **≈ 106 turn/bulan** (output 1k/turn). Dengan asumsi cache
+read $0.01/M ala Zen (lebih murah dari 10%), hasilnya ≈ 170 turn/bulan. Rentang realistis
+**≈ 106–170 turn/bulan**; jendela pertama bisa ≈ 70–75 turn. Tarif efektif per model belum
+dirinci ([docs Models](../sources/tokenharbor-docs-models.md); [Prompt Caching](../concepts/prompt-caching.md)).
 
 ### Naik pass
 
@@ -115,8 +118,9 @@ allowance: Agent $10 → ≈ 36; Office $35 → ≈ 68; Frontier $180 → ≈ 15
 
 1. Penggerak utama habisnya limit: **konteks yang dikirim ulang dan tumbuh setiap turn**,
    bukan sekadar input besar sekali jalan.
-2. Tidak ada batas keras — setelah $10, pemakaian lanjut dari saldo (diskon 5%); dari titik
-   itu efektif menjadi pay-per-token.
+2. Batas keras **tergantung toggle**: jika *Keep working after my Pass allowance runs out*
+   aktif, setelah $10 pemakaian lanjut dari saldo (diskon 5%) — efektif pay-per-token; jika
+   tidak, pass berhenti di batas jendela ([docs Subscription](../sources/tokenharbor-docs-subscription.md)).
 3. Mitigasi: prompt caching (jika didukung), compaction/reset sesi, manfaatkan off-peak,
    atau layanan per-token seperti [Zen](../entities/opencode-zen.md) untuk beban berat.
 4. Tarif cache dan keberlakuan off-peak/boost pada pass masih belum jelas (lihat
@@ -124,9 +128,10 @@ allowance: Agent $10 → ≈ 36; Office $35 → ≈ 68; Frontier $180 → ≈ 15
 
 ## Open questions
 
-- Apakah tarif cache read berlaku di Token Harbor, dan apakah cache hit ikut memperpanjang
-  usage value pass?
-- Apakah tarif off-peak berlaku untuk trafik pass, bukan hanya pay-as-you-go?
+- Apakah cache sepenuhnya memperpanjang usage value pass? Docs (2 Okt): cache upstream "up to
+  90% off" + cache Claude read 0,1×; perlakuan tepatnya terhadap metering pass belum eksplisit
+  ([Prompt Caching](../concepts/prompt-caching.md)).
+- Apakah tarif off-peak berlaku untuk trafik pass? Boost jelas berlaku; off-peak tidak disebut.
 - Mengapa beberapa angka estimasi resmi (mis. Qwen3.8 Flash 13.2k+) tidak persis mengikuti
   perhitungan tarif katalog?
 
@@ -136,5 +141,7 @@ allowance: Agent $10 → ≈ 36; Office $35 → ≈ 68; Frontier $180 → ≈ 15
 - [Katalog Model Token Harbor](../entities/token-harbor-model-catalog.md)
 - [Estimasi Request per Pass](../entities/token-harbor-pass-estimates.md)
 - [One API for the world's leading AI models](../sources/tokenharbor-pricing.md)
+- [Token Harbor docs — Subscription](../sources/tokenharbor-docs-subscription.md) · [Models](../sources/tokenharbor-docs-models.md) · [Prompt caching on Claude](../sources/tokenharbor-docs-prompt-caching.md)
+- [Prompt Caching](../concepts/prompt-caching.md)
 - [OpenCode Zen](../entities/opencode-zen.md)
 - [Layanan Akses Model](../concepts/model-access-services.md)

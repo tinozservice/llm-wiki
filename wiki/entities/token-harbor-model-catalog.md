@@ -2,8 +2,8 @@
 title: Katalog Model Token Harbor
 type: entity
 created: 2026-10-01
-updated: 2026-10-01
-sources: [tokenharbor-models-frontier, tokenharbor-models-value, tokenharbor-models-free, tokenharbor-th-rudder]
+updated: 2026-10-02
+sources: [tokenharbor-models-frontier, tokenharbor-models-value, tokenharbor-models-free, tokenharbor-th-rudder, tokenharbor-docs-subscription]
 tags: [token-harbor, models, pricing, intelligence-index]
 ---
 
@@ -49,10 +49,15 @@ Beberapa model punya varian **Fast** (harga lebih tinggi untuk latensi lebih ren
 
 Katalog ini melengkapi skema pass di [Token Harbor](token-harbor.md): model frontier sebagian besar ada di Office/Frontier Pass, model value di pass bawah/Agent, dan model free dapat dipakai gratis (lineup berotasi). Harga per-token di tabel adalah harga pay-as-you-go/patokan nilai.
 
+### Lineup dokumen vs katalog
+
+Dokumen Subscription (2 Okt 2026) mencantumkan sebagian model dengan **nama/versi berbeda** dari klip katalog ini (1 Okt) — mis. GPT-5.6 Luna (katalog: GPT-6 Luna), MiMo V2.5 / V2.5 Pro (katalog: MiMo V2.6 Flash / Pro), Claude Sonnet 5 (katalog: Claude Sonnet 5.5), Grok 4.6 (katalog: Grok 4.7), dan free tier DeepSeek V4 **Flash**. Kemungkinan beda snapshot atau penamaan generik; belum bisa dipastikan mana yang terkini.
+
 ## Open questions
 
 - Apakah tarif varian Fast dan off-peak juga memengaruhi pemakaian pass/boost, atau hanya pay-as-you-go?
 - Tanggal snapshot katalog dan kapan lineup/berotasi harga (klip dibuat 2026-10-01, tanggal publikasi tidak ada).
+- Versi model mana yang berlaku: katalog 1 Okt atau dokumen Subscription 2 Okt? (lihat *Lineup dokumen vs katalog*).
 - Siapa lab di balik tiap model? Katalog hanya memuat nama, rank, dan harga.
 
 ## Related
@@ -61,3 +66,4 @@ Katalog ini melengkapi skema pass di [Token Harbor](token-harbor.md): model fron
 - [TH-Rudder](th-rudder.md) — model gratis web chat.
 - [Intelligence Index (Artificial Analysis)](../concepts/intelligence-index.md) — metrik di kolom AA Rank.
 - [Layanan Akses Model](../concepts/model-access-services.md) — pola layanan akses model.
+- [Token Harbor docs — Subscription](../sources/tokenharbor-docs-subscription.md) — lineup versi dokumen (2 Okt).
