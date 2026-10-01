@@ -2,7 +2,7 @@
 title: Token Harbor
 type: entity
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-02
 sources: [tokenharbor-pricing, opencode-go, opencode-zen-price-list, tokenharbor-models-frontier, tokenharbor-models-value, tokenharbor-models-free, tokenharbor-th-rudder, tokenharbor-frontier-pass, tokenharbor-office-pass]
 tags: [token-harbor, api, pricing]
 ---
@@ -57,6 +57,7 @@ Klip katalog model (2026-10-01) mendokumentasikan harga per 1M token tiap model,
 
 - Berapa besar free allowance bulanan? Sumber tidak menyebut angka dolar.
 - Apakah tarif varian Fast dan off-peak juga berlaku untuk pemakaian pass/boost, atau hanya pay-as-you-go?
+- Apakah pemakaian pass memperhitungkan tarif **cache read** (cache hit)? Tidak dipublikasikan di klip; pembahasannya di [Perhitungan Limit Agent Pass & Beban Konteks Besar](../analyses/perhitungan-limit-agent-pass.md).
 - Berapa besar jatah harian TH-Rudder untuk gambar dan web search? Tidak disebut.
 - Siapa lab di balik masing-masing model? Nama-namanya mengikuti keluarga model besar (DeepSeek, MiMo, Qwen, GLM, GPT, Claude, Grok), tapi sumber tidak menyebut vendor.
 - Tanggal publikasi halaman tidak diketahui; penawaran dapat berubah (boost Qwen3.8 Flash berakhir 4 Okt 2026).
@@ -70,4 +71,5 @@ Klip katalog model (2026-10-01) mendokumentasikan harga per 1M token tiap model,
 - [OpenCode](opencode.md) — layanan langganan lain dengan lineup tumpang tindih.
 - [OpenCode Zen](opencode-zen.md) — katalog per-token OpenCode; memuat harga untuk banyak model yang sama.
 - [Layanan Akses Model](../concepts/model-access-services.md) — pola umum layanan seperti ini.
+- [Perhitungan Limit Agent Pass & Beban Konteks Besar](../analyses/perhitungan-limit-agent-pass.md) — contoh hitungan biaya + analisis beban konteks besar.
 - [Overview](../overview.md)

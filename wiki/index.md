@@ -2,7 +2,7 @@
 title: Index
 type: meta
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-02
 sources: []
 tags: [index]
 ---
@@ -75,4 +75,4 @@ See also: [Overview](overview.md) · [Log](log.md)
 
 ## Analyses
 
-_Belum ada._
+- [Perhitungan Limit Agent Pass & Beban Konteks Besar](analyses/perhitungan-limit-agent-pass.md) — mekanisme usage value, contoh hitungan DeepSeek V4.1 Flash, dan simulasi beban konteks 50k token/turn. (2026-10-02)

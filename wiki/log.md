@@ -2,7 +2,7 @@
 title: Log
 type: meta
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-02
 sources: []
 tags: [log]
 ---
@@ -79,3 +79,9 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - `.opencode/skills/wiki-ingest/SKILL.md` diperbarui: aturan *archive first* + path arsip lengkap di citation.
 - Semua halaman sumber diperbarui ke path arsip `raw/2026/oktober/01/...` (22 file).
 - Path mentah di entri log lama dibiarkan sebagai catatan historis.
+
+## [2026-10-02] query | Perhitungan limit Agent Pass & beban konteks besar
+- Pertanyaan pengguna: cara perhitungan limit Agent Pass; contoh DeepSeek V4.1 Flash (1.000+500 token; 3.000 [1.500 miss + 1.500 hit] + 200 token); dampak konteks tumbuh 50k token/turn.
+- Dibuat: `wiki/analyses/perhitungan-limit-agent-pass.md` — mekanisme usage value, contoh hitungan, verifikasi rumus estimasi, dan analisis beban konteks besar. Semua angka dolar adalah perhitungan turunan dari tarif katalog, bukan angka penerbit.
+- Diperbarui: `wiki/entities/token-harbor.md` (open question tarif cache + tautan analisis), `wiki/index.md`.
+- Temuan: tarif cache read tidak dipublikasikan Token Harbor; rumus estimasi cocok untuk V4.1 Flash/GPT-6 Luna/GLM 5.3 Flash (Qwen3.8 Flash menyimpang); konteks tumbuh 50k/turn menghabiskan $10 hanya dalam ~36 turn tanpa cache (dengan cache read $0.01/M ≈ 170 turn — asumsi).
