@@ -13,7 +13,7 @@ tags: [token-harbor, pass, office, estimates]
 - **Penulis**: Token Harbor
 - **URL**: <https://tokenharbor.ai/pricing>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/tokenharbor - office pass.md`
+- **Berkas mentah**: `raw/2026/oktober/01/tokenharbor - office pass.md`
 
 ## TL;DR
 

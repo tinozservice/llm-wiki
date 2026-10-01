@@ -13,7 +13,7 @@ tags: [agnes, quotas, rate-limits, token-plan]
 - **Penulis**: tidak dicantumkan
 - **URL**: <https://www.agnes-ai.com/en/docs/tokenplan>
 - **Tanggal publikasi**: efektif 2026-06-22 (update RPM video 2026-06-28; RPM teks 2026-09-23); klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/agnes Token Plan FAQ.md`
+- **Berkas mentah**: `raw/2026/oktober/01/agnes Token Plan FAQ.md`
 
 ## TL;DR
 

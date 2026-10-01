@@ -60,3 +60,10 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Dibuat: 13 halaman sumber + 5 entitas baru (`agnes`, `groq`, `manus`, `novita`, `sail-research`).
 - Diperbarui: `wiki/concepts/model-access-services.md` (5 layanan baru + paritas harga meluas + dimensi latensi/harga), `wiki/overview.md`, `wiki/index.md`.
 - Tidak ada kontradiksi. Catatan: harga Manus tidak tertangkap di klip (artefak slider); metadata params/context model (pertama di wiki) berasal dari Sail.
+
+## [2026-10-01] schema | Arsip raw/ per tanggal
+- `raw/` dirapikan menjadi arsip per tahun/bulan/tanggal; 22 file sumber dipindahkan ke `raw/2026/oktober/01/` (nama bulan Bahasa Indonesia).
+- `AGENTS.md` diperbarui: bagian *Raw archive layout*, layout pohon, quick start, tabel layer, dan hard rule `raw/` (konten tetap immutable; LLM hanya boleh memindahkan ke arsip tanggal).
+- `.opencode/skills/wiki-ingest/SKILL.md` diperbarui: aturan *archive first* + path arsip lengkap di citation.
+- Semua halaman sumber diperbarui ke path arsip `raw/2026/oktober/01/...` (22 file).
+- Path mentah di entri log lama dibiarkan sebagai catatan historis.

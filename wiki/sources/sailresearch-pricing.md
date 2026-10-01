@@ -13,7 +13,7 @@ tags: [sailresearch, pricing, inference, sailbox]
 - **Penulis**: tidak dicantumkan
 - **URL**: <https://docs.sailresearch.com/pricing>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/sailresearch - Pricing.md`
+- **Berkas mentah**: `raw/2026/oktober/01/sailresearch - Pricing.md`
 
 ## TL;DR
 

@@ -13,7 +13,7 @@ tags: [opencode, pricing, subscription, agentic-coding]
 - **Penulis**: tidak dicantumkan
 - **URL**: <https://opencode.ai/go>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/opencode-go-Low cost coding models for everyone.md`
+- **Berkas mentah**: `raw/2026/oktober/01/opencode-go-Low cost coding models for everyone.md`
 
 ## TL;DR
 

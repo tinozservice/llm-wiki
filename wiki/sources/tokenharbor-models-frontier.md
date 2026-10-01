@@ -13,7 +13,7 @@ tags: [token-harbor, models, pricing, intelligence-index]
 - **Penulis**: Token Harbor
 - **URL**: <https://tokenharbor.ai/models>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/model frontier token harbor.md`
+- **Berkas mentah**: `raw/2026/oktober/01/model frontier token harbor.md`
 
 ## TL;DR
 

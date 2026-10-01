@@ -13,7 +13,7 @@ tags: [agnes, pricing, subscription]
 - **Penulis**: tidak dicantumkan
 - **URL**: <https://platform.agnes-ai.com/subscribe/subscription>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/Agnes - Token Plan.md`
+- **Berkas mentah**: `raw/2026/oktober/01/Agnes - Token Plan.md`
 
 ## TL;DR
 

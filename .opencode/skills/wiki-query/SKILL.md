@@ -35,6 +35,6 @@ accepts:
 
 ## Notes
 
-- Never edit `raw/`.
+- Never edit `raw/`; pengarsipan ke folder tanggal hanya dilakukan saat ingest (lihat `AGENTS.md` → *Raw archive layout*).
 - If the user reveals a durable preference or convention, propose an `AGENTS.md` update —
   do not just change behavior silently.

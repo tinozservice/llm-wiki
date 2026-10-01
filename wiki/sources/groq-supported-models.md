@@ -13,7 +13,7 @@ tags: [groq, models, pricing]
 - **Penulis**: tidak dicantumkan
 - **URL**: <https://console.groq.com/docs/models>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/groq - Supported Models.md`
+- **Berkas mentah**: `raw/2026/oktober/01/groq - Supported Models.md`
 
 ## TL;DR
 

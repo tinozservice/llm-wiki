@@ -10,13 +10,19 @@ Turn new source material into durable, interlinked wiki pages. One source usuall
 
 ## 1. Get the source into `raw/`
 
-- Already in `raw/`: read it.
-- User pasted text or shared a file: save it to `raw/` as markdown first (keep original
-  title, author, and URL in a header), then ingest it.
-- URL only: always keep a local copy in `raw/` — never ingest from a live URL alone. Fetch
-  and save it as markdown; download referenced images into `raw/assets/` when feasible.
-  Confirm with the user if the fetch fails.
+- **Archive first**: file sumber disimpan/dipindahkan ke arsip tanggal
+  `raw/<YYYY>/<bulan>/<DD>/` (bulan pakai nama Indonesia huruf kecil; tanggal dari
+  frontmatter `created`, fallback hari ingest). Lihat `AGENTS.md` → *Raw archive layout*.
+- Already in `raw/` (root atau folder arsip): pastikan ada di folder tanggal yang benar,
+  lalu baca file di path arsip.
+- User pasted text or shared a file: save it as markdown into the date archive folder
+  (keep original title, author, and URL in a header), then ingest it.
+- URL only: always keep a local copy in the date archive folder — never ingest from a live
+  URL alone. Fetch and save it as markdown; download referenced images into `raw/assets/`
+  when feasible. Confirm with the user if the fetch fails.
 - Images: read the text first, then view relevant images separately if they add context.
+- Citation: halaman sumber mencantumkan **path arsip lengkap**, mis.
+  `raw/2026/oktober/01/<file>.md`.
 
 ## 2. Read and discuss
 

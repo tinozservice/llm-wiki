@@ -15,15 +15,15 @@ not re-derived from raw chunks on every question.
 
 | Layer | Path | Owner | Rule |
 | --- | --- | --- | --- |
-| Raw sources | `raw/` | Human | **Immutable.** Read and cite only. Never edit, move, rename, or delete. |
+| Raw sources | `raw/<tahun>/<bulan>/<DD>/` | Human | **Immutable.** Konten hanya dibaca dan dikutip — tidak diedit, di-rename, atau dihapus. LLM boleh *memindahkan* file ke arsip tanggal (lihat *Raw archive layout*). |
 | Wiki | `wiki/` | LLM | You create and maintain everything here. |
 | Schema | `AGENTS.md`, `.opencode/skills/` | Both | Co-evolve deliberately: propose changes and wait for approval. |
 
 ## Quick start (for the human)
 
 1. Open this folder as an Obsidian vault (already initialized — keep Obsidian open beside the agent).
-2. Drop sources into `raw/` (Obsidian Web Clipper is great for web articles).
-3. Tell the LLM: *"ingest raw/<file>"* or *"ingest everything new"*.
+2. Drop sources into `raw/` (Obsidian Web Clipper is great for web articles). Saat ingest, LLM mengarsipkannya ke `raw/<tahun>/<bulan>/<DD>/`, mis. `raw/2026/oktober/01/`.
+3. Tell the LLM: *"ingest raw/<path>"* (mis. `raw/2026/oktober/01/<file>`) atau *"ingest everything new"*.
 4. Ask questions — good answers get filed back into `wiki/analyses/`.
 5. Occasionally ask: *"lint the wiki"* to keep it healthy.
 
@@ -31,7 +31,10 @@ not re-derived from raw chunks on every question.
 
 ```text
 raw/                    # curated sources, immutable
-└── assets/             # images downloaded from clipped articles
+├── assets/             # images downloaded from clipped articles
+└── 2026/               # arsip per tahun
+    └── oktober/        # per bulan: januari … desember
+        └── 01/         # per tanggal: sumber yang jatuh pada tanggal itu
 wiki/
 ├── index.md            # content catalog — update on every ingest
 ├── log.md              # append-only chronological record
@@ -43,6 +46,23 @@ wiki/
 AGENTS.md               # this schema
 .opencode/skills/       # wiki-ingest / wiki-query / wiki-lint workflows
 ```
+
+## Raw archive layout
+
+Sumber di `raw/` diarsipkan **per tahun → bulan → tanggal**, mengikuti contoh:
+
+```text
+raw/2026/oktober/01/
+```
+
+- Tahun `YYYY`; bulan memakai nama bulan Bahasa Indonesia huruf kecil (`januari` …
+  `desember`); tanggal `DD` dua digit.
+- Tanggal arsip diambil dari `created` pada frontmatter klip; jika tidak ada, pakai tanggal
+  ingest.
+- LLM boleh **memindahkan** file sumber ke folder arsip (satu-satunya aksi tulis di `raw/`),
+  dan wajib memakai path arsip lengkap saat mengutip berkas mentah.
+- Isi file di `raw/` **tidak pernah diubah**.
+- `raw/assets/` tetap satu folder global untuk gambar hasil unduhan klip.
 
 ## Page conventions
 
@@ -119,7 +139,7 @@ do the work → update `index.md` → append to `log.md` → report the files yo
 
 ## Hard rules
 
-- Never write into `raw/`.
+- Never write or edit the content of files in `raw/`. Satu-satunya aksi yang diizinkan: memindahkan/mengarsipkan file sumber ke folder tanggal (`raw/<tahun>/<bulan>/<DD>/`).
 - Do not invent content. Everything traces back to a source in `raw/`, to the user's
   explicit instructions, or is marked as unverified.
 - One source can legitimately touch 10–15 pages. Prefer updating existing pages over

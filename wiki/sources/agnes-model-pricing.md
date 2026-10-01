@@ -13,7 +13,7 @@ tags: [agnes, pricing, models]
 - **Penulis**: tidak dicantumkan
 - **URL**: <https://www.agnes-ai.com/en/docs/pricing>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/agnes Model Pricing.md`
+- **Berkas mentah**: `raw/2026/oktober/01/agnes Model Pricing.md`
 
 ## TL;DR
 

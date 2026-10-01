@@ -13,7 +13,7 @@ tags: [token-harbor, th-rudder, free, web-chat]
 - **Penulis**: Token Harbor
 - **URL**: <https://tokenharbor.ai/models?category=rudder>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/model TH-Rudder token harbor.md`
+- **Berkas mentah**: `raw/2026/oktober/01/model TH-Rudder token harbor.md`
 
 ## TL;DR
 

@@ -13,7 +13,7 @@ tags: [groq, rate-limits]
 - **Penulis**: tidak dicantumkan
 - **URL**: <https://console.groq.com/docs/rate-limits>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/groq - Rate Limits.md`
+- **Berkas mentah**: `raw/2026/oktober/01/groq - Rate Limits.md`
 
 ## TL;DR
 

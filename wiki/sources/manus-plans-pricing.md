@@ -13,7 +13,7 @@ tags: [manus, pricing, credits]
 - **Penulis**: tidak dicantumkan
 - **URL**: <https://manus.im/pricing>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/Manus Plans & Pricing.md`
+- **Berkas mentah**: `raw/2026/oktober/01/Manus Plans & Pricing.md`
 
 ## TL;DR
 

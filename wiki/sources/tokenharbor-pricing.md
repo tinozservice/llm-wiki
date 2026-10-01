@@ -13,7 +13,7 @@ tags: [pricing, token-harbor, api]
 - **Penulis**: Token Harbor
 - **URL**: <https://tokenharbor.ai/pricing>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/tokenharbor.ai-pricing-One API for the world's leading AI models.md`
+- **Berkas mentah**: `raw/2026/oktober/01/tokenharbor.ai-pricing-One API for the world's leading AI models.md`
 
 ## TL;DR
 

@@ -13,7 +13,7 @@ tags: [groq, rate-limits, free]
 - **Penulis**: tidak dicantumkan
 - **URL**: <https://console.groq.com/settings/limits>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/GroqCloud - free limits.md`
+- **Berkas mentah**: `raw/2026/oktober/01/GroqCloud - free limits.md`
 
 ## TL;DR
 

@@ -13,7 +13,7 @@ tags: [groq, billing, pricing]
 - **Penulis**: tidak dicantumkan
 - **URL**: <https://console.groq.com/docs/billing-faqs>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/groq - Billing FAQs.md`
+- **Berkas mentah**: `raw/2026/oktober/01/groq - Billing FAQs.md`
 
 ## TL;DR
 

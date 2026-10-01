@@ -13,7 +13,7 @@ tags: [novita, rate-limits, tiers]
 - **Penulis**: tidak dicantumkan
 - **URL**: <https://docs.novita.ai/guides/llm-rate-limits>
 - **Tanggal publikasi**: terakhir dimodifikasi 4 Agustus 2026; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/novita Rate limits.md`
+- **Berkas mentah**: `raw/2026/oktober/01/novita Rate limits.md`
 
 ## TL;DR
 

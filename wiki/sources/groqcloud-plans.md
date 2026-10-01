@@ -13,7 +13,7 @@ tags: [groq, plans, pricing]
 - **Penulis**: tidak dicantumkan
 - **URL**: <https://console.groq.com/settings/billing/plans>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/GroqCloud - Plans.md`
+- **Berkas mentah**: `raw/2026/oktober/01/GroqCloud - Plans.md`
 
 ## TL;DR
 

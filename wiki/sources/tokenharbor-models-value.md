@@ -13,7 +13,7 @@ tags: [token-harbor, models, pricing, intelligence-index]
 - **Penulis**: Token Harbor
 - **URL**: <https://tokenharbor.ai/models?category=value>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/model value token harbor.md`
+- **Berkas mentah**: `raw/2026/oktober/01/model value token harbor.md`
 
 ## TL;DR
 

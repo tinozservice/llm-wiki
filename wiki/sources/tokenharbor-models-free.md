@@ -13,7 +13,7 @@ tags: [token-harbor, models, free, intelligence-index]
 - **Penulis**: Token Harbor
 - **URL**: <https://tokenharbor.ai/models?category=free>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/model free token harbor.md`
+- **Berkas mentah**: `raw/2026/oktober/01/model free token harbor.md`
 
 ## TL;DR
 

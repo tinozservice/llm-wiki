@@ -13,7 +13,7 @@ tags: [opencode, zen, pricing, per-token]
 - **Penulis**: tidak dicantumkan
 - **URL**: <https://opencode.ai/console/wrk_redacted/models>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-01
-- **Berkas mentah**: `raw/OpenCode ZEN Price.md`
+- **Berkas mentah**: `raw/2026/oktober/01/OpenCode ZEN Price.md`
 
 ## TL;DR
 
