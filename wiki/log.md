@@ -61,6 +61,18 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Diperbarui: `wiki/concepts/model-access-services.md` (5 layanan baru + paritas harga meluas + dimensi latensi/harga), `wiki/overview.md`, `wiki/index.md`.
 - Tidak ada kontradiksi. Catatan: harga Manus tidak tertangkap di klip (artefak slider); metadata params/context model (pertama di wiki) berasal dari Sail.
 
+## [2026-10-01] ingest | Inception Labs — Mercury (3 klip)
+- Tiga sumber di-ingest dari `raw/2026/oktober/01/`: `inceptionlabs Models.md`, `Introducing Mercury Voice.md`, `Research – Inception.md` (dipindahkan ke arsip tanggal sebelum ingest).
+- Dibuat: 3 halaman sumber + entitas `inception-labs`.
+- Diperbarui: `wiki/concepts/model-access-services.md` (baris Inception + catatan dLLM), `wiki/overview.md`, `wiki/index.md`.
+- Tidak ada kontradiksi keras; dicatat inkonsistensi ringan di sumber (10M vs 100M token gratis; TTFT <170 ms vs TTFAT 320 ms).
+
+## [2026-10-01] ingest | Cerebras Inference (11 klip)
+- Sebelas sumber di-ingest dari `raw/2026/oktober/01/` (dokumentasi Cerebras: getting started, katalog, pemilihan model, harga, limit, dua halaman model, reasoning, structured outputs, tool calling, image inputs).
+- Dibuat: 11 halaman sumber + entitas `cerebras`.
+- Diperbarui: `wiki/concepts/model-access-services.md` (baris + catatan kecepatan), `wiki/entities/inception-labs.md` (referensi silang), `wiki/overview.md`, `wiki/index.md`.
+- Tidak ada kontradiksi. Data baru: GPT OSS 120B ~3.000 t/s; Qwen 3.8 27B ~1.850 t/s; harga $0.35/$0.75 dan $0.99/$1.49; peta migrasi Claude/GPT/Gemini → open-source.
+
 ## [2026-10-01] schema | Arsip raw/ per tanggal
 - `raw/` dirapikan menjadi arsip per tahun/bulan/tanggal; 22 file sumber dipindahkan ke `raw/2026/oktober/01/` (nama bulan Bahasa Indonesia).
 - `AGENTS.md` diperbarui: bagian *Raw archive layout*, layout pohon, quick start, tabel layer, dan hard rule `raw/` (konten tetap immutable; LLM hanya boleh memindahkan ke arsip tanggal).

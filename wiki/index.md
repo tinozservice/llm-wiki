@@ -37,6 +37,20 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Novita — Rate Limits](sources/novita-rate-limits.md) — Tier T1–T5 Novita berbasis top-up; RPM 30–6.000 per model. (2026-10-01)
 - [Sail Research — Pricing](sources/sailresearch-pricing.md) — Harga inferensi per completion window (Default/Balanced/Flex), Sailbox, dan plan. (2026-10-01)
 - [Sail Research — Models](sources/sailresearch-models.md) — Metadata model Sail: reference serving, params, dan context hingga 1M. (2026-10-01)
+- [Inception Labs — Models](sources/inception-models.md) — Lineup Mercury (dLLM): 2.5, Voice, Router; harga dan diskon peluncuran. (2026-10-01)
+- [Introducing Mercury Voice](sources/inception-mercury-voice.md) — Voice agent dLLM: TTFAT p50 320 ms, menang benchmark agentic, ~$0.009/menit percakapan. (2026-10-01)
+- [Research – Inception](sources/inception-enterprise.md) — Deployment enterprise: API, AWS Bedrock, Azure Foundry, model router (OpenRouter, Models.dev). (2026-10-01)
+- [Get started with Cerebras](sources/cerebras-get-started.md) — Dashboard Cerebras: kredit $5, dua model cepat, dan daftar Dedicated Endpoints. (2026-10-01)
+- [Cerebras — Model Catalog](sources/cerebras-model-catalog.md) — Shared Inference: GPT OSS 120B (~3.000 t/s) dan Qwen 3.8 27B (~1.850 t/s); tanpa pruning. (2026-10-01)
+- [Cerebras — Choose a Model](sources/cerebras-choose-a-model.md) — Panduan use case + peta migrasi Claude/GPT/Gemini ke model open-source. (2026-10-01)
+- [Cerebras — Inference Pricing](sources/cerebras-pricing.md) — Tier Developer vs Enterprise; harga $0.35/$0.75 dan $0.99/$1.49; partner AWS/OpenRouter/HF/Vercel. (2026-10-01)
+- [Cerebras — Cloud Limits](sources/cerebras-limits.md) — Snapshot limit organisasi per model (requests/tokens/gambar). (2026-10-01)
+- [Cerebras — OpenAI GPT OSS](sources/cerebras-gpt-oss.md) — Spesifikasi, harga, dan limit `gpt-oss-120b` di Cerebras. (2026-10-01)
+- [Cerebras — Qwen 3.8 27B](sources/cerebras-qwen-38-27b.md) — Spesifikasi, harga, dan limit `qwen-3.8-27b` (multimodal, reasoning default high). (2026-10-01)
+- [Cerebras — Reasoning](sources/cerebras-reasoning.md) — `reasoning_effort`, `reasoning_format`, dan `clear_thinking` per model. (2026-10-01)
+- [Cerebras — Structured Outputs](sources/cerebras-structured-outputs.md) — Strict mode, batas skema JSON, dan JSON mode. (2026-10-01)
+- [Cerebras — Tool Calling](sources/cerebras-tool-calling.md) — Strict mode, multi-turn, dan parallel tool calling. (2026-10-01)
+- [Cerebras — Image Inputs](sources/cerebras-image-inputs.md) — Image inputs Public Preview: base64, batas, token gambar, dan peringatan. (2026-10-01)
 
 ## Entities
 
@@ -51,6 +65,8 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Manus](entities/manus.md) — Agen AI berbasis kredit tugas; 4.000–40.000 kredit/bulan + 300 refresh harian. (2026-10-01)
 - [Novita](entities/novita.md) — 200+ model API + GPU + sandbox; tier T1–T5 berdasar top-up; batch diskon 50%. (2026-10-01)
 - [Sail Research](entities/sail-research.md) — Inferensi completion windows (Default/Balanced/Flex) + Sailbox; model Reference tanpa requantization. (2026-10-01)
+- [Inception Labs](entities/inception-labs.md) — Pengembang dLLM Mercury (2.5, Voice, Router); 1.000+ t/s, voice agent latensi rendah, deployment enterprise. (2026-10-01)
+- [Cerebras](entities/cerebras.md) — Platform inferensi tercepat (~3.000 t/s); model Shared Inference, kapabilitas API, dan peta migrasi open-source. (2026-10-01)
 
 ## Concepts
 

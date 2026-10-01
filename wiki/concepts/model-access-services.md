@@ -23,6 +23,8 @@ tags: [pricing, subscription, per-token, model-access]
 | [Novita](../entities/novita.md) | Pay-as-you-go per token + GPU/sandbox | Tier T1–T5 berdasar top-up menentukan RPM/TPM per model; batch inference diskon 50% (lihat [sumber](../sources/novita-model-libraries.md)) |
 | [Sail Research](../entities/sail-research.md) | Per token dengan *completion windows*; plan Pro $100/bln | Harga tergantung window (Default/Balanced/Flex); Sailbox per vCPU/RAM/jam (lihat [sumber](../sources/sailresearch-pricing.md)) |
 | [Manus](../entities/manus.md) | Langganan kredit: 4.000/8.000/40.000 kredit per bulan | Kredit tugas + 300 refresh credits/hari; 20 concurrent & scheduled tasks (lihat [sumber](../sources/manus-plans-pricing.md)) |
+| [Inception Labs](../entities/inception-labs.md) | Free; Developer pay-per-token; Enterprise kustom | Akses model *diffusion LLM* Mercury (2.5, Voice, Router); diskon peluncuran 80%/50%; tersedia lewat API, AWS Bedrock, Azure Foundry, dan model router (lihat [sumber](../sources/inception-models.md)) |
+| [Cerebras](../entities/cerebras.md) | Free Trial (kredit $5); Developer pay-as-you-go; Enterprise kustom | Model Shared Inference tercepat (~3.000 t/s); rate limit per model; kapabilitas reasoning/structured/tools/image (lihat [sumber](../sources/cerebras-pricing.md)) |
 
 ## Kesamaan dan perbedaan
 
@@ -35,6 +37,8 @@ tags: [pricing, subscription, per-token, model-access]
 - **Keterkaitan (per user, 2026-10-01)**: kredit OpenCode berasal dari *top up* dan menyatu antara Go dan Zen; saat batas Go habis, pemakaian otomatis dialihkan ke pay-as-you-go dari saldo yang sama.
 - **Paritas harga meluas**: Novita dan Sail Research juga menjual model yang sama dengan harga yang sering identik dengan Token Harbor/Zen (mis. DeepSeek V4.1 Flash, GLM-5.3, Kimi K3, Qwen3.8 Flash) — dengan variasi dari tarif off-peak, batch, atau completion window.
 - **Dimensi baru — latensi vs harga**: Sail memperkenalkan *completion windows* (Default/Balanced/Flex) sebagai sumbu harga; Groq menonjolkan kecepatan token (gpt-oss-20b ~1.000 t/s).
+- **Teknologi berbeda**: Inception Labs menjual *diffusion LLM* (dLLM) yang diklaim 5× lebih cepat dari LLM autoregresif; Mercury Voice menargetkan latensi percakapan (TTFAT p50 320 ms).
+- **Kecepatan sebagai produk**: Cerebras mengklaim ~3.000 t/s (GPT OSS 120B) dan Groq ~1.000 t/s (gpt-oss-20b) — kecepatan token menjadi pembeda utama, bukan hanya harga.
 - **Akses multimodal & media**: Agnes menjual kuota gabungan teks/gambar/video; Novita juga menyediakan image/video/audio/search API di samping model teks.
 
 ## Pertanyaan terbuka
@@ -53,4 +57,6 @@ tags: [pricing, subscription, per-token, model-access]
 - [Manus](../entities/manus.md)
 - [Novita](../entities/novita.md)
 - [Sail Research](../entities/sail-research.md)
+- [Inception Labs](../entities/inception-labs.md)
+- [Cerebras](../entities/cerebras.md)
 - [Overview](../overview.md)
