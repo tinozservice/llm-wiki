@@ -54,3 +54,9 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Dibuat: `wiki/sources/tokenharbor-frontier-pass.md`, `wiki/sources/tokenharbor-office-pass.md`, `wiki/entities/token-harbor-pass-estimates.md`.
 - Diperbarui: `wiki/entities/token-harbor.md` (bagian estimasi diringkas + tautan), `wiki/overview.md`, `wiki/index.md`.
 - Tidak ada kontradiksi; estimasi konsisten proporsional dengan included usage ($10/$35/$180).
+
+## [2026-10-01] ingest | Agnes, Groq, Manus, Novita & Sail Research (13 klip)
+- 13 sumber di-ingest dari `raw/` (Agnes ×3, Groq ×5, Manus ×1, Novita ×2, Sail Research ×2).
+- Dibuat: 13 halaman sumber + 5 entitas baru (`agnes`, `groq`, `manus`, `novita`, `sail-research`).
+- Diperbarui: `wiki/concepts/model-access-services.md` (5 layanan baru + paritas harga meluas + dimensi latensi/harga), `wiki/overview.md`, `wiki/index.md`.
+- Tidak ada kontradiksi. Catatan: harga Manus tidak tertangkap di klip (artefak slider); metadata params/context model (pertama di wiki) berasal dari Sail.

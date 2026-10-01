@@ -18,6 +18,11 @@ tags: [pricing, subscription, per-token, model-access]
 | [Token Harbor](../entities/token-harbor.md) | Langganan pass: Free, Agent $1.99/bln (pertama $0.99), Office $9.99/bln, Frontier $99/bln | *Included usage* bernilai dolar pada harga per-token; boost hingga 2× untuk model terpilih; kelebihan ditagih dari saldo dengan diskon 5–15% (lihat [sumber](../sources/tokenharbor-pricing.md)) |
 | [OpenCode Go](../entities/opencode.md) | Langganan: Go $10/bln, Go Plus $40/bln | Batas per model: estimasi request per 5 jam + batas pemakaian bulanan (dalam dolar); kelebihan otomatis pay-as-you-go dari kredit bersama Go–Zen (per user, 2026-10-01; lihat [sumber](../sources/opencode-go.md)) |
 | [OpenCode Zen](../entities/opencode-zen.md) | Pay-as-you-go per token (katalog console) | Harga per 1M token (input/output/cache read/cache write); 9 model gratis $0; model harus diaktifkan dulu; berbagi saldo kredit dengan Go (per user, 2026-10-01; lihat [sumber](../sources/opencode-zen-price-list.md)) |
+| [Agnes](../entities/agnes.md) | Langganan Token Plan: Starter $4/bln, Plus $10/bln, Pro $50/bln (kartu promo $2/$5/$25) | Kuota request per jendela 5 jam bergulir + kuota mingguan; gambar 4.000/hari; video 500 detik/hari; RPM lebih tinggi (lihat [sumber](../sources/agnes-token-plan.md)) |
+| [Groq](../entities/groq.md) | Free $0; Developer pay-per-token; Enterprise kustom | Rate limit per organisasi (RPM/RPD/TPM/TPD); billing progresif $1–$1.000 lalu bulanan (lihat [sumber](../sources/groqcloud-plans.md)) |
+| [Novita](../entities/novita.md) | Pay-as-you-go per token + GPU/sandbox | Tier T1–T5 berdasar top-up menentukan RPM/TPM per model; batch inference diskon 50% (lihat [sumber](../sources/novita-model-libraries.md)) |
+| [Sail Research](../entities/sail-research.md) | Per token dengan *completion windows*; plan Pro $100/bln | Harga tergantung window (Default/Balanced/Flex); Sailbox per vCPU/RAM/jam (lihat [sumber](../sources/sailresearch-pricing.md)) |
+| [Manus](../entities/manus.md) | Langganan kredit: 4.000/8.000/40.000 kredit per bulan | Kredit tugas + 300 refresh credits/hari; 20 concurrent & scheduled tasks (lihat [sumber](../sources/manus-plans-pricing.md)) |
 
 ## Kesamaan dan perbedaan
 
@@ -28,16 +33,24 @@ tags: [pricing, subscription, per-token, model-access]
 - **Skema berbeda**: langganan berbasis nilai (Token Harbor) vs langganan berbasis batas per model (Go) vs tarif per token (Zen/Token Harbor).
 - **Harga sebagian identik**: banyak model yang sama berharga per-token identik di Token Harbor dan OpenCode Zen (mis. Claude Opus 5.5, Claude Fable 5.1, GPT-6 Astra, Kimi K3, Grok 4.7, Qwen3.8 Max, GLM-5.3), tetapi tidak semua — GPT-5.6 Terra ($2·$12 vs $2.50·$15) dan Gemini 3.8 Flash ($0.75·$3.75 vs $1.50·$7.50) lebih murah di Token Harbor (perbandingan awal dari [katalog Token Harbor](../sources/tokenharbor-models-value.md) dan [daftar Zen](../sources/opencode-zen-price-list.md)).
 - **Keterkaitan (per user, 2026-10-01)**: kredit OpenCode berasal dari *top up* dan menyatu antara Go dan Zen; saat batas Go habis, pemakaian otomatis dialihkan ke pay-as-you-go dari saldo yang sama.
+- **Paritas harga meluas**: Novita dan Sail Research juga menjual model yang sama dengan harga yang sering identik dengan Token Harbor/Zen (mis. DeepSeek V4.1 Flash, GLM-5.3, Kimi K3, Qwen3.8 Flash) — dengan variasi dari tarif off-peak, batch, atau completion window.
+- **Dimensi baru — latensi vs harga**: Sail memperkenalkan *completion windows* (Default/Balanced/Flex) sebagai sumbu harga; Groq menonjolkan kecepatan token (gpt-oss-20b ~1.000 t/s).
+- **Akses multimodal & media**: Agnes menjual kuota gabungan teks/gambar/video; Novita juga menyediakan image/video/audio/search API di samping model teks.
 
 ## Pertanyaan terbuka
 
 - Harga efektif per beban kerja: langganan (Go/Token Harbor) vs per token (Zen)? Perbandingan bisa mulai dihitung, tapi basis estimasi request di halaman Go tidak dijelaskan dan harga antar layanan belum tentu sama.
 - Seberapa luas kesamaan harga Token Harbor ↔ Zen? Perbandingan awal: banyak yang identik, beberapa berbeda; perlu pengecekan menyeluruh.
-- Apakah pola ini juga dipakai layanan lain? Butuh sumber tambahan.
+- Apakah harga yang identik antar penyedia mencerminkan harga upstream yang sama? Belum ada sumber.
 
 ## Related
 
 - [Token Harbor](../entities/token-harbor.md)
 - [OpenCode](../entities/opencode.md)
 - [OpenCode Zen](../entities/opencode-zen.md)
+- [Agnes](../entities/agnes.md)
+- [Groq](../entities/groq.md)
+- [Manus](../entities/manus.md)
+- [Novita](../entities/novita.md)
+- [Sail Research](../entities/sail-research.md)
 - [Overview](../overview.md)

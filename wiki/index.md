@@ -24,6 +24,19 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [TH-Rudder](sources/tokenharbor-th-rudder.md) — Model gratis web-chat-only Token Harbor yang merutekan pesan ke model lain; tanpa nama API. (2026-10-01)
 - [Token Harbor — Frontier Pass](sources/tokenharbor-frontier-pass.md) — Tab Frontier Pass: $99/bulan, 45 baris estimasi request per model. (2026-10-01)
 - [Token Harbor — Office Pass](sources/tokenharbor-office-pass.md) — Tab Office Pass: $9.99/bulan, 24 baris estimasi request per model. (2026-10-01)
+- [Agnes — Token Plan](sources/agnes-token-plan.md) — Langganan Agnes: Starter/Plus/Pro 1.500–30.000 request per 5 jam, model dasar Agnes-3.0-Flash. (2026-10-01)
+- [Agnes — Model Pricing](sources/agnes-model-pricing.md) — Harga API teks/gambar/video Agnes; model flash gratis saat ini, pro berbayar. (2026-10-01)
+- [Agnes — Token Plan FAQ](sources/agnes-token-plan-faq.md) — Kuota & RPM Agnes per tipe akses; pool limit terpisah per tipe API key. (2026-10-01)
+- [GroqCloud — Plans](sources/groqcloud-plans.md) — Plan Groq: Free $0, Developer pay-per-token, Enterprise kustom. (2026-10-01)
+- [Groq — Billing FAQs](sources/groq-billing-faqs.md) — Billing progresif Groq: threshold $1–$1.000, lalu bulanan; minimum $0,50. (2026-10-01)
+- [Groq — Rate Limits](sources/groq-rate-limits.md) — RPM/RPD/TPM/TPD/ASH/ASD per organisasi; cached token tidak dihitung. (2026-10-01)
+- [Groq — Supported Models](sources/groq-supported-models.md) — Model produksi & preview Groq dengan harga, kecepatan, dan limit per model. (2026-10-01)
+- [GroqCloud — Free Limits](sources/groqcloud-free-limits.md) — Snapshot limit organisasi tier Free GroqCloud. (2026-10-01)
+- [Manus — Plans & Pricing](sources/manus-plans-pricing.md) — Tiga tingkat kredit Manus: 4.000/8.000/40.000 per bulan + 300 refresh harian. (2026-10-01)
+- [Novita — Model Libraries & GPU Cloud](sources/novita-model-libraries.md) — 200+ model API, GPU, dan sandbox Novita; batch diskon 50%; harga teks terpilih. (2026-10-01)
+- [Novita — Rate Limits](sources/novita-rate-limits.md) — Tier T1–T5 Novita berbasis top-up; RPM 30–6.000 per model. (2026-10-01)
+- [Sail Research — Pricing](sources/sailresearch-pricing.md) — Harga inferensi per completion window (Default/Balanced/Flex), Sailbox, dan plan. (2026-10-01)
+- [Sail Research — Models](sources/sailresearch-models.md) — Metadata model Sail: reference serving, params, dan context hingga 1M. (2026-10-01)
 
 ## Entities
 
@@ -33,11 +46,16 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [TH-Rudder](entities/th-rudder.md) — Model gratis tanpa batas khusus web chat; merutekan pesan ke model lain, tanpa nama API. (2026-10-01)
 - [OpenCode](entities/opencode.md) — Coding agent open source dengan langganan Go/Go Plus; batas per model, kredit top up menyatu dengan Zen. (2026-10-01)
 - [OpenCode Zen](entities/opencode-zen.md) — Katalog model per-token OpenCode; 81 model, 9 gratis; berbagi saldo kredit dengan Go. (2026-10-01)
+- [Agnes](entities/agnes.md) — Aplikasi agentic + Token Plan multimodal; kuota request 5 jam + media harian, model flash gratis. (2026-10-01)
+- [Groq](entities/groq.md) — Platform inferensi cepat (gpt-oss-20b ~1.000 t/s); Free/Developer/Enterprise dengan billing progresif. (2026-10-01)
+- [Manus](entities/manus.md) — Agen AI berbasis kredit tugas; 4.000–40.000 kredit/bulan + 300 refresh harian. (2026-10-01)
+- [Novita](entities/novita.md) — 200+ model API + GPU + sandbox; tier T1–T5 berdasar top-up; batch diskon 50%. (2026-10-01)
+- [Sail Research](entities/sail-research.md) — Inferensi completion windows (Default/Balanced/Flex) + Sailbox; model Reference tanpa requantization. (2026-10-01)
 
 ## Concepts
 
 - [Intelligence Index (Artificial Analysis)](concepts/intelligence-index.md) — Metrik peringkat model yang dipakai katalog Token Harbor; nilai 33.7–57.6 pada klip 2026-10-01. (2026-10-01)
-- [Layanan Akses Model](concepts/model-access-services.md) — Pola penjualan akses banyak model (langganan & per token); contoh: Token Harbor, OpenCode Go, OpenCode Zen. (2026-10-01)
+- [Layanan Akses Model](concepts/model-access-services.md) — Pola penjualan akses banyak model (langganan, per token, kredit); contoh: Token Harbor, OpenCode, Agnes, Groq, Manus, Novita, Sail Research. (2026-10-01)
 
 ## Analyses
 
