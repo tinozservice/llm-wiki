@@ -92,3 +92,9 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Diperbarui: `wiki/entities/token-harbor.md` (wallet/rewards, rate limit, cache, toggle overage, free allowance rolling 7×24), `wiki/entities/th-rudder.md` (kuota web chat), `wiki/entities/token-harbor-model-catalog.md` (catatan lineup drift), `wiki/concepts/model-access-services.md` (baris OpenRouter + dimensi cache), `wiki/analyses/perhitungan-limit-agent-pass.md` (koreksi toggle + cache terdokumentasi), `wiki/overview.md`, `wiki/index.md`.
 - Klarifikasi/koreksi: "Nothing stops at the limit" hanya berlaku bila toggle overage aktif; free allowance tidak ditambah/direset pass (route `:free` terpisah); lineup dokumen 2 Okt memakai versi model berbeda dari katalog 1 Okt (dicatat, tidak ditimpa).
 - Open questions terjawab: kuota harian TH-Rudder (gambar 10, search 200), rate limit akun berbayar, tarif cache (Claude 0,1×/1,25×; upstream ~90% off). Sisa: besar free allowance dalam dolar; off-peak pada pass; perlakuan cache tepatnya pada metering pass.
+
+## [2026-10-02] ingest | Web hosting: Hostinger, Rumahweb, DomaiNesia (22 klip)
+- 22 sumber di-ingest dari arsip `raw/2026/oktober/02/` (Hostinger 15, Rumahweb 5, DomaiNesia 2) — domain baru di luar LLM/API.
+- Dibuat: 22 halaman sumber, 3 entitas (`hostinger`, `rumahweb`, `domainesia`), konsep `wiki/concepts/web-hosting.md`.
+- Diperbarui: `wiki/index.md`, `wiki/overview.md`.
+- Tidak ada kontradiksi. Catatan: 9 klip Token Harbor docs yang tiba bersamaan sudah di-ingest lebih dulu oleh sesi paralel (commit `3fb935a`); draf duplikat slug dihapus agar satu sumber tetap satu halaman.

@@ -60,6 +60,28 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Token Harbor docs — Web chat limits](sources/tokenharbor-docs-web-chat-limits.md) — Gambar 10/hari, web search 200/hari, voice 100/hari, file 20/hari; teks TH-Rudder unlimited. (2026-10-02)
 - [Token Harbor docs — How we measure speed](sources/tokenharbor-docs-speed.md) — Dua metrik: tok/s output & prefill; tabel prefill per ukuran prompt; arti "—". (2026-10-02)
 - [Token Harbor vs OpenRouter](sources/tokenharbor-docs-vs-openrouter.md) — Perbandingan gateway; endpoint Anthropic native; CLI connect; migrasi 2 baris. (2026-10-02)
+- [Hostinger — Node.js Hosting Overview](sources/hostinger-nodejs-overview.md) — Managed Node.js (Web App): deploy GitHub/arsip/Connector, Node 18–24, proses on-demand. (2026-10-02)
+- [Hostinger — Node.js Hosting (Produk)](sources/hostinger-nodejs-product.md) — Produk Node.js hosting mulai Rp38.900/bln; AI troubleshooter, autopatch, CDN, WAF, Supabase. (2026-10-02)
+- [Hostinger — Creating a Node.js App](sources/hostinger-nodejs-creating-app.md) — Panduan deploy GitHub/arsip/editor, setting build, database wizard, deploy programatik. (2026-10-02)
+- [Hostinger — Build Settings](sources/hostinger-nodejs-build-settings.md) — Referensi build: Node version, output directory per framework, entry file, batas 15 menit. (2026-10-02)
+- [Hostinger — Environment Variables](sources/hostinger-nodejs-env-vars.md) — Env vars untuk build+runtime, import .env, batas 1.000 variabel, save = redeploy. (2026-10-02)
+- [Hostinger — File Structure](sources/hostinger-nodejs-file-structure.md) — Struktur `hbuilds/`, symlink `current`, larangan edit manual, retensi versi. (2026-10-02)
+- [Hostinger — Deployments](sources/hostinger-nodejs-deployments.md) — Riwayat build, redeploy, AI analysis build gagal, satu deployment sekaligus. (2026-10-02)
+- [Hostinger — GitHub Deployment](sources/hostinger-nodejs-github.md) — Pipeline push → install → build → start; GitHub App; monorepo; auto-fix PR. (2026-10-02)
+- [Hostinger — Runtime Logs](sources/hostinger-nodejs-runtime-logs.md) — stdout/stderr live, buffer 5.000 baris, filter, unduh/copy. (2026-10-02)
+- [Hostinger — Supported Frameworks](sources/hostinger-nodejs-frameworks.md) — Framework frontend/backend/dual-mode yang didukung + opsi Other. (2026-10-02)
+- [Hostinger — Vulnerability Scanning](sources/hostinger-nodejs-vulnerabilities.md) — Scan npm per deploy + berkala; perbaikan via PR (Git) atau manual (arsip). (2026-10-02)
+- [Hostinger — Managed Cloud Hosting](sources/hostinger-cloud-hosting.md) — Cloud hosting 4× cepat/20× resource; Cloud Startup–Enterprise; Hostinger Connector. (2026-10-02)
+- [Hostinger — VPS Hosting](sources/hostinger-vps.md) — VPS KVM Rp116.900–426.900/bln; Hostinger Agent (MCP), API, deep deploy katalog. (2026-10-02)
+- [Hostinger — Web Hosting](sources/hostinger-web-hosting.md) — Shared hosting Single/Premium/Unlimited/Cloud Startup + fitur AI Builder dan Agent. (2026-10-02)
+- [Hostinger — Daftar Harga & Paket](sources/hostinger-price-list.md) — Tabel harga & perbandingan spesifikasi (inode, PHP worker, database, framework Node.js). (2026-10-02)
+- [Rumahweb — Shared Hosting Murah](sources/rumahweb-shared-hosting.md) — Entry–Large Rp15.000–49.900; Turbo Booster, Imunify360, SSH, PHP/Node.js. (2026-10-02)
+- [Rumahweb — Unlimited Hosting](sources/rumahweb-unlimited-hosting.md) — Seed/Grow/Bloom unlimited; LiteSpeed, Redis, Node.js/Python, cPanel. (2026-10-02)
+- [Rumahweb — VPS KVM](sources/rumahweb-vps.md) — X/W/CPU series Rp50.000–16,6 jt; dual availability zone, KVM, ISO 27001. (2026-10-02)
+- [Rumahweb — VPS Alibaba Cloud](sources/rumahweb-vps-alibaba.md) — VPS Alibaba (ID/SG/US/Jerman) Rp81.400–1,5 jt; port 25 diblokir, outbound 30 Mbps. (2026-10-02)
+- [Rumahweb — Dedicated Server](sources/rumahweb-dedicated-server.md) — Intel E5 & AMD EPYC Rp2,5–13,5 jt; varian GPU T4/L4; anti-DDoS, managed opsional. (2026-10-02)
+- [DomaiNesia — Web Hosting](sources/domainesia-web-hosting.md) — Nimbus One–Cloud Rp18.000–112.500; integrasi MCP AI, AMD EPYC, NVMe. (2026-10-02)
+- [DomaiNesia — Cloud Hosting](sources/domainesia-cloud-hosting.md) — Cirrus 2–24GB; Direct Connect 10G, bahasa Node/Python/Go/Rust, MCP AI. (2026-10-02)
 
 ## Entities
 
@@ -76,12 +98,16 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Sail Research](entities/sail-research.md) — Inferensi completion windows (Default/Balanced/Flex) + Sailbox; model Reference tanpa requantization. (2026-10-01)
 - [Inception Labs](entities/inception-labs.md) — Pengembang dLLM Mercury (2.5, Voice, Router); 1.000+ t/s, voice agent latensi rendah, deployment enterprise. (2026-10-01)
 - [Cerebras](entities/cerebras.md) — Platform inferensi tercepat (~3.000 t/s); model Shared Inference, kapabilitas API, dan peta migrasi open-source. (2026-10-01)
+- [Hostinger](entities/hostinger.md) — Hosting global: shared/cloud/VPS + managed Node.js (Web App), Hostinger Agent & Connector (MCP). (2026-10-02)
+- [Rumahweb](entities/rumahweb.md) — Hosting Indonesia: shared/unlimited/VPS KVM/VPS Alibaba/dedicated; Turbo Booster, dual availability zone. (2026-10-02)
+- [DomaiNesia](entities/domainesia.md) — Hosting Indonesia dengan integrasi MCP AI; Nimbus & Cirrus, AMD EPYC + NVMe, ISO 27001. (2026-10-02)
 
 ## Concepts
 
 - [Intelligence Index (Artificial Analysis)](concepts/intelligence-index.md) — Metrik peringkat model yang dipakai katalog Token Harbor; nilai 33.7–57.6 pada klip 2026-10-01. (2026-10-01)
 - [Prompt Caching](concepts/prompt-caching.md) — Sintesis cache lintas layanan: Token Harbor 3 lapis, tarif cache read/write, implikasi biaya. (2026-10-02)
 - [Layanan Akses Model](concepts/model-access-services.md) — Pola penjualan akses banyak model (langganan, per token, kredit); contoh: Token Harbor, OpenCode, Agnes, Groq, Manus, Novita, Sail Research. (2026-10-01)
+- [Hosting Web](concepts/web-hosting.md) — Jenis hosting (shared/cloud/VPS/dedicated), dimensi pembanding, dan tiga provider di wiki (Hostinger, Rumahweb, DomaiNesia). (2026-10-02)
 
 ## Analyses
 
