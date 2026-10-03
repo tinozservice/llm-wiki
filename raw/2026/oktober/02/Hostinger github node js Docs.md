@@ -1,12 +1,13 @@
 ---
-title: "Hostinger Documentation"
-source: "https://docs.hostinger.com/node.js/github"
+title: Hostinger Documentation
+source: https://docs.hostinger.com/node.js/github
 author:
+  - "[[hostinger.com]]"
 published: 2026-09-23
 created: 2026-10-02
-description: "Connect a GitHub repository to Hostinger for automatic Node.js deployments on every push, covering the build pipeline, connection status, and troubleshooting."
+description: Connect a GitHub repository to Hostinger for automatic Node.js deployments on every push, covering the build pipeline, connection status, and troubleshooting.
 tags:
-  - "clippings"
+  - clippings
 ---
 Connect a GitHub repository and have Hostinger install dependencies, run your build script, and start (or restart) your Node.js app on every push.
 

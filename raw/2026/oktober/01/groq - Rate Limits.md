@@ -1,12 +1,13 @@
 ---
-title: "groq - Rate Limits"
-source: "https://console.groq.com/docs/rate-limits"
+title: groq - Rate Limits
+source: https://console.groq.com/docs/rate-limits
 author:
+  - "[[groq.com]]"
 published:
 created: 2026-10-01
-description: "Understand Groq API rate limits, headers, and best practices for managing request and token quotas in your applications."
+description: Understand Groq API rate limits, headers, and best practices for managing request and token quotas in your applications.
 tags:
-  - "clippings"
+  - clippings
 ---
 /
 

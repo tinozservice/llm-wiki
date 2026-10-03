@@ -2,6 +2,7 @@
 title: Cerebras Choose a Model
 source: https://inference-docs.cerebras.ai/models/choose-a-model
 author:
+  - "[[cerebras.ai]]"
 published:
 created: 2026-10-01
 description: Find the right open-source model for your workload on Cerebras, including alternatives for Claude, GPT, and Gemini.

@@ -1,12 +1,13 @@
 ---
-title: "Runtime Logs | Hostinger Documentation"
-source: "https://docs.hostinger.com/node.js/runtime-logs"
+title: Runtime Logs | Hostinger Documentation
+source: https://docs.hostinger.com/node.js/runtime-logs
 author:
+  - "[[hostinger.com]]"
 published: 2026-07-27
 created: 2026-10-02
-description: "Guide to Runtime Logs in hPanel, the live view of what your Node.js app on Hostinger prints to stdout and stderr, with filters, live mode, and export options."
+description: Guide to Runtime Logs in hPanel, the live view of what your Node.js app on Hostinger prints to stdout and stderr, with filters, live mode, and export options.
 tags:
-  - "clippings"
+  - clippings
 ---
 Live view of what your Node.js app prints to **stdout** and **stderr** while it's running. Use it to debug crashes after a deploy, watch incoming traffic, and confirm env vars are loading.
 

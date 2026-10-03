@@ -1,12 +1,13 @@
 ---
-title: "Research – Inception"
-source: "https://www.inceptionlabs.ai/enterprise"
+title: Research – Inception
+source: https://www.inceptionlabs.ai/enterprise
 author:
+  - "[[inceptionlabs-ai]]"
 published:
 created: 2026-10-01
-description: "We are leveraging diffusion technology to develop a new generation of LLMs. Our dLLMs are much faster and more efficient than traditional autoregressive LLMs."
+description: We are leveraging diffusion technology to develop a new generation of LLMs. Our dLLMs are much faster and more efficient than traditional autoregressive LLMs.
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Mercury in Production
 

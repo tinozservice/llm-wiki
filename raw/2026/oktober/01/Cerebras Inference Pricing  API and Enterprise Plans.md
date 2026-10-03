@@ -1,12 +1,13 @@
 ---
-title: "Cerebras Inference Pricing | API and Enterprise Plans"
-source: "https://www.cerebras.ai/pricing"
+title: Cerebras Inference Pricing | API and Enterprise Plans
+source: https://www.cerebras.ai/pricing
 author:
+  - "[[cerebras.ai]]"
 published:
 created: 2026-10-01
-description: "Compare Cerebras Inference pricing for free, developer, and enterprise use. Review pay-per-token options and partner access for fast AI inference."
+description: Compare Cerebras Inference pricing for free, developer, and enterprise use. Review pay-per-token options and partner access for fast AI inference.
 tags:
-  - "clippings"
+  - clippings
 ---
 ![](https://cdn.sanity.io/images/e4qjo92p/production/2cd18b3f8909f7d7c7d691e61ee9d129237ea18a-2872x594.png?auto=format&dpr=2&fit=max&q=75&w=2872)
 

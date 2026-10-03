@@ -1,12 +1,13 @@
 ---
-title: "Introducing Mercury Voice"
-source: "https://www.inceptionlabs.ai/blog/introducing-mercury-voice"
+title: Introducing Mercury Voice
+source: https://www.inceptionlabs.ai/blog/introducing-mercury-voice
 author:
+  - "[[inceptionlabs-ai]]"
 published: 2026-09-29
 created: 2026-10-01
-description: "Mercury Voice is a diffusion LLM (dLLM) tuned to power voice agents. It reasons, calls tools, and follows long system prompts while keeping latency low enough for natural conversation."
+description: Mercury Voice is a diffusion LLM (dLLM) tuned to power voice agents. It reasons, calls tools, and follows long system prompts while keeping latency low enough for natural conversation.
 tags:
-  - "clippings"
+  - clippings
 ---
 #### A real-time reasoning model for voice agents
 

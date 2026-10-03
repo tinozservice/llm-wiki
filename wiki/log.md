@@ -98,3 +98,10 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Dibuat: 22 halaman sumber, 3 entitas (`hostinger`, `rumahweb`, `domainesia`), konsep `wiki/concepts/web-hosting.md`.
 - Diperbarui: `wiki/index.md`, `wiki/overview.md`.
 - Tidak ada kontradiksi. Catatan: 9 klip Token Harbor docs yang tiba bersamaan sudah di-ingest lebih dulu oleh sesi paralel (commit `3fb935a`); draf duplikat slug dihapus agar satu sumber tetap satu halaman.
+
+## [2026-10-03] ingest | Tokenra & DomaiNesia lanjutan (7 klip)
+- 7 sumber di-ingest dari arsip `raw/2026/oktober/03/`: katalog Tokenra ("Model Square" hal. 1–2) + 5 halaman produk DomaiNesia (Cloud VPS Lite, Cloud VPS Turbo, Managed VPS, Object Storage, Dedicated Server).
+- Dibuat: 7 halaman sumber + entitas `tokenra`; entitas `domainesia` diperluas (VPS Lite/Turbo/Managed, object storage, dedicated + GPU L4).
+- Diperbarui: `wiki/concepts/model-access-services.md` (+Tokenra, +catatan model anonymous), `wiki/concepts/web-hosting.md`, `wiki/index.md`, `wiki/overview.md`.
+- Tidak ada kontradiksi. Catatan: harga Tokenra untuk model yang sama cenderung lebih murah karena varian diskon eksplisit; asal model alpha/anonymous (union-alpha, omen-alpha, ox-alpha) belum jelas.
+- Catatan tambahan: frontmatter file `raw/` lama (01–02 Okt) dinormalisasi manual oleh pengguna via Obsidian (kutip dihapus, `author` ditambahkan); konten sumber tidak berubah.

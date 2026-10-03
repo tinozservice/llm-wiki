@@ -1,12 +1,13 @@
 ---
-title: "cerebras Structured Outputs"
-source: "https://inference-docs.cerebras.ai/capabilities/structured-outputs"
+title: cerebras Structured Outputs
+source: https://inference-docs.cerebras.ai/capabilities/structured-outputs
 author:
+  - "[[cerebras.ai]]"
 published:
 created: 2026-10-01
-description: "Generate structured data with the Cerebras Inference API."
+description: Generate structured data with the Cerebras Inference API.
 tags:
-  - "clippings"
+  - clippings
 ---
 [**Get a free API key to get started.**](https://cloud.cerebras.ai/?utm_source=inferencedocs)
 

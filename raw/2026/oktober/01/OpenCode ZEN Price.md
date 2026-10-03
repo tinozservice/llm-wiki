@@ -1,12 +1,13 @@
 ---
-title: "OpenCode Console"
-source: "https://opencode.ai/console/wrk_redacted/models"
+title: OpenCode Console
+source: https://opencode.ai/console/wrk_redacted/models
 author:
+  - "[[opencode.ai]]"
 published:
 created: 2026-10-01
 description:
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Models
 

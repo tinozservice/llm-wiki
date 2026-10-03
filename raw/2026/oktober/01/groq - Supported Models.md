@@ -1,12 +1,13 @@
 ---
-title: "groq - Supported Models"
-source: "https://console.groq.com/docs/models"
+title: groq - Supported Models
+source: https://console.groq.com/docs/models
 author:
+  - "[[groq.com]]"
 published:
 created: 2026-10-01
-description: "Explore all available models on GroqCloud."
+description: Explore all available models on GroqCloud.
 tags:
-  - "clippings"
+  - clippings
 ---
 /
 

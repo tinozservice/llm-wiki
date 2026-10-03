@@ -1,12 +1,13 @@
 ---
-title: "agnes Model Pricing"
-source: "https://www.agnes-ai.com/en/docs/pricing"
+title: agnes Model Pricing
+source: https://www.agnes-ai.com/en/docs/pricing
 author:
+  - "[[agnes-ai]]"
 published:
 created: 2026-10-01
-description: "List prices, current prices, and promotional billing rules for Agnes AI text, image, and video models on the international site."
+description: List prices, current prices, and promotional billing rules for Agnes AI text, image, and video models on the international site.
 tags:
-  - "clippings"
+  - clippings
 ---
 This page summarizes the published USD prices for Agnes AI models on the international site. All prices are API prices; `M` means one million tokens.
 

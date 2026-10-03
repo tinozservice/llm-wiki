@@ -1,12 +1,13 @@
 ---
-title: "cerebras Reasoning"
-source: "https://inference-docs.cerebras.ai/capabilities/reasoning"
+title: cerebras Reasoning
+source: https://inference-docs.cerebras.ai/capabilities/reasoning
 author:
+  - "[[cerebras.ai]]"
 published:
 created: 2026-10-01
-description: "Control reasoning effort, response format, and multi-turn reasoning behavior."
+description: Control reasoning effort, response format, and multi-turn reasoning behavior.
 tags:
-  - "clippings"
+  - clippings
 ---
 Reasoning models generate intermediate thinking tokens before their final response. Model families differ in whether reasoning can be disabled, how effort levels behave, and how reasoning is returned.
 

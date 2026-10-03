@@ -1,12 +1,13 @@
 ---
-title: "GroqCloud - Plans"
-source: "https://console.groq.com/settings/billing/plans"
+title: GroqCloud - Plans
+source: https://console.groq.com/settings/billing/plans
 author:
+  - "[[groq.com]]"
 published:
 created: 2026-10-01
-description: "Billing free and paid plans - Groq"
+description: Billing free and paid plans - Groq
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Billing
 

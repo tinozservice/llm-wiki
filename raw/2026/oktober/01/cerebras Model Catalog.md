@@ -1,12 +1,13 @@
 ---
-title: "cerebras Model Catalog"
-source: "https://inference-docs.cerebras.ai/models/overview"
+title: cerebras Model Catalog
+source: https://inference-docs.cerebras.ai/models/overview
 author:
+  - "[[cerebras.ai]]"
 published:
 created: 2026-10-01
-description: "Browse all models available with Cerebras Shared Inference."
+description: Browse all models available with Cerebras Shared Inference.
 tags:
-  - "clippings"
+  - clippings
 ---
 Models available with Cerebras Shared Inference can be used on the Free Trial and Pay as You Go tiers, subject to [rate limits](https://inference-docs.cerebras.ai/support/rate-limits) and [pricing](https://inference-docs.cerebras.ai/support/pricing). For additional model families, reserved capacity, higher throughput, and production SLAs, see [Dedicated Inference](https://inference-docs.cerebras.ai/dedicated/overview).
 

@@ -1,12 +1,13 @@
 ---
-title: "sailresearch - Pricing"
-source: "https://docs.sailresearch.com/pricing"
+title: sailresearch - Pricing
+source: https://docs.sailresearch.com/pricing
 author:
+  - "[[sailresearch .com]]"
 published:
 created: 2026-10-01
-description: "Usage-based inference & Sailbox prices, and Sail pricing plans"
+description: Usage-based inference & Sailbox prices, and Sail pricing plans
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Inference
 

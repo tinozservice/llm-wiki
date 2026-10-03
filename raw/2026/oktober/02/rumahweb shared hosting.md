@@ -1,12 +1,13 @@
 ---
-title: "rumahweb shared hosting"
-source: "https://www.rumahweb.com/hosting-murah/"
+title: rumahweb shared hosting
+source: https://www.rumahweb.com/hosting-murah/
 author:
+  - "[[Rumahweb Indonesia]]"
 published:
 created: 2026-10-02
-description: "Hosting murah mulai Rp 15.000/bln, gratis domain, SSL & plugin WordPress premium Rp 10 juta. 99.9% uptime, ISO 27001, 200.000+ website."
+description: Hosting murah mulai Rp 15.000/bln, gratis domain, SSL & plugin WordPress premium Rp 10 juta. 99.9% uptime, ISO 27001, 200.000+ website.
 tags:
-  - "clippings"
+  - clippings
 ---
 Hosting Murah - mulai Rp 15.000,-/bulan
 

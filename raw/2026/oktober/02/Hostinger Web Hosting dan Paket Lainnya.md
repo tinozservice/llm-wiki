@@ -1,13 +1,13 @@
 ---
-title: "Harga Layanan Hostinger | Web Hosting dan Paket Lainnya"
-source: "https://www.hostinger.com/id/harga?plan=cloud_hosting_grouped#compare-table"
+title: Harga Layanan Hostinger | Web Hosting dan Paket Lainnya
+source: https://www.hostinger.com/id/harga?plan=cloud_hosting_grouped#compare-table
 author:
-  - "[[Hostinger]]"
+  - "[[hostinger.com]]"
 published:
 created: 2026-10-02
-description: "Harga paket hosting mulai dari Rp12.900. Temukan yang terbaik untuk Anda. Lihat layanan lainnya, seperti VPS dan Website Builder."
+description: Harga paket hosting mulai dari Rp12.900. Temukan yang terbaik untuk Anda. Lihat layanan lainnya, seperti VPS dan Website Builder.
 tags:
-  - "clippings"
+  - clippings
 ---
 Diskon 86%
 

@@ -1,12 +1,13 @@
 ---
-title: "Agnes - Token Plan"
-source: "https://platform.agnes-ai.com/subscribe/subscription"
+title: Agnes - Token Plan
+source: https://platform.agnes-ai.com/subscribe/subscription
 author:
+  - "[[agnes-ai]]"
 published:
 created: 2026-10-01
-description: "Agnes is an agentic consumer app accessible for everyone to think, create and co-vibe together."
+description: Agnes is an agentic consumer app accessible for everyone to think, create and co-vibe together.
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Token Plan
 

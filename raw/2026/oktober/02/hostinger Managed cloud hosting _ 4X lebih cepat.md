@@ -1,13 +1,13 @@
 ---
-title: "Managed cloud hosting | 4X lebih cepat"
-source: "https://www.hostinger.com/id/cloud-hosting"
+title: Managed cloud hosting | 4X lebih cepat
+source: https://www.hostinger.com/id/cloud-hosting
 author:
-  - "[[Hostinger]]"
+  - "[[hostinger.com]]"
 published:
 created: 2026-10-02
-description: "Cloud hosting dengan resource 20x lebih besar dibandingkan web hosting biasa, memberikan power dan stabilitas yang luar biasa untuk website Anda."
+description: Cloud hosting dengan resource 20x lebih besar dibandingkan web hosting biasa, memberikan power dan stabilitas yang luar biasa untuk website Anda.
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Personalisasikan paket Anda
 

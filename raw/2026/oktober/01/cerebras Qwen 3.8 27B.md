@@ -1,12 +1,13 @@
 ---
-title: "cerebras Qwen 3.8 27B"
-source: "https://inference-docs.cerebras.ai/models/qwen-3.8-27b"
+title: cerebras Qwen 3.8 27B
+source: https://inference-docs.cerebras.ai/models/qwen-3.8-27b
 author:
+  - "[[cerebras.ai]]"
 published:
 created: 2026-10-01
-description: "Alibaba's 27B dense multimodal model for agentic coding, tool use, research, and long-running workflows. It accepts text and image inputs and supports configurable reasoning."
+description: Alibaba's 27B dense multimodal model for agentic coding, tool use, research, and long-running workflows. It accepts text and image inputs and supports configurable reasoning.
 tags:
-  - "clippings"
+  - clippings
 ---
 Model ID
 

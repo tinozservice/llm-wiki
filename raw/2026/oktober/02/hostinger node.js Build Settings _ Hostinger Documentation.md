@@ -1,12 +1,13 @@
 ---
-title: "Build Settings | Hostinger Documentation"
-source: "https://docs.hostinger.com/node.js/build-settings"
+title: Build Settings | Hostinger Documentation
+source: https://docs.hostinger.com/node.js/build-settings
 author:
+  - "[[hostinger.com]]"
 published: 2026-09-23
 created: 2026-10-02
-description: "Reference for every Node.js build configuration option on Hostinger, covering Node version, framework, build script, output directory, entry file, and limits."
+description: Reference for every Node.js build configuration option on Hostinger, covering Node version, framework, build script, output directory, entry file, and limits.
 tags:
-  - "clippings"
+  - clippings
 ---
 Every Node.js build configuration option, available in hPanel and the API.
 

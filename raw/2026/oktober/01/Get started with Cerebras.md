@@ -1,12 +1,13 @@
 ---
-title: "Get started with Cerebras"
-source: "https://cloud.cerebras.ai/platform/org_redacted/project/prj_redacted/get-started"
+title: Get started with Cerebras
+source: https://cloud.cerebras.ai/platform/org_redacted/project/prj_redacted/get-started
 author:
+  - "[[cerebras.ai]]"
 published:
 created: 2026-10-01
-description: "Cerebras Inference AI is the fastest in the world."
+description: Cerebras Inference AI is the fastest in the world.
 tags:
-  - "clippings"
+  - clippings
 ---
 API access isn’t active yet
 

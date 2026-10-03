@@ -1,12 +1,13 @@
 ---
-title: "GroqCloud - free limits"
-source: "https://console.groq.com/settings/limits"
+title: GroqCloud - free limits
+source: https://console.groq.com/settings/limits
 author:
+  - "[[groq.com]]"
 published:
 created: 2026-10-01
-description: "Build Fast with GroqCloud"
+description: Build Fast with GroqCloud
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Organization Limits
 

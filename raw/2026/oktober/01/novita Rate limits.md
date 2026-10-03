@@ -1,12 +1,13 @@
 ---
-title: "novita Rate limits"
-source: "https://docs.novita.ai/guides/llm-rate-limits"
+title: novita Rate limits
+source: https://docs.novita.ai/guides/llm-rate-limits
 author:
+  - "[[novita.ai]]"
 published:
 created: 2026-10-01
 description:
 tags:
-  - "clippings"
+  - clippings
 ---
 Rate limits control how frequently users can make requests to our LLM API within specific time periods. Understanding and working within these limits is essential for optimal API usage.
 

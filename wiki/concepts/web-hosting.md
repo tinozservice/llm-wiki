@@ -33,13 +33,13 @@ tags: [hosting, web, vps, indonesia]
 | --- | --- | --- |
 | [Hostinger](../entities/hostinger.md) | Shared, cloud, VPS KVM, **managed Node.js (Web App)** | Hostinger Agent & Connector (MCP untuk agen AI), auto-deploy GitHub, vulnerability auto-fix PR |
 | [Rumahweb](../entities/rumahweb.md) | Shared, unlimited, VPS KVM, VPS Alibaba, dedicated | Turbo Booster (LiteSpeed), dual availability zone, cPanel NOC Partner, dedicated GPU |
-| [DomaiNesia](../entities/domainesia.md) | Web hosting Nimbus, cloud Cirrus, Cloud VPS | **Integrasi MCP AI** (ChatGPT/Claude/OpenCode/OpenClaw), AMD EPYC + NVMe, ISO 27001:2022 |
+| [DomaiNesia](../entities/domainesia.md) | Web hosting Nimbus, cloud Cirrus, **Cloud VPS Lite/Turbo, Managed VPS, Object Storage, Dedicated (GPU L4)** | **Integrasi MCP AI** (ChatGPT/Claude/OpenCode/OpenClaw), AMD EPYC Genoa + NVMe, 3× replikasi, ISO 27001:2022 |
 
 ## Tren yang terlihat
 
 - **AI/MCP masuk ke panel hosting**: Hostinger Agent/Connector dan DomaiNesia MCP menghubungkan agen AI langsung ke infrastruktur.
 - Shared hosting mulai mendukung **Node.js/Python** tanpa VPS; LiteSpeed/NVMe menjadi standar.
-- Harga pasar Indonesia sangat agresif (mulai ~Rp13.000–Rp18.000/bln promo) dengan domain gratis tahun pertama.
+- Harga pasar Indonesia sangat agresif (mulai ~Rp13.000–Rp18.000/bln promo) dengan domain gratis tahun pertama; VPS mulai Rp43.200 (DomaiNesia Lite) / Rp50.000 (Rumahweb XS).
 
 ## Open questions
 

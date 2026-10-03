@@ -1,12 +1,13 @@
 ---
-title: "cerebras OpenAI GPT OSS"
-source: "https://inference-docs.cerebras.ai/models/openai-oss"
+title: cerebras OpenAI GPT OSS
+source: https://inference-docs.cerebras.ai/models/openai-oss
 author:
+  - "[[cerebras.ai]]"
 published:
 created: 2026-10-01
-description: "This model excels at efficient reasoning across science, math, and coding applications. It's ideal for real-time coding assistance, processing large documents for Q&A and summarization, agentic research workflows, and regulated on-premises workloads."
+description: This model excels at efficient reasoning across science, math, and coding applications. It's ideal for real-time coding assistance, processing large documents for Q&A and summarization, agentic research workflows, and regulated on-premises workloads.
 tags:
-  - "clippings"
+  - clippings
 ---
 Model ID
 

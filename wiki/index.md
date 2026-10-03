@@ -82,6 +82,13 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Rumahweb — Dedicated Server](sources/rumahweb-dedicated-server.md) — Intel E5 & AMD EPYC Rp2,5–13,5 jt; varian GPU T4/L4; anti-DDoS, managed opsional. (2026-10-02)
 - [DomaiNesia — Web Hosting](sources/domainesia-web-hosting.md) — Nimbus One–Cloud Rp18.000–112.500; integrasi MCP AI, AMD EPYC, NVMe. (2026-10-02)
 - [DomaiNesia — Cloud Hosting](sources/domainesia-cloud-hosting.md) — Cirrus 2–24GB; Direct Connect 10G, bahasa Node/Python/Go/Rust, MCP AI. (2026-10-02)
+- [Tokenra — Model Square (Halaman 1)](sources/tokenra-model-square-page-1.md) — Katalog gateway Tokenra hal. 1: model teks + varian diskon + image per request. (2026-10-03)
+- [Tokenra — Model Square (Halaman 2)](sources/tokenra-model-square-page-2.md) — Sisa katalog: model gratis/anonymous, frontier, dan video Seedance. (2026-10-03)
+- [DomaiNesia — Cloud VPS Lite](sources/domainesia-cloud-vps-lite.md) — VPS ekonomis Rp43.200–2.065.500; Intel Xeon Platinum, RAID10, diskon 10%. (2026-10-03)
+- [DomaiNesia — Cloud VPS Turbo](sources/domainesia-cloud-vps-turbo.md) — AMD EPYC Genoa, 3× replikasi, 40 GbE; Rp80.000–4.800.000 (diskon 50%). (2026-10-03)
+- [DomaiNesia — Managed VPS](sources/domainesia-managed-vps.md) — Pluton 2/4/8 GB Rp985.500–1.777.500; gratis cPanel, CloudLinux, Imunify360. (2026-10-03)
+- [DomaiNesia — Object Storage](sources/domainesia-object-storage.md) — S3-compatible 15 GB–10 TB dari Rp12.000/bln; 3× replikasi, Cloudflare CDN. (2026-10-03)
+- [DomaiNesia — Dedicated Server](sources/domainesia-dedicated-server.md) — Seri Neva Rp4,8–14 jt; varian GPU NVIDIA L4; HPE ProLiant. (2026-10-03)
 
 ## Entities
 
@@ -100,7 +107,8 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Cerebras](entities/cerebras.md) — Platform inferensi tercepat (~3.000 t/s); model Shared Inference, kapabilitas API, dan peta migrasi open-source. (2026-10-01)
 - [Hostinger](entities/hostinger.md) — Hosting global: shared/cloud/VPS + managed Node.js (Web App), Hostinger Agent & Connector (MCP). (2026-10-02)
 - [Rumahweb](entities/rumahweb.md) — Hosting Indonesia: shared/unlimited/VPS KVM/VPS Alibaba/dedicated; Turbo Booster, dual availability zone. (2026-10-02)
-- [DomaiNesia](entities/domainesia.md) — Hosting Indonesia dengan integrasi MCP AI; Nimbus & Cirrus, AMD EPYC + NVMe, ISO 27001. (2026-10-02)
+- [DomaiNesia](entities/domainesia.md) — Hosting Indonesia dengan integrasi MCP AI; Nimbus/Cirrus + VPS Lite/Turbo/Managed + Object Storage + Dedicated (GPU L4). (2026-10-03)
+- [Tokenra](entities/tokenra.md) — Gateway 37 model dengan varian diskon dan model gratis/anonymous; image per request, video Seedance. (2026-10-03)
 
 ## Concepts
 

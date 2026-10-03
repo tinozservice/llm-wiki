@@ -1,12 +1,13 @@
 ---
 title: "rumahweb  VPS Murah Indonesia: KVM Mulai Rp 50.000/bln"
-source: "https://www.rumahweb.com/vps-murah/"
+source: https://www.rumahweb.com/vps-murah/
 author:
+  - "[[Rumahweb Indonesia]]"
 published:
 created: 2026-10-02
-description: "VPS murah Indonesia berbasis KVM dengan resource terisolasi, SSD storage, dan DDoS protection. Aktivasi instan. Mulai Rp 50.000/bulan."
+description: VPS murah Indonesia berbasis KVM dengan resource terisolasi, SSD storage, dan DDoS protection. Aktivasi instan. Mulai Rp 50.000/bulan.
 tags:
-  - "clippings"
+  - clippings
 ---
 ## VPS Murah Indonesia Performa Enterprise
 

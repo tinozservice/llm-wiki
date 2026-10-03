@@ -1,12 +1,13 @@
 ---
-title: "Manus Plans & Pricing"
-source: "https://manus.im/pricing"
+title: Manus Plans & Pricing
+source: https://manus.im/pricing
 author:
+  - "[[manus.im]]"
 published:
 created: 2026-10-01
-description: "Explore Manus pricing plans. Flexible options for individuals, teams, and enterprises. Start your free trial today."
+description: Explore Manus pricing plans. Flexible options for individuals, teams, and enterprises. Start your free trial today.
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Manus Pricing Plans
 

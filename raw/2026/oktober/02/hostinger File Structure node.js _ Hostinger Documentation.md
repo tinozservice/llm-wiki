@@ -1,12 +1,13 @@
 ---
-title: "File Structure | Hostinger Documentation"
-source: "https://docs.hostinger.com/node.js/file-structure"
+title: File Structure | Hostinger Documentation
+source: https://docs.hostinger.com/node.js/file-structure
 author:
+  - "[[hostinger.com]]"
 published: 2026-09-23
 created: 2026-10-02
-description: "Node.js app file structure on Hostinger — the hbuilds directory, build versions, the current symlink, and file timestamps."
+description: Node.js app file structure on Hostinger — the hbuilds directory, build versions, the current symlink, and file timestamps.
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Directory layout
 

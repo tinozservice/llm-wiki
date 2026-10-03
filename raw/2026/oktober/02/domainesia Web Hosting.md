@@ -1,13 +1,13 @@
 ---
-title: "Beli Web Hosting Murah Gratis Domain & SSL Diskon hingga 50%"
-source: "https://www.domainesia.com/hosting/"
+title: Beli Web Hosting Murah Gratis Domain & SSL Diskon hingga 50%
+source: https://www.domainesia.com/hosting/
 author:
-  - "[[DomaiNesia]]"
+  - "[[domainesia.com]]"
 published: 2025-01-05
 created: 2026-10-02
-description: "Hosting murah berkualitas! Gratis domain & SSL dengan diskon hingga 50%. Performa cepat, uptime tinggi, dan support terbaik untuk website profesional Anda."
+description: Hosting murah berkualitas! Gratis domain & SSL dengan diskon hingga 50%. Performa cepat, uptime tinggi, dan support terbaik untuk website profesional Anda.
 tags:
-  - "clippings"
+  - clippings
 ---
 - [Sign In](https://my.domainesia.com/signin/)
 

@@ -1,12 +1,13 @@
 ---
-title: "Creating a Node.js App"
-source: "https://docs.hostinger.com/node.js/creating-an-app"
+title: Creating a Node.js App
+source: https://docs.hostinger.com/node.js/creating-an-app
 author:
+  - "[[hostinger.com]]"
 published: 2026-09-23
 created: 2026-10-02
-description: "Step-by-step guide to deploying a Node.js app on Hostinger from a GitHub repository, uploaded archive, or code editor, with build settings and troubleshooting."
+description: Step-by-step guide to deploying a Node.js app on Hostinger from a GitHub repository, uploaded archive, or code editor, with build settings and troubleshooting.
 tags:
-  - "clippings"
+  - clippings
 ---
 Deploy a Node.js app (a **Web App** in hPanel) from a GitHub repository, an uploaded archive, or straight from your code editor. Hostinger detects your framework, suggests build settings, runs the build, and keeps the process running.
 

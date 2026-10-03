@@ -1,12 +1,13 @@
 ---
-title: "cerebras Image Inputs"
-source: "https://inference-docs.cerebras.ai/capabilities/image-inputs"
+title: cerebras Image Inputs
+source: https://inference-docs.cerebras.ai/capabilities/image-inputs
 author:
+  - "[[cerebras.ai]]"
 published:
 created: 2026-10-01
-description: "Pass images to vision-capable models."
+description: Pass images to vision-capable models.
 tags:
-  - "clippings"
+  - clippings
 ---
 This feature is in [Public Preview](https://inference-docs.cerebras.ai/support/preview-releases#public-preview).
 

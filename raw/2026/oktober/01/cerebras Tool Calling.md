@@ -1,12 +1,13 @@
 ---
-title: "cerebras Tool Calling"
-source: "https://inference-docs.cerebras.ai/capabilities/tool-use"
+title: cerebras Tool Calling
+source: https://inference-docs.cerebras.ai/capabilities/tool-use
 author:
+  - "[[cerebras.ai]]"
 published:
 created: 2026-10-01
-description: "Learn how to connect models to external tools with tool calling."
+description: Learn how to connect models to external tools with tool calling.
 tags:
-  - "clippings"
+  - clippings
 ---
 Tool calling, also known as tool use or function calling, lets a model request functions that your application defines. Your application executes each requested function and returns the result to the model.
 

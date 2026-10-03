@@ -1,13 +1,13 @@
 ---
-title: "Diskon AI Managed KVM VPS hingga 69%"
-source: "https://www.hostinger.com/id/hosting-vps"
+title: Diskon AI Managed KVM VPS hingga 69%
+source: https://www.hostinger.com/id/hosting-vps
 author:
-  - "[[Hostinger]]"
+  - "[[hostinger.com]]"
 published:
 created: 2026-10-02
-description: "Diskon AI-managed KVM VPS hosting hingga 69%. Dapatkan full root acccess, AMD EPYC processor, NVMe SSD, dan backup mingguan gratis. Otomatiskan server dengan Hostinger Agent AI."
+description: Diskon AI-managed KVM VPS hosting hingga 69%. Dapatkan full root acccess, AMD EPYC processor, NVMe SSD, dan backup mingguan gratis. Otomatiskan server dengan Hostinger Agent AI.
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Pilih paket VPS hosting
 

@@ -1,12 +1,13 @@
 ---
-title: "Cerebras Cloud. limits"
-source: "https://cloud.cerebras.ai/platform/org_redacted/project/prj_redacted/limits"
+title: Cerebras Cloud. limits
+source: https://cloud.cerebras.ai/platform/org_redacted/project/prj_redacted/limits
 author:
+  - "[[cerebras.ai]]"
 published:
 created: 2026-10-01
-description: "Cerebras Inference AI is the fastest in the world."
+description: Cerebras Inference AI is the fastest in the world.
 tags:
-  - "clippings"
+  - clippings
 ---
 Models available to your organization with their rate limits. To view usage, visit the [Analytics tab.](https://cloud.cerebras.ai/platform/org_redacted/analytics)
 

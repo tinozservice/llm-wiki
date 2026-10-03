@@ -1,13 +1,13 @@
 ---
-title: "hostinger Web hosting"
-source: "https://www.hostinger.com/id/web-hosting"
+title: hostinger Web hosting
+source: https://www.hostinger.com/id/web-hosting
 author:
-  - "[[Hostinger]]"
+  - "[[hostinger.com]]"
 published:
 created: 2026-10-02
-description: "Dapatkan web hosting terbaik + gratis domain, SSL, dan email. Nikmati server Hostinger yang andal, bantuan 24/7, dan jaminan 30 hari uang kembali."
+description: Dapatkan web hosting terbaik + gratis domain, SSL, dan email. Nikmati server Hostinger yang andal, bantuan 24/7, dan jaminan 30 hari uang kembali.
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Temukan paket hosting yang tepat
 

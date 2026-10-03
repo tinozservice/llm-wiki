@@ -1,12 +1,13 @@
 ---
-title: "novita Model Libraries & GPU Cloud - Deploy, Scale & Innovate"
-source: "https://novita.ai/pricing"
+title: novita Model Libraries & GPU Cloud - Deploy, Scale & Innovate
+source: https://novita.ai/pricing
 author:
+  - "[[novita.ai]]"
 published:
 created: 2026-10-01
-description: "See pricing for 200+ AI models, GPU instances, and agent sandboxes. Developer-focused with startup-friendly rates. No hidden fees."
+description: See pricing for 200+ AI models, GPU instances, and agent sandboxes. Developer-focused with startup-friendly rates. No hidden fees.
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Pricing to seamlessly scale from idea to enterprise
 

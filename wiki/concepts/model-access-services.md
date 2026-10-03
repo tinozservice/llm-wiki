@@ -26,6 +26,7 @@ tags: [pricing, subscription, per-token, model-access]
 | [Manus](../entities/manus.md) | Langganan kredit: 4.000/8.000/40.000 kredit per bulan | Kredit tugas + 300 refresh credits/hari; 20 concurrent & scheduled tasks (lihat [sumber](../sources/manus-plans-pricing.md)) |
 | [Inception Labs](../entities/inception-labs.md) | Free; Developer pay-per-token; Enterprise kustom | Akses model *diffusion LLM* Mercury (2.5, Voice, Router); diskon peluncuran 80%/50%; tersedia lewat API, AWS Bedrock, Azure Foundry, dan model router (lihat [sumber](../sources/inception-models.md)) |
 | [Cerebras](../entities/cerebras.md) | Free Trial (kredit $5); Developer pay-as-you-go; Enterprise kustom | Model Shared Inference tercepat (~3.000 t/s); rate limit per model; kapabilitas reasoning/structured/tools/image (lihat [sumber](../sources/cerebras-pricing.md)) |
+| [Tokenra](../entities/tokenra.md) | Pay-as-you-go per token (gateway) | 37 model; varian diskon (`-50off`/`-discounted`); gratis/anonymous (`union-alpha`, `space-bunny-alpha`); image per request; video per 1M unit (lihat [sumber](../sources/tokenra-model-square-page-1.md)) |
 
 ## Kesamaan dan perbedaan
 
@@ -41,6 +42,7 @@ tags: [pricing, subscription, per-token, model-access]
 - **Dimensi baru — latensi vs harga**: Sail memperkenalkan *completion windows* (Default/Balanced/Flex) sebagai sumbu harga; Groq menonjolkan kecepatan token (gpt-oss-20b ~1.000 t/s).
 - **Teknologi berbeda**: Inception Labs menjual *diffusion LLM* (dLLM) yang diklaim 5× lebih cepat dari LLM autoregresif; Mercury Voice menargetkan latensi percakapan (TTFAT p50 320 ms).
 - **Kecepatan sebagai produk**: Cerebras mengklaim ~3.000 t/s (GPT OSS 120B) dan Groq ~1.000 t/s (gpt-oss-20b) — kecepatan token menjadi pembeda utama, bukan hanya harga.
+- **Model "anonymous"/gratis** muncul sebagai taktik akuisisi: `union-alpha`/`space-bunny-alpha` (Tokenra), `Space Bunny Free` (OpenCode Zen).
 - **Akses multimodal & media**: Agnes menjual kuota gabungan teks/gambar/video; Novita juga menyediakan image/video/audio/search API di samping model teks.
 
 ## Pertanyaan terbuka
@@ -62,5 +64,6 @@ tags: [pricing, subscription, per-token, model-access]
 - [Sail Research](../entities/sail-research.md)
 - [Inception Labs](../entities/inception-labs.md)
 - [Cerebras](../entities/cerebras.md)
+- [Tokenra](../entities/tokenra.md)
 - [Prompt Caching](prompt-caching.md)
 - [Overview](../overview.md)

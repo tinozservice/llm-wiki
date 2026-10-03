@@ -1,12 +1,13 @@
 ---
-title: "Hostinger Documentation"
-source: "https://docs.hostinger.com/node.js/deployments"
+title: Hostinger Documentation
+source: https://docs.hostinger.com/node.js/deployments
 author:
+  - "[[hostinger.com]]"
 published: 2026-09-23
 created: 2026-10-02
 description: "How Hostinger records every Node.js build under Deployments in hPanel: history, per-build logs, redeploys, failed-build AI analysis, and deployment settings."
 tags:
-  - "clippings"
+  - clippings
 ---
 Every build of your Node.js app is recorded under **Deployments** in your website dashboard — history, per-build logs, redeploys, and the settings applied to future builds.
 

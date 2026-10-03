@@ -1,12 +1,13 @@
 ---
-title: "Node.js Hosting Overview | Hostinger Documentation"
-source: "https://docs.hostinger.com/node.js/overview"
+title: Node.js Hosting Overview | Hostinger Documentation
+source: https://docs.hostinger.com/node.js/overview
 author:
+  - "[[hostinger.com]]"
 published: 2026-09-23
 created: 2026-10-02
 description: "Overview of managed Node.js hosting on Hostinger: how deployments work, supported Node versions and frameworks, build sources, and entry file requirements."
 tags:
-  - "clippings"
+  - clippings
 ---
 Run Node.js apps directly on your hosting — full-stack apps, APIs. No separate server to manage.
 

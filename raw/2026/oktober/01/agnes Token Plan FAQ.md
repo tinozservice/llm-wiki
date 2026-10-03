@@ -1,12 +1,13 @@
 ---
-title: "agnes Token Plan FAQ"
-source: "https://www.agnes-ai.com/en/docs/tokenplan"
+title: agnes Token Plan FAQ
+source: https://www.agnes-ai.com/en/docs/tokenplan
 author:
+  - "[[agnes-ai]]"
 published:
 created: 2026-10-01
 description:
 tags:
-  - "clippings"
+  - clippings
 ---
 Agnes AI access plans, API keys, RPM limits, and subscription quotas
 

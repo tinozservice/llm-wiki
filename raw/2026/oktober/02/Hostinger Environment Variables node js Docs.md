@@ -1,12 +1,13 @@
 ---
-title: "Environment Variables | Hostinger Documentation"
-source: "https://docs.hostinger.com/node.js/environment-variables"
+title: Environment Variables | Hostinger Documentation
+source: https://docs.hostinger.com/node.js/environment-variables
 author:
+  - "[[hostinger.com]]"
 published: 2026-07-27
 created: 2026-10-02
 description: "How to set environment variables for Node.js apps on Hostinger: adding and importing .env values in hPanel, validation rules, and applying changes via redeploy."
 tags:
-  - "clippings"
+  - clippings
 ---
 Set the values your Node.js app reads from `process.env`. Variables are injected into **both the build and the running app**, and persist across deployments — set them once, not on every push.
 

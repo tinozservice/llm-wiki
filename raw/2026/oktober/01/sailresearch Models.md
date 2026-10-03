@@ -1,12 +1,13 @@
 ---
-title: "sailresearch Models"
-source: "https://docs.sailresearch.com/models"
+title: sailresearch Models
+source: https://docs.sailresearch.com/models
 author:
+  - "[[sailresearch .com]]"
 published:
 created: 2026-10-01
-description: "All models currently served by Sail"
+description: All models currently served by Sail
 tags:
-  - "clippings"
+  - clippings
 ---
 Sail does not requantize weights. **Reference** means Sail serves the model exactly as its authors released it. Each row links the Hugging Face weights Sail currently serves.
 

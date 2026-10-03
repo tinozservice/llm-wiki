@@ -1,13 +1,13 @@
 ---
 title: "Node.js hosting: Managed dan VPS"
-source: "https://www.hostinger.com/id/nodejs-hosting"
+source: https://www.hostinger.com/id/nodejs-hosting
 author:
-  - "[[Hostinger]]"
+  - "[[hostinger.com]]"
 published:
 created: 2026-10-02
 description: "Hosting Node.js terkelola: penyebaran 1-klik dan tanpa tagihan tak terduga. Sebarkan aplikasi Anda dengan mudah dan fokuslah pada pengembangan."
 tags:
-  - "clippings"
+  - clippings
 ---
 1 menit
 

@@ -1,12 +1,13 @@
 ---
-title: "groq - Billing FAQs"
-source: "https://console.groq.com/docs/billing-faqs"
+title: groq - Billing FAQs
+source: https://console.groq.com/docs/billing-faqs
 author:
+  - "[[groq.com]]"
 published:
 created: 2026-10-01
-description: "Frequently asked questions about Groq's billing model, progressive billing, spending monitoring, invoices, and common billing issues."
+description: Frequently asked questions about Groq's billing model, progressive billing, spending monitoring, invoices, and common billing issues.
 tags:
-  - "clippings"
+  - clippings
 ---
 /
 

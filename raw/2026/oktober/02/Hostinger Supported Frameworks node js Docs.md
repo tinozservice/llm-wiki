@@ -1,12 +1,13 @@
 ---
-title: "Supported Frameworks | Hostinger Documentation"
-source: "https://docs.hostinger.com/node.js/overview-1"
+title: Supported Frameworks | Hostinger Documentation
+source: https://docs.hostinger.com/node.js/overview-1
 author:
+  - "[[hostinger.com]]"
 published: 2026-09-23
 created: 2026-10-02
-description: "Overview of frontend, backend, and dual-mode Node.js frameworks supported on Hostinger, with links to per-framework build settings and app_type values."
+description: Overview of frontend, backend, and dual-mode Node.js frameworks supported on Hostinger, with links to per-framework build settings and app_type values.
 tags:
-  - "clippings"
+  - clippings
 ---
 For the complete documentation index, see [llms.txt](https://docs.hostinger.com/llms.txt). This page is also available as [Markdown](https://docs.hostinger.com/node.js/overview-1.md).
 

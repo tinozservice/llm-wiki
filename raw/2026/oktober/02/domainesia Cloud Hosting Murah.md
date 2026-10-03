@@ -1,13 +1,13 @@
 ---
-title: "Cloud Hosting Murah Indonesia Terbaik Gratis Domain Dan SSL"
-source: "https://www.domainesia.com/cloud-hosting/"
+title: Cloud Hosting Murah Indonesia Terbaik Gratis Domain Dan SSL
+source: https://www.domainesia.com/cloud-hosting/
 author:
-  - "[[DomaiNesia]]"
+  - "[[domainesia.com]]"
 published: 2025-02-05
 created: 2026-10-02
-description: "Cloud hosting terbaik Indonesia dengan turbo performance 3x lebih cepat, semi dedicated, dan fleksibel untuk website profesional dengan harga murah."
+description: Cloud hosting terbaik Indonesia dengan turbo performance 3x lebih cepat, semi dedicated, dan fleksibel untuk website profesional dengan harga murah.
 tags:
-  - "clippings"
+  - clippings
 ---
 - [Sign In](https://my.domainesia.com/signin/)
 
