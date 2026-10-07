@@ -147,3 +147,12 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Diperbarui: `wiki/index.md` (+1 analisis); koreksi klaim koneksi katalog di `wiki/sources/puter-tutorial-openai.md` (GPT-6 Luna bukan di katalog Tokenra; hanya `gpt-image-2.5-flare`/`sunburst`).
 - Temuan: rasio terbaik Token Harbor Agent ($1.99 → nilai $10; ≈6,6k request Luna/bulan); Go unggul untuk multi-model flat (4.230 req/5 jam, cap $15); Zen satu-satunya dengan tarif cache eksplisit untuk Luna (cache read $0.01/M); Puter $0 developer via user-pays (tarif per model tidak dipublikasikan).
 - Tidak ada kontradiksi.
+
+## [2026-10-07] ingest | VyceAI — API proxy (8 klip)
+- 8 klip VyceAI (vyceai.com) diarsipkan ke `raw/2026/oktober/07/` (created 2026-10-07) dan di-ingest: Models free & paid, Pricing monthly & yearly, Daily Rewards, Referrals, Integrations, System Status.
+- Dibuat: 8 halaman sumber + entitas `wiki/entities/vyceai.md`.
+- Diperbarui: `wiki/analyses/perbandingan-gpt-6-luna.md` (+baris VyceAI: Luna $2/$2, offline saat klip), `wiki/concepts/model-access-services.md` (+baris & skema "langganan + reward harian"), `wiki/overview.md` (132 sumber), `wiki/index.md`, `README.md`.
+- Temuan: paritas harga dengan OpenCode Zen untuk banyak model (Sonnet 4.6, Astra, Sol, Terra, Grok 4.6) — indikasi upstream serupa; pengecualian DeepSeek (V4 Pro lebih murah di VyceAI, V4 Flash lebih mahal). "Unlimited" DeepSeek V4.1 & Agnes 3.0 Flash untuk Lite/Pro + reward harian $10–30 + bonus $100–500/bulan.
+- Catatan keandalan (dari status page pihak pertama): uptime 96,7%, degraded saat klip, `gpt-6-luna` offline, Grok 4.6 maintenance.
+- Inkonsistensi internal klip: rate limit 60/120 vs 120/300 req/min; "12/7 days for max bonus"; deskripsi Luna "flagship" vs posisi tier murah di sumber lain.
+- Tidak ada kontradiksi lintas-wiki.

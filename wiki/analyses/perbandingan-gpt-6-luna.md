@@ -30,6 +30,7 @@ Tergantung **siapa yang membayar** dan **pola pemakaian**:
 | [OpenCode Go](../entities/opencode.md) | Langganan $10 (Go) / $40 (Go Plus) | Kuota, bukan per-token | **4.230 req/5 jam** (Go); 16.920 (Go Plus); cap bulanan $15/$60 | Ditandai "New" ([sumber](../sources/opencode-go.md)); lewat batas → PAYG otomatis dari kredit bersama Go–Zen; definisi "batas bulanan" belum terkonfirmasi |
 | [OpenCode Zen](../entities/opencode-zen.md) | Pay-as-you-go (saldo, menyatu dengan Go) | $0.10 / $0.50; **cache read $0.01**, cache write $0.13 ([daftar harga](../sources/opencode-zen-price-list.md)) | Tanpa kuota tetap | Model harus diaktifkan dulu ("Only enabled models will be available to members") |
 | [Puter](../entities/puter.md) | User-pays: developer $0; user menanggung usage dari akunnya ([docs](../sources/puter-docs-user-pays.md)) | **Tidak dipublikasikan di wiki** (per-model rates lewat `GET /metering/allCosts`, belum dikutip) | Allowance bulanan user (nominal tidak diketahui) | Konteks **1.050.000 token** + varian Pro (harga sama); tanpa API key; dari browser/agen/MCP ([tutorial OpenAI](../sources/puter-tutorial-openai.md)) |
+| [VyceAI](../entities/vyceai.md) (baru, 7 Okt) | Langganan Lite $5/Pro $20 + reward harian $10–30 | **$2/$2** (jauh di atas TH/Zen) | Daily quota 50 juta token (tampilan klip); endpoint **offline** saat klip | Deskripsi vendor "flagship running in Codex" — berbeda dari posisi tier murah di sumber lain; data baru 1 snapshot ([status](../sources/vyceai-system-status.md)) |
 
 Harga Token Harbor ↔ Zen untuk Luna **identik** ($0,10/$0,50) — konsisten dengan pola paritas harga antar katalog ([Layanan Akses Model](../concepts/model-access-services.md)).
 
@@ -49,9 +50,11 @@ Harga Token Harbor ↔ Zen untuk Luna **identik** ($0,10/$0,50) — konsisten de
 | Codebase besar/agentik konteks panjang | **OpenCode Zen** | Tarif cache transparan ($0,01/M read) — mitigasi biaya utama |
 | Aplikasi yang dipakai orang lain | **Puter** | Developer $0 (user-pays); keyless; konteks 1,05M token |
 
+**VyceAI (baru, 7 Okt)** belum masuk rekomendasi: endpoint Luna-nya **offline** saat klip dan harganya ($2/$2) jauh di atas kandidat lain — pantau setelah data stabil (bonus/reward-nya bisa mengubah kalkulasi untuk pemakaian lewat langganan).
+
 ## Caveats
 
-- Semua angka dari klip **2026-10-01/02** dan dapat berubah; estimasi request adalah angka penerbit, bukan verifikasi independen.
+- Sebagian besar angka dari klip **2026-10-01/02** (VyceAI: snapshot 7 Okt) dan dapat berubah; estimasi request adalah angka penerbit, bukan verifikasi independen. Status Luna di VyceAI **offline** saat klip dan deskripsinya ("flagship") berbeda dari sumber lain — jangan jadikan dasar tunggal pemilihan.
 - Definisi "batas bulanan" Go (dolar? nilai usage?) belum dikonfirmasi ([OpenCode](../entities/opencode.md) → Open questions).
 - Tarif cache TH untuk model non-Claude tidak dirinci; keberlakuan off-peak pada pass juga belum jelas.
 - Biaya per model di Puter dan nominal free allowance user tidak dipublikasikan (open questions [Puter](../entities/puter.md)).
@@ -61,6 +64,6 @@ Harga Token Harbor ↔ Zen untuk Luna **identik** ($0,10/$0,50) — konsisten de
 
 - [Token Harbor](../entities/token-harbor.md) · [Katalog Model Token Harbor](../entities/token-harbor-model-catalog.md) · [Estimasi Request per Pass](../entities/token-harbor-pass-estimates.md)
 - [OpenCode](../entities/opencode.md) · [OpenCode Zen](../entities/opencode-zen.md)
-- [Puter](../entities/puter.md) · [User-Pays Model](../concepts/user-pays-model.md)
+- [Puter](../entities/puter.md) · [User-Pays Model](../concepts/user-pays-model.md) · [VyceAI](../entities/vyceai.md)
 - [Layanan Akses Model](../concepts/model-access-services.md) · [Prompt Caching](../concepts/prompt-caching.md)
 - [Perhitungan Limit Agent Pass & Beban Konteks Besar](perhitungan-limit-agent-pass.md)

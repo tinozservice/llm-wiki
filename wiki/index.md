@@ -139,6 +139,14 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Building Apps with Puter MCP (tutorial)](sources/puter-tutorial-mcp.md) — Setup MCP untuk Claude Code/Codex/OpenCode; build & deploy dari percakapan. (2026-10-07)
 - [Build and Deploy a Full AI-Powered ATS (video course)](sources/puter-tutorial-ats-video.md) — Kursus ~2,5 jam JS Mastery: resume analyzer ATS (React + Puter.js). (2026-10-07)
 - [Build and Deploy a Full-Stack AI App (video course)](sources/puter-tutorial-fullstack-video.md) — Kursus ~3 jam JS Mastery: Roomify 2D→3D (workers, KV, hosting media). (2026-10-07)
+- [VyceAI — Models (Free Plan view)](sources/vyceai-models-free-plan.md) — Katalog free: GPT 6 Luna $2/$2 (offline), DeepSeek V4.1 & Agnes 3.0 Flash unlimited utk Lite/Pro. (2026-10-07)
+- [VyceAI — Models (Paid Plan view)](sources/vyceai-models-paid-plan.md) — Model Lite/Pro: Astra $10/$50 (25M/hari gratis), Sol $4/$20, Terra, Grok 4.6, DeepSeek V4 Pro. (2026-10-07)
+- [VyceAI — Pricing & Plans (Monthly)](sources/vyceai-pricing-monthly.md) — Free/$5 Lite/$20 Pro; unlimited DeepSeek+Agnes; bonus $100–500/bln; reward harian; kripto. (2026-10-07)
+- [VyceAI — Pricing & Plans (Yearly)](sources/vyceai-pricing-yearly.md) — Lite $48/thn, Pro $192/thn (≈20% hemat); fitur identik versi bulanan. (2026-10-07)
+- [VyceAI — Daily Rewards](sources/vyceai-daily-rewards.md) — Klaim harian $10–30 (≈$300–900/bln) + streak; reset tengah malam UTC. (2026-10-07)
+- [VyceAI — Referrals](sources/vyceai-referrals.md) — $10 kredit untuk kedua pihak per referral. (2026-10-07)
+- [VyceAI — Integrations](sources/vyceai-integrations.md) — OpenAI & Anthropic compatible; custom provider OpenCode; Grok Imagine 2 $0.50/gambar. (2026-10-07)
+- [VyceAI — System Status](sources/vyceai-system-status.md) — Uptime 96,7% (degraded), 11/13 online; direktori 13 endpoint + harga/latensi. (2026-10-07)
 
 ## Entities
 
@@ -160,6 +168,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [DomaiNesia](entities/domainesia.md) — Hosting Indonesia dengan integrasi MCP AI; Nimbus/Cirrus + VPS Lite/Turbo/Managed + Object Storage + Dedicated (GPU L4). (2026-10-03)
 - [Tokenra](entities/tokenra.md) — Gateway 37 model dengan varian diskon dan model gratis/anonymous; image per request, video Seedance. (2026-10-03)
 - [Puter](entities/puter.md) — Platform "Internet Computer" open-source: cloud OS di browser + SDK Puter.js keyless (AI Gateway 500+ model, storage, auth, hosting) dengan model user-pays. (2026-10-07)
+- [VyceAI](entities/vyceai.md) — API proxy OpenAI+Anthropic compatible: ~13 model (GPT-6, Claude, DeepSeek, Agnes, Grok); langganan Lite $5/Pro $20 + reward harian $10–30; uptime 96,7% saat klip. (2026-10-07)
 
 ## Concepts
 
@@ -172,4 +181,4 @@ See also: [Overview](overview.md) · [Log](log.md)
 ## Analyses
 
 - [Perhitungan Limit Agent Pass & Beban Konteks Besar](analyses/perhitungan-limit-agent-pass.md) — mekanisme usage value, contoh hitungan DeepSeek V4.1 Flash, dan simulasi beban konteks 50k token/turn. (2026-10-02)
-- [Perbandingan GPT-6 Luna Antar Penyedia](analyses/perbandingan-gpt-6-luna.md) — Token Harbor vs OpenCode Go/Zen vs Puter: harga, kuota, peran cache, dan rekomendasi per skenario. (2026-10-07)
+- [Perbandingan GPT-6 Luna Antar Penyedia](analyses/perbandingan-gpt-6-luna.md) — Token Harbor vs OpenCode Go/Zen vs Puter vs VyceAI: harga, kuota, peran cache, dan rekomendasi per skenario. (2026-10-07)

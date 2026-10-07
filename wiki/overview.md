@@ -13,13 +13,14 @@ Sintesis top-level wiki ini: apa yang sudah tercakup, pemahaman terbaik saat ini
 
 ## Sejauh ini
 
-- Wiki berisi **124 sumber** dalam **tiga domain**: (1) akses model AI — 47 sumber; (2) hosting web — 27 sumber; (3) platform pengembangan **Puter** — 50 sumber (ingest selesai; batch A–D).
-- **Domain 1 — layanan akses model (11 layanan)**: [Token Harbor](entities/token-harbor.md), [OpenCode Go](entities/opencode.md) + [Zen](entities/opencode-zen.md), [Agnes](entities/agnes.md), [Groq](entities/groq.md), [Manus](entities/manus.md), [Novita](entities/novita.md), [Sail Research](entities/sail-research.md), [Inception Labs](entities/inception-labs.md), [Cerebras](entities/cerebras.md), dan [Tokenra](entities/tokenra.md). Pola umum: [Layanan Akses Model](concepts/model-access-services.md).
+- Wiki berisi **132 sumber** dalam **tiga domain**: (1) akses model AI — 55 sumber; (2) hosting web — 27 sumber; (3) platform pengembangan **Puter** — 50 sumber (ingest selesai).
+- **Domain 1 — layanan akses model (12 layanan)**: [Token Harbor](entities/token-harbor.md), [OpenCode Go](entities/opencode.md) + [Zen](entities/opencode-zen.md), [Agnes](entities/agnes.md), [Groq](entities/groq.md), [Manus](entities/manus.md), [Novita](entities/novita.md), [Sail Research](entities/sail-research.md), [Inception Labs](entities/inception-labs.md), [Cerebras](entities/cerebras.md), [Tokenra](entities/tokenra.md), dan [VyceAI](entities/vyceai.md) (baru, 7 Okt). Pola umum: [Layanan Akses Model](concepts/model-access-services.md).
 - **Ragam model akses**: langganan bernilai (Token Harbor), langganan batas per model (Go), kuota request + media (Agnes), pay-per-token (Zen, Novita, Sail, Inception, Cerebras, Tokenra), completion windows (Sail), rate limit per organisasi (Groq), kredit tugas (Manus).
 - **Token Harbor**: [Katalog Model](entities/token-harbor-model-catalog.md) (19 model, harga, AA Rank, [Intelligence Index](concepts/intelligence-index.md)); [estimasi request per pass](entities/token-harbor-pass-estimates.md); [TH-Rudder](entities/th-rudder.md); [dokumentasi platform](sources/tokenharbor-docs-subscription.md) (wallet, rewards, rate limit, [cache 3 lapis](concepts/prompt-caching.md), kuota web chat, cara ukur kecepatan, [vs OpenRouter](sources/tokenharbor-docs-vs-openrouter.md)).
 - **Kecepatan jadi medan bersaing**: [Cerebras](entities/cerebras.md) ~3.000 t/s (GPT OSS 120B); [Groq](entities/groq.md) ~1.000 t/s (gpt-oss-20b); [Inception Labs](entities/inception-labs.md) dLLM 1.000+ t/s + latensi voice.
 - **Harga model sama bervariasi antar penyedia** — `gpt-oss-120b`: $0.05/$0.25 (Novita), $0.06/$0.40 (Sail), $0.15/$0.60 (Groq), $0.35/$0.75 (Cerebras).
 - **Tokenra (baru, 3 Okt)**: gateway **37 model** dengan varian diskon eksplisit (`-50off`, `-discounted`), model **gratis/anonymous** (`union-alpha`, `space-bunny-alpha`, `jev-router`), image per request ($0.02) dan **video Seedance** (per 1M unit, hingga $8.88). Harga model besar cenderung lebih murah dari katalog lain (kimi-k3 $2.54/$12.69; glm-5.3 $1.02/$3.56).
+- **VyceAI (baru, 7 Okt)**: API proxy "Affordable AI API Proxy" — OpenAI & Anthropic compatible; ~13 endpoint (GPT-6, Claude Sonnet 4.6, DeepSeek, Agnes 3.0 Flash, Grok); langganan Lite $5/Pro $20 dengan model "unlimited" (DeepSeek V4.1, Agnes) + **reward harian $10–30**; banyak harga identik Zen; uptime 96,7% dan GPT-6 Luna offline saat klip.
 - **Domain 2 — hosting web (3 provider)**: [Hostinger](entities/hostinger.md), [Rumahweb](entities/rumahweb.md), [DomaiNesia](entities/domainesia.md); pola & jenis layanan di [Hosting Web](concepts/web-hosting.md).
   - Hostinger: shared/cloud/VPS KVM + **managed Node.js (Web App)**; pembeda **Hostinger Agent & Connector (MCP)**; auto-deploy GitHub + vulnerability auto-fix PR.
   - Rumahweb: shared/unlimited/VPS KVM/VPS Alibaba/**dedicated server (GPU T4/L4)**; **dual availability zone** (Tier 3 + Tier 4), Turbo Booster, cPanel NOC Partner.
@@ -37,6 +38,7 @@ Sintesis top-level wiki ini: apa yang sudah tercakup, pemahaman terbaik saat ini
 - Siapa di balik model "alpha/anonymous" (union-alpha, omen-alpha, ox-alpha, space-bunny-alpha)? Butuh sumber.
 - Hosting: batas wajar AUP "unlimited"; perbandingan apple-to-apple resource; harga perpanjangan vs promo per paket.
 - **Puter**: nilai free allowance bulanan user (dolar); daftar harga model di AI Gateway vs katalog lain; verifikasi klaim adopsi (metrik "apps powered" vs "live applications" belum jelas; jumlah model "400+" vs "500+"); analisis harga lintas penyedia untuk model yang sama (GPT-6 Luna, `gpt-image-2.5`).
+- **VyceAI**: operator & sumber upstream tidak jelas; keberlanjutan reward harian/bonus bulanan; rate limit internal tidak konsisten (60/120 vs 120/300 req/min).
 
 ## Related
 
@@ -55,6 +57,7 @@ Sintesis top-level wiki ini: apa yang sudah tercakup, pemahaman terbaik saat ini
 - [Cerebras](entities/cerebras.md)
 - [Tokenra](entities/tokenra.md)
 - [Puter](entities/puter.md)
+- [VyceAI](entities/vyceai.md)
 - [User-Pays Model](concepts/user-pays-model.md)
 - [Hostinger](entities/hostinger.md)
 - [Rumahweb](entities/rumahweb.md)
