@@ -13,7 +13,7 @@ Sintesis top-level wiki ini: apa yang sudah tercakup, pemahaman terbaik saat ini
 
 ## Sejauh ini
 
-- Wiki berisi **84 sumber** dalam **tiga domain**: (1) akses model AI — 47 sumber; (2) hosting web — 27 sumber; (3) platform pengembangan **Puter** — 10 sumber (ingest bertahap dari 50 klip; batch A selesai).
+- Wiki berisi **101 sumber** dalam **tiga domain**: (1) akses model AI — 47 sumber; (2) hosting web — 27 sumber; (3) platform pengembangan **Puter** — 27 sumber (ingest bertahap dari 50 klip; batch A–B selesai).
 - **Domain 1 — layanan akses model (11 layanan)**: [Token Harbor](entities/token-harbor.md), [OpenCode Go](entities/opencode.md) + [Zen](entities/opencode-zen.md), [Agnes](entities/agnes.md), [Groq](entities/groq.md), [Manus](entities/manus.md), [Novita](entities/novita.md), [Sail Research](entities/sail-research.md), [Inception Labs](entities/inception-labs.md), [Cerebras](entities/cerebras.md), dan [Tokenra](entities/tokenra.md). Pola umum: [Layanan Akses Model](concepts/model-access-services.md).
 - **Ragam model akses**: langganan bernilai (Token Harbor), langganan batas per model (Go), kuota request + media (Agnes), pay-per-token (Zen, Novita, Sail, Inception, Cerebras, Tokenra), completion windows (Sail), rate limit per organisasi (Groq), kredit tugas (Manus).
 - **Token Harbor**: [Katalog Model](entities/token-harbor-model-catalog.md) (19 model, harga, AA Rank, [Intelligence Index](concepts/intelligence-index.md)); [estimasi request per pass](entities/token-harbor-pass-estimates.md); [TH-Rudder](entities/th-rudder.md); [dokumentasi platform](sources/tokenharbor-docs-subscription.md) (wallet, rewards, rate limit, [cache 3 lapis](concepts/prompt-caching.md), kuota web chat, cara ukur kecepatan, [vs OpenRouter](sources/tokenharbor-docs-vs-openrouter.md)).
@@ -26,7 +26,7 @@ Sintesis top-level wiki ini: apa yang sudah tercakup, pemahaman terbaik saat ini
   - DomaiNesia: Nimbus & Cirrus dengan **integrasi MCP AI** (ChatGPT/Claude/OpenCode/OpenClaw); dilengkapi **Cloud VPS Lite** (Xeon Platinum, RAID10, mulai Rp43.200), **Cloud VPS Turbo** (EPYC Genoa, 3× replikasi), **Managed VPS (Pluton)**, **Object Storage S3-compatible**, dan **Dedicated Server Neva + GPU NVIDIA L4**.
   - Harga pasar Indonesia agresif: shared mulai ~Rp13.000–18.000/bln (promo), VPS mulai Rp43.200, dedicated Rp2,5 jt+.
 - **Tren AI/MCP masuk ke hosting**: agent AI kini dapat mengelola deployment dan server (Hostinger Connector/Agent, DomaiNesia MCP) — beririsan dengan cara kerja agen coding di domain 1.
-- **Domain 3 — platform [Puter](entities/puter.md) (baru, 7 Okt)**: "Internet Computer" open-source dengan dua sisi — cloud OS di browser (app konsumen, paket $0–$100/bln) dan SDK **Puter.js** (auth, storage, KV, **[AI Gateway](sources/puter-ai-gateway.md) 500+ model**, hosting — keyless & serverless, cocok untuk agen AI). Model bisnisnya **[User-Pays](concepts/user-pays-model.md)**: developer $0; tiap user menanggung pemakaian lewat akun Puter-nya (allowance bulanan + bayar langsung ke Puter). 10 dari 50 klip sudah di-ingest (batch A); batch B–D menyusul.
+- **Domain 3 — platform [Puter](entities/puter.md) (baru, 7 Okt)**: "Internet Computer" open-source dengan dua sisi — cloud OS di browser (app konsumen, paket $0–$100/bln) dan SDK **Puter.js** (auth, storage, KV, **[AI Gateway](sources/puter-ai-gateway.md) 500+ model**, hosting — keyless & serverless, cocok untuk agen AI; plus CLI, **MCP server** untuk OpenCode, Events, WebRTC Peer, email, dan hosting `*.puter.site`). Model bisnisnya **[User-Pays](concepts/user-pays-model.md)**: developer $0; tiap user menanggung pemakaian lewat akun Puter-nya (allowance bulanan + bayar langsung ke Puter). 27 dari 50 klip sudah di-ingest (batch A–B); batch C–D menyusul.
 - Yang masih minim: deskripsi kualitatif model (lab/arsitektur); harga Manus; harga on-demand Groq; asal model alpha/anonymous Tokenra; batas "unlimited" hosting.
 
 ## Pertanyaan terbuka
@@ -36,7 +36,7 @@ Sintesis top-level wiki ini: apa yang sudah tercakup, pemahaman terbaik saat ini
 - Apakah harga berbeda antar penyedia mencerminkan kualitas layanan (kecepatan, limit, SLA) atau margin/diskonto?
 - Siapa di balik model "alpha/anonymous" (union-alpha, omen-alpha, ox-alpha, space-bunny-alpha)? Butuh sumber.
 - Hosting: batas wajar AUP "unlimited"; perbandingan apple-to-apple resource; harga perpanjangan vs promo per paket.
-- **Puter**: nilai free allowance bulanan user (dolar); daftar harga model di AI Gateway vs katalog lain; verifikasi klaim adopsi; detail API per layanan (menyusul batch B–D).
+- **Puter**: nilai free allowance bulanan user (dolar); daftar harga model di AI Gateway vs katalog lain; verifikasi klaim adopsi (metrik "apps powered" vs "live applications" belum jelas); sisa ingest batch C–D.
 
 ## Related
 

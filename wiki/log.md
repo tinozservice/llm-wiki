@@ -114,3 +114,12 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Tidak ada kontradiksi. Klaim vendor (90% fewer tokens, 12× code, 97% fewer mistakes, 80K+ developer) dicatat sebagai klaim, belum diverifikasi.
 - Open question: nominal dolar free allowance bulanan user tidak dipublikasikan di klip (hanya "shown in the dashboard").
 - Antre: Batch B (17 klip docs platform), Batch C (13 klip API developer), Batch D (10 tutorial, termasuk 2 transkrip video besar).
+
+## [2026-10-07] ingest | Puter — Batch B: docs platform (17 klip)
+- 17 halaman docs di-ingest dari `raw/2026/oktober/07/`: Apps, Auth, CLI, Cloud Storage (FS), Deployments, Email, Events, Framework Integrations, Hosting, Key-Value Store, MCP Server, Networking, Peer, Security and Permissions, Serverless Workers, Site Configuration, Supported Platforms.
+- Dibuat: 17 halaman sumber; entitas `wiki/entities/puter.md` diperluas dengan bagian *Layanan backend & tooling* (storage, KV, events, workers, hosting, apps/auth/email, networking, peer, MCP, CLI, keamanan, platform).
+- Temuan penting: MCP server Puter memuat contoh konfigurasi **OpenCode** — titik sambung dengan entitas OpenCode; sandbox default per app (`~/AppData/<app-id>/` + KV terpisah); data lintas user hanya via Serverless Worker.
+- Catatan angka klaim: "60.000+ aplikasi live" (Supported Platforms) vs "130K+ apps powered" (halaman backend) — kemungkinan metrik berbeda, dicatat tanpa ditimpa.
+- Diperbarui: `wiki/index.md` (+17 entri), `wiki/overview.md` (27/50 klip), entitas `puter`.
+- Tidak ada kontradiksi.
+- Antre: Batch C (13 klip API developer), Batch D (10 tutorial, termasuk 2 transkrip video besar).
