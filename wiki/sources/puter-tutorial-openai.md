@@ -36,7 +36,7 @@ Tutorial paling lengkap soal lineup OpenAI via Puter.js: **keluarga GPT-6** (Ast
 
 ## What this changes
 
-- **Koneksi katalog**: `gpt-image-2.5-flare`/`sunburst` & GPT-6 Luna juga muncul di katalog [Tokenra](../entities/tokenra.md) (image $0.02/request) dan [Token Harbor](../entities/token-harbor.md)/[OpenCode Zen](../entities/opencode-zen.md) — pertama kalinya namanya muncul dari sisi OpenAI resmi via Puter.
+- **Koneksi katalog**: `gpt-image-2.5-flare`/`sunburst` juga muncul di katalog [Tokenra](../entities/tokenra.md) (image $0.02/request); GPT-6 Luna sudah dikenal dari katalog [Token Harbor](../entities/token-harbor.md), [OpenCode Zen](../entities/opencode-zen.md), dan [OpenCode Go](../entities/opencode.md) — kini keduanya terkonfirmasi tersedia lewat Puter dari sisi OpenAI resmi.
 - Detail teknis baru: konteks 1.050.000 token keluarga GPT-6 (dibanding katalog lain yang tidak mencantumkan konteks untuk model ini).
 - Catatan angka: tutorial menyebut "500+" di intro tapi halaman lain "400+" — inkonsistensi dicatat di [Free LLM API](puter-tutorial-free-llm-api.md).
 - Tidak ada kontradiksi.

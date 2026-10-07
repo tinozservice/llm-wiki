@@ -140,3 +140,10 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Koneksi lintas domain: `gpt-image-2.5-flare`/GPT-6 Luna juga di katalog Tokenra/Token Harbor/OpenCode Zen; `inception/mercury-2` muncul di daftar model OpenRouter.
 - Diperbarui: entitas `puter` (status 50/50 + keluarga GPT-6 + catatan angka), `wiki/index.md` (+10), `wiki/overview.md` (124 sumber; domain Puter selesai), `README.md` (status repo).
 - Tidak ada kontradiksi keras. Ingest 50 klip Puter selesai (4 batch, 4 commit).
+
+## [2026-10-07] query | Perbandingan GPT-6 Luna antar penyedia
+- Pertanyaan pengguna: "kalau ingin memakai GPT-6 Luna, penyedia mana yang lebih baik?" — kandidat dari wiki: Token Harbor, OpenCode Go, OpenCode Zen, Puter.
+- Dibuat: `wiki/analyses/perbandingan-gpt-6-luna.md` — tabel harga/kuota, analisis rasio pass vs langganan vs per-token, peran cache pada beban konteks besar, rekomendasi per skenario, caveats.
+- Diperbarui: `wiki/index.md` (+1 analisis); koreksi klaim koneksi katalog di `wiki/sources/puter-tutorial-openai.md` (GPT-6 Luna bukan di katalog Tokenra; hanya `gpt-image-2.5-flare`/`sunburst`).
+- Temuan: rasio terbaik Token Harbor Agent ($1.99 → nilai $10; ≈6,6k request Luna/bulan); Go unggul untuk multi-model flat (4.230 req/5 jam, cap $15); Zen satu-satunya dengan tarif cache eksplisit untuk Luna (cache read $0.01/M); Puter $0 developer via user-pays (tarif per model tidak dipublikasikan).
+- Tidak ada kontradiksi.
