@@ -123,3 +123,11 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Diperbarui: `wiki/index.md` (+17 entri), `wiki/overview.md` (27/50 klip), entitas `puter`.
 - Tidak ada kontradiksi.
 - Antre: Batch C (13 klip API developer), Batch D (10 tutorial, termasuk 2 transkrip video besar).
+
+## [2026-10-07] ingest | Puter — Batch C: halaman API developer (13 klip)
+- 13 halaman produk developer di-ingest dari `raw/2026/oktober/07/`: Cloud Storage, Networking, NoSQL, Peer, Workers, Auth, Hosting (static), Image Generation, OCR, Speech to Text, Text to Speech, Video Generation, Voice Changer.
+- Dibuat: 13 halaman sumber; entitas `wiki/entities/puter.md` diperluas (provider/model AI konkret per kemampuan; detail arsitektur networking; trade-off auth).
+- Temuan: (1) arsitektur networking = tunnel WebSocket + protokol **Wisp** + TLS **rustls-WASM** — relay tidak melihat trafik terdekripsi; (2) **trade-off eksplisit** model auth: Puter memegang lapisan akun (tanpa sign-up flow/field kustom); (3) model AI konkret: `gpt-image-1.5`, `gemini-3-pro-image`, `sora-2`, `veo-3.0-fast`, GPT-4o Transcribe (+diarization/SRT), AWS Polly/OpenAI/ElevenLabs (TTS), Textract/Mistral (OCR), ElevenLabs (voice conversion).
+- Diperbarui: `wiki/index.md` (+13 entri), `wiki/overview.md` (40/50 klip), entitas `puter`.
+- Tidak ada kontradiksi.
+- Antre: Batch D (10 tutorial, termasuk 2 transkrip video besar).
