@@ -2,7 +2,7 @@
 title: Log
 type: meta
 created: 2026-10-01
-updated: 2026-10-02
+updated: 2026-10-07
 sources: []
 tags: [log]
 ---
@@ -105,3 +105,12 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Diperbarui: `wiki/concepts/model-access-services.md` (+Tokenra, +catatan model anonymous), `wiki/concepts/web-hosting.md`, `wiki/index.md`, `wiki/overview.md`.
 - Tidak ada kontradiksi. Catatan: harga Tokenra untuk model yang sama cenderung lebih murah karena varian diskon eksplisit; asal model alpha/anonymous (union-alpha, omen-alpha, ox-alpha) belum jelas.
 - Catatan tambahan: frontmatter file `raw/` lama (01–02 Okt) dinormalisasi manual oleh pengguna via Obsidian (kutip dihapus, `author` ditambahkan); konten sumber tidak berubah.
+
+## [2026-10-07] ingest | Puter — Batch A: fondasi platform (10 dari 50 klip)
+- 50 klip Puter (puter.com) diarsipkan ke `raw/2026/oktober/07/` (semua `created: 2026-10-07`); di-ingest bertahap dalam 4 batch.
+- **Batch A (10 klip)**: landing konsumen; *The Backend for AI-Generated Apps*; docs Getting Started; docs Puter.js; tutorial Getting Started; docs AI; AI Gateway; docs User-Pays; Puter.js Pricing; Rate Limits & Quotas.
+- Dibuat: 10 halaman sumber, entitas `wiki/entities/puter.md`, konsep `wiki/concepts/user-pays-model.md`.
+- Diperbarui: `wiki/concepts/model-access-services.md` (baris Puter + catatan skema keempat), `wiki/overview.md` (domain baru), `wiki/index.md`.
+- Tidak ada kontradiksi. Klaim vendor (90% fewer tokens, 12× code, 97% fewer mistakes, 80K+ developer) dicatat sebagai klaim, belum diverifikasi.
+- Open question: nominal dolar free allowance bulanan user tidak dipublikasikan di klip (hanya "shown in the dashboard").
+- Antre: Batch B (17 klip docs platform), Batch C (13 klip API developer), Batch D (10 tutorial, termasuk 2 transkrip video besar).

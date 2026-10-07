@@ -2,7 +2,7 @@
 title: Index
 type: meta
 created: 2026-10-01
-updated: 2026-10-02
+updated: 2026-10-07
 sources: []
 tags: [index]
 ---
@@ -89,6 +89,16 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [DomaiNesia — Managed VPS](sources/domainesia-managed-vps.md) — Pluton 2/4/8 GB Rp985.500–1.777.500; gratis cPanel, CloudLinux, Imunify360. (2026-10-03)
 - [DomaiNesia — Object Storage](sources/domainesia-object-storage.md) — S3-compatible 15 GB–10 TB dari Rp12.000/bln; 3× replikasi, Cloudflare CDN. (2026-10-03)
 - [DomaiNesia — Dedicated Server](sources/domainesia-dedicated-server.md) — Seri Neva Rp4,8–14 jt; varian GPU NVIDIA L4; HPE ProLiant. (2026-10-03)
+- [Puter — One subscription. Unlimited apps.](sources/puter-landing.md) — Landing konsumen: puluhan app di browser, paket Free $0/Basic $10/Plus $25/Pro $100. (2026-10-07)
+- [Puter — The Backend for AI-Generated Apps](sources/puter-backend-for-ai-apps.md) — Puter.js sebagai backend app hasil AI: keyless, serverless, klaim 90% token lebih sedikit; 80K+ developer. (2026-10-07)
+- [Puter — Getting Started](sources/puter-docs-getting-started.md) — Cara pasang (npm/CDN), mode Node.js dengan token, app diidentifikasi via origin. (2026-10-07)
+- [Puter.js Documentation (indeks)](sources/puter-docs-puterjs.md) — Indeks docs: auth/storage/KV/AI 500+ model lewat satu script; contoh-contoh inti. (2026-10-07)
+- [Getting Started with Puter.js (tutorial)](sources/puter-tutorial-getting-started.md) — Tutorial + 6 contoh: GPT, cloud storage, KV, auth, TTS, OCR. (2026-10-07)
+- [Puter docs — AI](sources/puter-docs-ai.md) — Hub fitur AI: chat, image, OCR, TTS/STT, voice changer, video; daftar fungsi `puter.ai.*`. (2026-10-07)
+- [Puter — AI Gateway](sources/puter-ai-gateway.md) — 500+ model lewat satu API tanpa key; user-pays; client-side. (2026-10-07)
+- [Puter docs — User-Pays Model](sources/puter-docs-user-pays.md) — User menanggung pemakaian sendiri; developer $0 di skala apa pun; tabel vs model tradisional. (2026-10-07)
+- [Puter.js Pricing — The User-Pays Model](sources/puter-puterjs-pricing.md) — Rincian siapa membayar apa; FAQ; resource level-app di akun developer. (2026-10-07)
+- [Puter docs — Rate Limits and Quotas](sources/puter-docs-rate-limits.md) — Tiga jenis batas (credit/rate/storage), angka paid/free/anonymous, free storage 100 MiB. (2026-10-07)
 
 ## Entities
 
@@ -109,6 +119,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Rumahweb](entities/rumahweb.md) — Hosting Indonesia: shared/unlimited/VPS KVM/VPS Alibaba/dedicated; Turbo Booster, dual availability zone. (2026-10-02)
 - [DomaiNesia](entities/domainesia.md) — Hosting Indonesia dengan integrasi MCP AI; Nimbus/Cirrus + VPS Lite/Turbo/Managed + Object Storage + Dedicated (GPU L4). (2026-10-03)
 - [Tokenra](entities/tokenra.md) — Gateway 37 model dengan varian diskon dan model gratis/anonymous; image per request, video Seedance. (2026-10-03)
+- [Puter](entities/puter.md) — Platform "Internet Computer" open-source: cloud OS di browser + SDK Puter.js keyless (AI Gateway 500+ model, storage, auth, hosting) dengan model user-pays. (2026-10-07)
 
 ## Concepts
 
@@ -116,6 +127,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Prompt Caching](concepts/prompt-caching.md) — Sintesis cache lintas layanan: Token Harbor 3 lapis, tarif cache read/write, implikasi biaya. (2026-10-02)
 - [Layanan Akses Model](concepts/model-access-services.md) — Pola penjualan akses banyak model (langganan, per token, kredit); contoh: Token Harbor, OpenCode, Agnes, Groq, Manus, Novita, Sail Research. (2026-10-01)
 - [Hosting Web](concepts/web-hosting.md) — Jenis hosting (shared/cloud/VPS/dedicated), dimensi pembanding, dan tiga provider di wiki (Hostinger, Rumahweb, DomaiNesia). (2026-10-02)
+- [User-Pays Model](concepts/user-pays-model.md) — Skema biaya ditanggung end-user: developer $0, allowance bulanan per akun; dipelopori Puter. (2026-10-07)
 
 ## Analyses
 
