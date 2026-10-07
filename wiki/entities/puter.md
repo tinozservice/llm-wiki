@@ -3,7 +3,7 @@ title: Puter
 type: entity
 created: 2026-10-07
 updated: 2026-10-07
-sources: [puter-landing, puter-backend-for-ai-apps, puter-docs-getting-started, puter-docs-puterjs, puter-tutorial-getting-started, puter-docs-ai, puter-ai-gateway, puter-docs-user-pays, puter-puterjs-pricing, puter-docs-rate-limits, puter-docs-apps, puter-docs-auth, puter-docs-cli, puter-docs-cloud-storage, puter-docs-deployments, puter-docs-email, puter-docs-events, puter-docs-framework-integrations, puter-docs-hosting, puter-docs-key-value-store, puter-docs-mcp-server, puter-docs-networking, puter-docs-peer, puter-docs-security, puter-docs-serverless-workers, puter-docs-site-configuration, puter-docs-supported-platforms, puter-dev-cloud-storage, puter-dev-networking, puter-dev-nosql, puter-dev-peer, puter-dev-workers, puter-dev-auth, puter-dev-hosting, puter-dev-image-generation, puter-dev-ocr, puter-dev-speech-to-text, puter-dev-text-to-speech, puter-dev-video-generation, puter-dev-voice-changer]
+sources: [puter-landing, puter-backend-for-ai-apps, puter-docs-getting-started, puter-docs-puterjs, puter-tutorial-getting-started, puter-docs-ai, puter-ai-gateway, puter-docs-user-pays, puter-puterjs-pricing, puter-docs-rate-limits, puter-docs-apps, puter-docs-auth, puter-docs-cli, puter-docs-cloud-storage, puter-docs-deployments, puter-docs-email, puter-docs-events, puter-docs-framework-integrations, puter-docs-hosting, puter-docs-key-value-store, puter-docs-mcp-server, puter-docs-networking, puter-docs-peer, puter-docs-security, puter-docs-serverless-workers, puter-docs-site-configuration, puter-docs-supported-platforms, puter-dev-cloud-storage, puter-dev-networking, puter-dev-nosql, puter-dev-peer, puter-dev-workers, puter-dev-auth, puter-dev-hosting, puter-dev-image-generation, puter-dev-ocr, puter-dev-speech-to-text, puter-dev-text-to-speech, puter-dev-video-generation, puter-dev-voice-changer, puter-tutorial-free-llm-api, puter-tutorial-claude, puter-tutorial-openai, puter-tutorial-openrouter, puter-tutorial-chatbot, puter-tutorial-kv-store, puter-tutorial-rag, puter-tutorial-mcp, puter-tutorial-ats-video, puter-tutorial-fullstack-video]
 tags: [puter, platform, backend, ai-gateway, user-pays]
 ---
 
@@ -12,7 +12,7 @@ tags: [puter, platform, backend, ai-gateway, user-pays]
 **Puter** (Puter Technologies Inc., puter.com) adalah platform open-source bergaya "Internet Computer": **cloud OS di browser** dengan puluhan aplikasi konsumen berlangganan, sekaligus **platform developer** lewat SDK **Puter.js** — backend keyless & serverless (auth, storage, database, AI, hosting) yang diposisikan sebagai backend untuk aplikasi hasil AI coding ([landing](../sources/puter-landing.md), [backend](../sources/puter-backend-for-ai-apps.md)). Pembedanya: model **User-Pays** — developer $0; tiap user menanggung pemakaiannya sendiri ([docs User-Pays](../sources/puter-docs-user-pays.md)).
 
 > [!info] Status ingest
-> Halaman ini disusun dari **Batch A–C** (40 dari 50 klip Puter). Batch D (10 tutorial) menyusul.
+> Halaman ini disusun dari **Batch A–D** (seluruh 50 klip Puter). Ingest selesai.
 
 ## Dua sisi platform
 
@@ -35,6 +35,7 @@ tags: [puter, platform, backend, ai-gateway, user-pays]
 - **500+ model** lewat satu API — GPT, Claude, Gemini, Grok, DeepSeek, Nano Banana, GPT Image, FLUX, dll.; tanpa API key; test mode untuk coba tanpa kredit ([AI Gateway](../sources/puter-ai-gateway.md)).
 - Endpoint **kompatibel OpenAI/Anthropic** tersedia (`/puterai/openai/v1/*`, `/puterai/anthropic/v1/messages`) tetapi **butuh plan berbayar**; model yang sama tetap bisa diakses akun free lewat `puter.ai.*` ([rate limits](../sources/puter-docs-rate-limits.md)).
 - **Provider & model konkret per kemampuan** (klip developer): gambar — 40+ model (`gpt-image-1.5`, `gemini-3-pro-image`/Nano Banana, FLUX); OCR — AWS Textract & Mistral; STT — GPT-4o Transcribe/Whisper + diarization (output SRT); TTS — AWS Polly/OpenAI/ElevenLabs; video — Sora 2 & Veo 3.0 Fast (render ~menit; test mode instan); konversi suara — ElevenLabs ([image](../sources/puter-dev-image-generation.md), [ocr](../sources/puter-dev-ocr.md), [stt](../sources/puter-dev-speech-to-text.md), [tts](../sources/puter-dev-text-to-speech.md), [video](../sources/puter-dev-video-generation.md), [voice](../sources/puter-dev-voice-changer.md)).
+- **Keluarga GPT-6** (klip tutorial): Astra (flagship), Sol (mid; versi 6.1 memperbarui 6 di harga sama), Luna (termurah) + varian **Pro** pada harga sama (reasoning effort pro) — konteks **1.050.000 token**, output maks **128.000**; contoh "fast mode" Claude: `claude-opus-5-fast` (2,5× cepat dari Opus 5, 2× harga) ([tutorial OpenAI](../sources/puter-tutorial-openai.md), [tutorial Claude](../sources/puter-tutorial-claude.md)).
 
 ## Layanan backend & tooling
 
@@ -67,6 +68,7 @@ tags: [puter, platform, backend, ai-gateway, user-pays]
 - **Nominal dolar free allowance bulanan** per akun user tidak dipublikasikan di klip — hanya "shown in the dashboard".
 - Harga model di AI Gateway Puter (per model) belum ada di klip ini — `GET /metering/allCosts` disebut ada, belum dikutip.
 - Klaim adopsi/kualitas (80K+ developer, 97% fewer mistakes; "130K+ apps powered" vs "60.000+ aplikasi live") perlu verifikasi independen — metriknya belum jelas.
+- **Jumlah model tidak konsisten antar klip**: "400+" (tutorial Free LLM API & Chatbot) vs "500+" (docs AI Gateway & halaman backend) — kemungkinan snapshot berbeda.
 - Siapa saja pihak di balik provider model yang dilayani gateway (belum terinci).
 
 ## Related

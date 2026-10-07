@@ -6,10 +6,11 @@ Vault ini dibuka dengan [Obsidian](https://obsidian.md) dan dioperasikan bersama
 
 ## Status saat ini (README diperbarui 2026-10-07)
 
-- **74 sumber** ter-ingest dari arsip `raw/2026/oktober/01–03/`, dalam dua domain:
+- **124 sumber** ter-ingest dari arsip `raw/2026/oktober/01–07/`, dalam tiga domain:
   - **Akses model AI (47 sumber)** — Token Harbor, OpenCode Go/Zen, Agnes, Groq, Manus, Novita, Sail Research, Inception Labs, Cerebras, Tokenra.
   - **Hosting web (27 sumber)** — Hostinger, Rumahweb, DomaiNesia.
-- Isi wiki: **74 halaman sumber · 17 entitas · 4 konsep · 1 analisis** (ditambah `index.md`, `log.md`, dan `overview.md`).
+  - **Platform pengembangan Puter (50 sumber)** — Puter.js: AI Gateway 500+ model, storage, KV, workers, hosting, MCP; model bisnis user-pays.
+- Isi wiki: **124 halaman sumber · 18 entitas · 5 konsep · 1 analisis** (ditambah `index.md`, `log.md`, dan `overview.md`).
 - Pintu masuk: [`wiki/index.md`](wiki/index.md) (katalog) · [`wiki/overview.md`](wiki/overview.md) (sintesis top-level) · [`wiki/log.md`](wiki/log.md) (riwayat operasi).
 - Repo: `github.com/tinozservice/llm-wiki` — branch `main`.
 

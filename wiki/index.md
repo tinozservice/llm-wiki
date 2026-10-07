@@ -129,6 +129,16 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Puter developer — Text to Speech API](sources/puter-dev-text-to-speech.md) — AWS Polly, OpenAI TTS, ElevenLabs; mesin neural/generative. (2026-10-07)
 - [Puter developer — Video Generation API](sources/puter-dev-video-generation.md) — Sora 2 & Veo 3.0 Fast; render beberapa menit; test mode instan. (2026-10-07)
 - [Puter developer — Voice Changer API](sources/puter-dev-voice-changer.md) — Konversi suara ElevenLabs; kloning & remove background noise. (2026-10-07)
+- [Free LLM API (tutorial)](sources/puter-tutorial-free-llm-api.md) — Akses ratusan LLM; perbandingan tawaran gratis Anthropic/OpenRouter/Gemini/OpenAI. (2026-10-07)
+- [Free, Unlimited Claude API (tutorial)](sources/puter-tutorial-claude.md) — Lineup 16 model Claude (Fable 5.1, Opus 5.5, Sonnet 5.5, Opus 5 Fast); tanpa key. (2026-10-07)
+- [Free, Unlimited OpenAI API (tutorial)](sources/puter-tutorial-openai.md) — Keluarga GPT-6 (konteks 1.050.000 token), GPT Image 2.5, TTS, tool calling, web search. (2026-10-07)
+- [Free, Unlimited OpenRouter API (tutorial)](sources/puter-tutorial-openrouter.md) — ±190 model OpenRouter via Puter; contoh model selector; batas `:free` OpenRouter. (2026-10-07)
+- [How to Add an AI Chatbot to Your Website (tutorial)](sources/puter-tutorial-chatbot.md) — Widget ~200 baris: konteks halaman 8.000 karakter + streaming gpt-5.4-nano. (2026-10-07)
+- [How to Use Puter.js Key-Value Store API (tutorial)](sources/puter-tutorial-kv-store.md) — Pola desain KV: prefix, embed vs key terpisah, update parsial, TTL, agregat, versi. (2026-10-07)
+- [Building an AI-Powered RAG Application (tutorial)](sources/puter-tutorial-rag.md) — "Stampy": crawl sitemap, MiniSearch di FS, metadata di KV, function calling. (2026-10-07)
+- [Building Apps with Puter MCP (tutorial)](sources/puter-tutorial-mcp.md) — Setup MCP untuk Claude Code/Codex/OpenCode; build & deploy dari percakapan. (2026-10-07)
+- [Build and Deploy a Full AI-Powered ATS (video course)](sources/puter-tutorial-ats-video.md) — Kursus ~2,5 jam JS Mastery: resume analyzer ATS (React + Puter.js). (2026-10-07)
+- [Build and Deploy a Full-Stack AI App (video course)](sources/puter-tutorial-fullstack-video.md) — Kursus ~3 jam JS Mastery: Roomify 2D→3D (workers, KV, hosting media). (2026-10-07)
 
 ## Entities
 

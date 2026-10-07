@@ -131,3 +131,12 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Diperbarui: `wiki/index.md` (+13 entri), `wiki/overview.md` (40/50 klip), entitas `puter`.
 - Tidak ada kontradiksi.
 - Antre: Batch D (10 tutorial, termasuk 2 transkrip video besar).
+
+## [2026-10-07] ingest | Puter — Batch D: tutorial (10 klip) — ingest 50/50 SELESAI
+- 10 tutorial di-ingest dari `raw/2026/oktober/07/`: Free LLM API, Claude, OpenAI, OpenRouter, Chatbot, KV Store guide, RAG (Stampy), MCP, + 2 kursus video JS Mastery (ATS resume analyzer; Roomify 2D→3D).
+- Dua transkrip video (≈26k & 30k kata) diringkas dari metadata + daftar bab + intro; ditandai di halaman sumber masing-masing.
+- Informasi baru: keluarga GPT-6 (Astra/Sol/Luna + Pro; konteks 1.050.000 token; Pro berharga sama); `claude-opus-5-fast` (2,5× cepat dari Opus 5, 2× harga); GPT Image 2.5 Flare/Sunburst; daftar ±190 model OpenRouter; pola lanjutan KV (TTL, cursor, agregat, version tracking); pola RAG dengan function calling; alur build+deploy via MCP.
+- Catatan angka: "400+ model" (tutorial) vs "500+" (docs/backend) — tidak konsisten, dicatat sebagai open question.
+- Koneksi lintas domain: `gpt-image-2.5-flare`/GPT-6 Luna juga di katalog Tokenra/Token Harbor/OpenCode Zen; `inception/mercury-2` muncul di daftar model OpenRouter.
+- Diperbarui: entitas `puter` (status 50/50 + keluarga GPT-6 + catatan angka), `wiki/index.md` (+10), `wiki/overview.md` (124 sumber; domain Puter selesai), `README.md` (status repo).
+- Tidak ada kontradiksi keras. Ingest 50 klip Puter selesai (4 batch, 4 commit).
