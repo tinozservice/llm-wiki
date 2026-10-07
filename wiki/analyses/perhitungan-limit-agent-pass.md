@@ -2,16 +2,17 @@
 title: Perhitungan Limit Agent Pass & Beban Konteks Besar
 type: analysis
 created: 2026-10-02
-updated: 2026-10-02
-sources: [tokenharbor-pricing, tokenharbor-models-value, opencode-zen-price-list, novita-model-libraries, tokenharbor-docs-subscription, tokenharbor-docs-credits, tokenharbor-docs-models, tokenharbor-docs-prompt-caching]
+updated: 2026-10-04
+sources: [tokenharbor-pricing, tokenharbor-models-value, opencode-zen-price-list, novita-model-libraries, tokenharbor-docs-subscription, tokenharbor-docs-credits, tokenharbor-docs-models, tokenharbor-docs-prompt-caching, tokenharbor-office-pass, tokenharbor-frontier-pass]
 tags: [token-harbor, agent-pass, pricing, context, analysis]
 ---
 
 # Perhitungan Limit Agent Pass & Beban Konteks Besar
 
-Menjawab tiga pertanyaan: bagaimana limit [Agent Pass](../entities/token-harbor.md) dihitung,
-bagaimana contoh hitungannya untuk **DeepSeek V4.1 Flash**, dan seberapa cepat limit habis di
-proyek ber-codebase besar (mis. konteks tumbuh **50k token input per turn**).
+Menjawab beberapa pertanyaan: bagaimana limit [Agent Pass](../entities/token-harbor.md) dihitung,
+bagaimana contoh hitungannya untuk **DeepSeek V4.1 Flash**, seberapa cepat limit habis di
+proyek ber-codebase besar (mis. konteks tumbuh **50k token input per turn**), dan (ditambahkan
+4 Okt) berapa kapasitas token **Qwen3.7 Flash**.
 
 > Semua angka dolar di halaman ini adalah **perhitungan turunan** dari tarif katalog
 > (klip 2026-10-01), bukan angka yang dipublikasikan Token Harbor. Tarif dasar:
@@ -82,7 +83,30 @@ Rumus yang sama cocok untuk GPT-6 Luna (6.6k+) dan GLM 5.3 Flash (10k+, boost 2�
 Qwen3.8 Flash (13.2k+) menyimpang dari hasil formula (~10.2k) — angka "+" adalah estimasi
 penerbit, bukan rumus resmi.
 
-## 4. Beban konteks besar
+## 4. Kasus: Qwen3.7 Flash (Agent Pass)
+
+Pertanyaan (per user, 2026-10-04): dengan Agent Pass, berapa input/output token untuk Qwen3.7 Flash?
+
+Basis: estimasi resmi Agent Pass untuk Qwen3.7 Flash = **25,6k+ request** @ 10K input + 1K output
+([estimasi](../entities/token-harbor-pass-estimates.md)); Agent Pass = $10/bulan = $2,50 per jendela 7 hari.
+
+| Komponen | Per request | Per bulan ($10) | Per jendela 7 hari ($2,50) |
+| --- | --- | --- | --- |
+| Input | 10.000 | **±256 juta token** | ±64 juta |
+| Output | 1.000 | **±25,6 juta token** | ±6,4 juta |
+| Total | 11.000 | ±281,6 juta token | ±70,4 juta |
+
+- Rata-rata tertimbang (turunan): $10 ÷ 281,6 juta token ≈ **$0,0355 per 1 juta token**.
+- Satu request pola 10K+1K setara ≈ **$0,00039** nilai usage.
+- Skala pass (rasio resmi ±3,5× dan ±5,14×): Office $35 → ±897 juta input + ±89,7 juta output;
+  Frontier $180 → ±4,62 miliar input + ±461,5 juta output. (Turunan dari estimasi publik.)
+- **Qwen3.7 Flash tidak di-boost** — boost 2× hanya untuk GLM 5.3 Flash dan Qwen3.8 Flash.
+- Harga per-token Qwen3.7 Flash **tidak dipublikasikan** di katalog wiki; komposisi input/output
+  lain tidak bisa dihitung persis. Nilai $10 tetap — makin output-heavy, makin sedikit total token.
+- Lineup drift: dokumen Subscription (2 Okt) tidak mencantumkan Qwen3.7 Flash di daftar Agent,
+  sedangkan estimasi 1 Okt memuatnya — verifikasi ketersediaan di dashboard.
+
+## 5. Beban konteks besar
 
 Asumsi output 1.000 token/turn; output hanya berpengaruh kecil kecuali disebut lain.
 
@@ -114,7 +138,7 @@ dirinci ([docs Models](../sources/tokenharbor-docs-models.md); [Prompt Caching](
 Karena biaya tumbuh kuadratik terhadap jumlah turn, kapasitas turn naik ±√ dari kenaikan
 allowance: Agent $10 → ≈ 36; Office $35 → ≈ 68; Frontier $180 → ≈ 154 turn.
 
-## 5. Kesimpulan
+## 6. Kesimpulan
 
 1. Penggerak utama habisnya limit: **konteks yang dikirim ulang dan tumbuh setiap turn**,
    bukan sekadar input besar sekali jalan.
@@ -134,6 +158,7 @@ allowance: Agent $10 → ≈ 36; Office $35 → ≈ 68; Frontier $180 → ≈ 15
 - Apakah tarif off-peak berlaku untuk trafik pass? Boost jelas berlaku; off-peak tidak disebut.
 - Mengapa beberapa angka estimasi resmi (mis. Qwen3.8 Flash 13.2k+) tidak persis mengikuti
   perhitungan tarif katalog?
+- Apakah Qwen3.7 Flash masih tersedia di Agent Pass setelah perubahan lineup dokumen 2 Okt?
 
 ## Related
 

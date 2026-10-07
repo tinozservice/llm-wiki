@@ -106,6 +106,12 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Tidak ada kontradiksi. Catatan: harga Tokenra untuk model yang sama cenderung lebih murah karena varian diskon eksplisit; asal model alpha/anonymous (union-alpha, omen-alpha, ox-alpha) belum jelas.
 - Catatan tambahan: frontmatter file `raw/` lama (01–02 Okt) dinormalisasi manual oleh pengguna via Obsidian (kutip dihapus, `author` ditambahkan); konten sumber tidak berubah.
 
+## [2026-10-04] query | Kapasitas token Qwen3.7 Flash di Agent Pass
+- Pertanyaan pengguna: dengan Agent Pass Token Harbor, berapa token input/output yang bisa didapat untuk Qwen3.7 Flash.
+- Jawaban: estimasi 25,6k+ request @ 10K input + 1K output → **±256 juta token input + ±25,6 juta token output per bulan ($10)**; ±64 jt + ±6,4 jt per jendela 7 hari; blended turunan ≈ $0,0355/1M token; Office ≈ ±897 jt/±89,7 jt, Frontier ≈ ±4,62 M/±461,5 jt (skala estimasi).
+- Diperbarui: `wiki/analyses/perhitungan-limit-agent-pass.md` (bagian 4 baru + renumber), `wiki/index.md`.
+- Catatan: harga per-token Qwen3.7 Flash tidak dipublikasikan di katalog wiki; lineup drift dokumen 2 Okt dicatat sebagai open question.
+
 ## [2026-10-07] ingest | Puter — Batch A: fondasi platform (10 dari 50 klip)
 - 50 klip Puter (puter.com) diarsipkan ke `raw/2026/oktober/07/` (semua `created: 2026-10-07`); di-ingest bertahap dalam 4 batch.
 - **Batch A (10 klip)**: landing konsumen; *The Backend for AI-Generated Apps*; docs Getting Started; docs Puter.js; tutorial Getting Started; docs AI; AI Gateway; docs User-Pays; Puter.js Pricing; Rate Limits & Quotas.
@@ -155,4 +161,5 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Temuan: paritas harga dengan OpenCode Zen untuk banyak model (Sonnet 4.6, Astra, Sol, Terra, Grok 4.6) — indikasi upstream serupa; pengecualian DeepSeek (V4 Pro lebih murah di VyceAI, V4 Flash lebih mahal). "Unlimited" DeepSeek V4.1 & Agnes 3.0 Flash untuk Lite/Pro + reward harian $10–30 + bonus $100–500/bulan.
 - Catatan keandalan (dari status page pihak pertama): uptime 96,7%, degraded saat klip, `gpt-6-luna` offline, Grok 4.6 maintenance.
 - Inkonsistensi internal klip: rate limit 60/120 vs 120/300 req/min; "12/7 days for max bonus"; deskripsi Luna "flagship" vs posisi tier murah di sumber lain.
+- Tidak ada kontradiksi lintas-wiki.
 - Tidak ada kontradiksi lintas-wiki.
