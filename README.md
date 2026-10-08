@@ -4,13 +4,13 @@ Basis pengetahuan pribadi dengan pola **LLM Wiki**: sumber mentah yang dikurasi 
 
 Vault ini dibuka dengan [Obsidian](https://obsidian.md) dan dioperasikan bersama agen LLM (OpenCode) yang mengikuti aturan di [`AGENTS.md`](AGENTS.md).
 
-## Status saat ini (README diperbarui 2026-10-07)
+## Status saat ini (README diperbarui 2026-10-08)
 
-- **132 sumber** ter-ingest dari arsip `raw/2026/oktober/01–07/`, dalam tiga domain:
+- **151 sumber** ter-ingest dari arsip `raw/2026/oktober/01–08/`, dalam tiga domain:
   - **Akses model AI (55 sumber)** — Token Harbor, OpenCode Go/Zen, Agnes, Groq, Manus, Novita, Sail Research, Inception Labs, Cerebras, Tokenra, VyceAI.
-  - **Hosting web (27 sumber)** — Hostinger, Rumahweb, DomaiNesia.
+  - **Hosting web (46 sumber)** — Hostinger, Rumahweb, DomaiNesia, Exabytes.
   - **Platform pengembangan Puter (50 sumber)** — Puter.js: AI Gateway 500+ model, storage, KV, workers, hosting, MCP; model bisnis user-pays.
-- Isi wiki: **132 halaman sumber · 19 entitas · 5 konsep · 2 analisis** (ditambah `index.md`, `log.md`, dan `overview.md`).
+- Isi wiki: **151 halaman sumber · 22 entitas · 5 konsep · 2 analisis** (ditambah `index.md`, `log.md`, dan `overview.md`).
 - Pintu masuk: [`wiki/index.md`](wiki/index.md) (katalog) · [`wiki/overview.md`](wiki/overview.md) (sintesis top-level) · [`wiki/log.md`](wiki/log.md) (riwayat operasi).
 - Repo: `github.com/tinozservice/llm-wiki` — branch `main`.
 

@@ -2,7 +2,7 @@
 title: Hostinger
 type: entity
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-10-08
 sources: [hostinger-nodejs-overview, hostinger-nodejs-product, hostinger-nodejs-creating-app, hostinger-nodejs-build-settings, hostinger-nodejs-env-vars, hostinger-nodejs-file-structure, hostinger-nodejs-deployments, hostinger-nodejs-github, hostinger-nodejs-runtime-logs, hostinger-nodejs-frameworks, hostinger-nodejs-vulnerabilities, hostinger-cloud-hosting, hostinger-vps, hostinger-web-hosting, hostinger-price-list]
 tags: [hostinger, hosting, nodejs, vps]
 ---
@@ -43,5 +43,5 @@ Cloud hosting: klaim 4× lebih cepat & resource 20×; Cloud Professional Rp174.9
 - [Hostinger — Node.js Hosting Overview (sumber)](../sources/hostinger-nodejs-overview.md)
 - [Hostinger — Daftar Harga & Paket (sumber)](../sources/hostinger-price-list.md)
 - [Hostinger — VPS Hosting (sumber)](../sources/hostinger-vps.md)
-- [Rumahweb](rumahweb.md) · [DomaiNesia](domainesia.md) — provider Indonesia sebagai pembanding.
+- [Rumahweb](rumahweb.md) · [DomaiNesia](domainesia.md) · [Exabytes](exabytes.md) — provider sebagai pembanding.
 - [Overview](../overview.md)

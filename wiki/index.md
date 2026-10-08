@@ -2,7 +2,7 @@
 title: Index
 type: meta
 created: 2026-10-01
-updated: 2026-10-07
+updated: 2026-10-08
 sources: []
 tags: [index]
 ---
@@ -147,6 +147,25 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [VyceAI — Referrals](sources/vyceai-referrals.md) — $10 kredit untuk kedua pihak per referral. (2026-10-07)
 - [VyceAI — Integrations](sources/vyceai-integrations.md) — OpenAI & Anthropic compatible; custom provider OpenCode; Grok Imagine 2 $0.50/gambar. (2026-10-07)
 - [VyceAI — System Status](sources/vyceai-system-status.md) — Uptime 96,7% (degraded), 11/13 online; direktori 13 endpoint + harga/latensi. (2026-10-07)
+- [Exabytes — Landing: AI Hosting, Domain, VPS, Server](sources/exabytes-landing.md) — "GROW AI": 26+ tahun, 160.000+ bisnis; enam pilar produk (domain, hosting, AI dedicated, Vision Cloud, Lark, Commerce). (2026-10-08)
+- [Exabytes — Web Hosting Murah (cPanel 17 AI)](sources/exabytes-web-hosting-murah.md) — Lima paket cPanel Rp16.900–727.830; sembilan total dengan EBiz Plesk; promo 10SALE-HOSTING 50%. (2026-10-08)
+- [Exabytes — WP Hosting (WP 17 AI)](sources/exabytes-wp-hosting.md) — Empat paket WordPress Rp51.900–580.900; WP Toolkit, staging, gratis domain bersyarat. (2026-10-08)
+- [Exabytes — AI Hosting WP: Fitur & Spesifikasi](sources/exabytes-wp-hosting-fitur.md) — Tabel spesifikasi per paket WP 17 AI (CPU/RAM/IOPS/inode, email, keamanan, dev tools). (2026-10-08)
+- [Exabytes — VPS Linux NVMe](sources/exabytes-vps-linux.md) — Keluarga C1–C4 & M1–M6 Rp194.000–2.980.000; deploy 3 menit, 1 juta IOPS, ISO 27001. (2026-10-08)
+- [Exabytes — VPS Windows SSD](sources/exabytes-vps-windows.md) — Delapan paket Rp148.500–1.100.000; Server 2022, Hyper-V, RDP, Nex DC. (2026-10-08)
+- [Exabytes — NVMe VPS with Hermes](sources/exabytes-nvme-vps-hermes.md) — VPS + Hermes Agent (MIT, Nous Research): memori persisten, multi-channel; Rp194.000–2.980.000. (2026-10-08)
+- [Exabytes — NVMe VPS with OpenClaw](sources/exabytes-nvme-vps-openclaw.md) — VPS + OpenClaw pre-installed: eksekusi shell, chat apps; mulai Rp194.000/bln. (2026-10-08)
+- [Exabytes — Self-Hosted n8n di VPS NVMe](sources/exabytes-nvme-vps-n8n.md) — VPS dengan n8n included; seri M1–M6 Rp194.000–2.980.000. (2026-10-08)
+- [Exabytes — Dedicated Server Linux](sources/exabytes-dedicated-server.md) — Empat paket Rp1.978.917–7.918.917; setup 4 jam, R1Soft 14 hari, garansi hardware 6 jam. (2026-10-08)
+- [Exabytes — Windows Dedicated Server](sources/exabytes-windows-dedicated-server.md) — Paket Windows Rp3.314.917–8.254.917 termasuk Pro Managed; MSSQL, RDP. (2026-10-08)
+- [Exabytes — Windows Hosting (ASP.NET)](sources/exabytes-windows-hosting.md) — EBiz PRO Rp210.000–419.000; Plesk, MSSQL 1 GB, backup harian; klaim sejak 2001. (2026-10-08)
+- [Exabytes — Domain .ID (PANDI)](sources/exabytes-domain-id.md) — .id Rp210.000, .co.id Rp270.000, varian Rp48.700; privacy gratis; kampanye 10SALE 10 Okt. (2026-10-08)
+- [Exabytes — Domain Murah (400+ ekstensi)](sources/exabytes-domain-murah.md) — 400+ ekstensi, termurah Rp3.000; DNS management, forwarding, privacy, lock. (2026-10-08)
+- [Exabytes — AI Domain Name Generator](sources/exabytes-ai-domain-generator.md) — Generator nama domain berbasis AI gratis; cek ketersediaan instan. (2026-10-08)
+- [Exabytes — Microsoft 365 / Office 365](sources/exabytes-office-365.md) — Business Basic/Standard/Premium Rp69.000–409.000; backup KL PCI DSS; migrasi Rp1,6 jt/10 mailbox. (2026-10-08)
+- [Exabytes — Google Workspace](sources/exabytes-google-workspace.md) — Starter/Standard/Plus Rp59.900–359.900 (Gemini included); diskon 50% pembelian pertama. (2026-10-08)
+- [Exabytes — Heylink (link-in-bio)](sources/exabytes-heylink.md) — Link-in-bio Pro Rp75.900/bln; toko e-commerce, analitik, gratis domain .LINK. (2026-10-08)
+- [Exabytes — Lark (kolaborasi tim)](sources/exabytes-lark.md) — Suite kolaborasi OKR/workflow/approval; Pro ≤500 pengguna, Enterprise unlimited + SSO. (2026-10-08)
 
 ## Entities
 
@@ -169,13 +188,16 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Tokenra](entities/tokenra.md) — Gateway 37 model dengan varian diskon dan model gratis/anonymous; image per request, video Seedance. (2026-10-03)
 - [Puter](entities/puter.md) — Platform "Internet Computer" open-source: cloud OS di browser + SDK Puter.js keyless (AI Gateway 500+ model, storage, auth, hosting) dengan model user-pays. (2026-10-07)
 - [VyceAI](entities/vyceai.md) — API proxy OpenAI+Anthropic compatible: ~13 model (GPT-6, Claude, DeepSeek, Agnes, Grok); langganan Lite $5/Pro $20 + reward harian $10–30; uptime 96,7% saat klip. (2026-10-07)
+- [Exabytes](entities/exabytes.md) — Penyedia hosting Indonesia "GROW AI": domain, hosting AI (cPanel/Plesk/WP), VPS Linux/Windows + VPS agent (Hermes/OpenClaw/n8n), dedicated, bizapp (M365, Workspace, Heylink, Lark); NEX DC Tier-3. (2026-10-08)
+- [OpenClaw](entities/openclaw.md) — Platform asisten AI self-hosted (perintah shell, file, chat apps); dibundel VPS Exabytes, katalog Hostinger, integrasi MCP DomaiNesia. (2026-10-08)
+- [Hermes Agent](entities/hermes-agent.md) — AI agent open-source MIT dari Nous Research; memori persisten, multi-channel; dibundel VPS Exabytes. (2026-10-08)
 
 ## Concepts
 
 - [Intelligence Index (Artificial Analysis)](concepts/intelligence-index.md) — Metrik peringkat model yang dipakai katalog Token Harbor; nilai 33.7–57.6 pada klip 2026-10-01. (2026-10-01)
 - [Prompt Caching](concepts/prompt-caching.md) — Sintesis cache lintas layanan: Token Harbor 3 lapis, tarif cache read/write, implikasi biaya. (2026-10-02)
 - [Layanan Akses Model](concepts/model-access-services.md) — Pola penjualan akses banyak model (langganan, per token, kredit); contoh: Token Harbor, OpenCode, Agnes, Groq, Manus, Novita, Sail Research. (2026-10-01)
-- [Hosting Web](concepts/web-hosting.md) — Jenis hosting (shared/cloud/VPS/dedicated), dimensi pembanding, dan tiga provider di wiki (Hostinger, Rumahweb, DomaiNesia). (2026-10-02)
+- [Hosting Web](concepts/web-hosting.md) — Jenis hosting (shared/cloud/VPS/dedicated), dimensi pembanding, empat provider (Hostinger, Rumahweb, DomaiNesia, Exabytes), tren AI/MCP & agent self-hosted. (2026-10-08)
 - [User-Pays Model](concepts/user-pays-model.md) — Skema biaya ditanggung end-user: developer $0, allowance bulanan per akun; dipelopori Puter. (2026-10-07)
 
 ## Analyses

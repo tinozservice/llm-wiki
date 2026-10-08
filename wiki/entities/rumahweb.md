@@ -2,7 +2,7 @@
 title: Rumahweb
 type: entity
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-10-08
 sources: [rumahweb-shared-hosting, rumahweb-unlimited-hosting, rumahweb-vps, rumahweb-vps-alibaba, rumahweb-dedicated-server]
 tags: [rumahweb, hosting, vps, indonesia]
 ---
@@ -47,5 +47,5 @@ tags: [rumahweb, hosting, vps, indonesia]
 - [Rumahweb — Shared Hosting (sumber)](../sources/rumahweb-shared-hosting.md)
 - [Rumahweb — VPS KVM (sumber)](../sources/rumahweb-vps.md)
 - [Rumahweb — Dedicated Server (sumber)](../sources/rumahweb-dedicated-server.md)
-- [Hostinger](hostinger.md) · [DomaiNesia](domainesia.md) — pembanding.
+- [Hostinger](hostinger.md) · [DomaiNesia](domainesia.md) · [Exabytes](exabytes.md) — pembanding.
 - [Overview](../overview.md)

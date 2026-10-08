@@ -163,3 +163,11 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Inkonsistensi internal klip: rate limit 60/120 vs 120/300 req/min; "12/7 days for max bonus"; deskripsi Luna "flagship" vs posisi tier murah di sumber lain.
 - Tidak ada kontradiksi lintas-wiki.
 - Tidak ada kontradiksi lintas-wiki.
+
+## [2026-10-08] ingest | Exabytes — batch hosting/domain/bizapp (19 klip)
+- 19 klip exabytes.co.id diarsipkan ke `raw/2026/oktober/08/` (created 2026-10-08) dan di-ingest: landing "GROW AI", web hosting cPanel 17 AI, WP 17 AI (halaman produk + fitur), VPS Linux NVMe, VPS Windows SSD, NVMe VPS Hermes/OpenClaw/n8n, dedicated Linux & Windows, Windows hosting ASP.NET, domain .ID / domain murah / AI Domain Generator, Office 365, Google Workspace, Heylink, Lark.
+- Dibuat: **19 halaman sumber** + **3 entitas**: `exabytes` (provider hosting ke-4), `openclaw` dan `hermes-agent` (agent self-hosted yang kini muncul lintas provider: Exabytes, Hostinger, DomaiNesia).
+- Diperbarui: `concepts/web-hosting.md` (provider ke-4; tren VPS-agent & reseller bizapp), entitas `hostinger`/`rumahweb`/`domainesia` (cross-link pembanding), `overview.md` (151 sumber; 4 provider hosting), `index.md` (+19 sumber, +3 entitas), `README.md`. **Maintenance**: frontmatter `sources` di `overview.md` dilengkapi dari 84 → 151 slug (basi sejak batch Puter B).
+- Temuan: (1) Exabytes **membundel agent AI langsung di paket VPS** (Hermes MIT/Nous Research, OpenClaw, n8n — seri M1–M6 Rp194.000–2.980.000/bulan) — pola baru di domain hosting; (2) lini **reseller bizapp** satu pintu (Microsoft 365, Google Workspace, Heylink, Lark); (3) server di NEX DC Jakarta Tier-3, ISO 27001:2013 + 9001:2015.
+- Catatan angka (dicatat, tidak ditimpa): klaim uptime inkonsisten antar halaman (99,5%/99,8%/99,9%/99,99%); harga OpenClaw FAQ "Rp150.000-an" vs tabel Rp194.000; teks promo usang "berlaku sampai 31 Desember 2018" di halaman Windows Dedicated; staf runtime lawas (Node.js 12.4, Python 2.7) di fitur WP hosting.
+- Tidak ada kontradiksi lintas-wiki.

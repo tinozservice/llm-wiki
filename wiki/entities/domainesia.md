@@ -2,7 +2,7 @@
 title: DomaiNesia
 type: entity
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-10-08
 sources: [domainesia-web-hosting, domainesia-cloud-hosting, domainesia-cloud-vps-lite, domainesia-cloud-vps-turbo, domainesia-managed-vps, domainesia-object-storage, domainesia-dedicated-server]
 tags: [domainesia, hosting, vps, ai]
 ---
@@ -51,5 +51,5 @@ tags: [domainesia, hosting, vps, ai]
 - [DomaiNesia — Cloud Hosting (sumber)](../sources/domainesia-cloud-hosting.md)
 - [DomaiNesia — Cloud VPS Turbo (sumber)](../sources/domainesia-cloud-vps-turbo.md)
 - [DomaiNesia — Dedicated Server (sumber)](../sources/domainesia-dedicated-server.md)
-- [Hostinger](hostinger.md) · [Rumahweb](rumahweb.md) — pembanding.
+- [Hostinger](hostinger.md) · [Rumahweb](rumahweb.md) · [Exabytes](exabytes.md) — pembanding.
 - [Overview](../overview.md)

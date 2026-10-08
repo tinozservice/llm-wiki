@@ -2,8 +2,8 @@
 title: Hosting Web
 type: concept
 created: 2026-10-02
-updated: 2026-10-02
-sources: [hostinger-cloud-hosting, hostinger-vps, hostinger-nodejs-overview, rumahweb-shared-hosting, rumahweb-vps, domainesia-web-hosting, domainesia-cloud-hosting]
+updated: 2026-10-08
+sources: [hostinger-cloud-hosting, hostinger-vps, hostinger-nodejs-overview, rumahweb-shared-hosting, rumahweb-vps, domainesia-web-hosting, domainesia-cloud-hosting, exabytes-web-hosting-murah, exabytes-vps-linux, exabytes-nvme-vps-hermes, exabytes-nvme-vps-openclaw]
 tags: [hosting, web, vps, indonesia]
 ---
 
@@ -34,11 +34,14 @@ tags: [hosting, web, vps, indonesia]
 | [Hostinger](../entities/hostinger.md) | Shared, cloud, VPS KVM, **managed Node.js (Web App)** | Hostinger Agent & Connector (MCP untuk agen AI), auto-deploy GitHub, vulnerability auto-fix PR |
 | [Rumahweb](../entities/rumahweb.md) | Shared, unlimited, VPS KVM, VPS Alibaba, dedicated | Turbo Booster (LiteSpeed), dual availability zone, cPanel NOC Partner, dedicated GPU |
 | [DomaiNesia](../entities/domainesia.md) | Web hosting Nimbus, cloud Cirrus, **Cloud VPS Lite/Turbo, Managed VPS, Object Storage, Dedicated (GPU L4)** | **Integrasi MCP AI** (ChatGPT/Claude/OpenCode/OpenClaw), AMD EPYC Genoa + NVMe, 3× replikasi, ISO 27001:2022 |
+| [Exabytes](../entities/exabytes.md) | Web hosting cPanel/Plesk "AI", WP hosting, VPS Linux NVMe & Windows SSD, **VPS aplikasi AI (Hermes/OpenClaw/n8n)**, dedicated Linux/Windows, domain, bizapp (M365, Google Workspace, Heylink, Lark) | Merek **"AI Hosting"** (AI website builder/writer/image), **agent AI siap pakai** di VPS, reseller bizapp satu pintu, NEX DC Jakarta Tier-3, ISO 27001 & 9001 |
 
 ## Tren yang terlihat
 
-- **AI/MCP masuk ke panel hosting**: Hostinger Agent/Connector dan DomaiNesia MCP menghubungkan agen AI langsung ke infrastruktur.
+- **AI/MCP masuk ke panel hosting**: Hostinger Agent/Connector dan DomaiNesia MCP menghubungkan agen AI langsung ke infrastruktur; Exabytes menjadikan AI fitur jual utama ("AI Hosting", AI website builder) dan **membundel agent AI di VPS**.
+- **VPS sebagai rumah agent self-hosted** (tren baru Okt 2026): Exabytes menjual paket dengan **[Hermes](../entities/hermes-agent.md)/[OpenClaw](../entities/openclaw.md)/n8n** pre-installed (mulai Rp194.000/bln), Hostinger menyediakan keduanya di katalog deploy 1 klik, DomaiNesia mengoneksikan hosting ke OpenClaw via MCP.
 - Shared hosting mulai mendukung **Node.js/Python** tanpa VPS; LiteSpeed/NVMe menjadi standar.
+- **Reseller bizapp**: provider hosting mulai membundel aplikasi bisnis pihak ketiga (Exabytes: Microsoft 365, Google Workspace, Heylink, Lark) sebagai satu paket dengan hosting.
 - Harga pasar Indonesia sangat agresif (mulai ~Rp13.000–Rp18.000/bln promo) dengan domain gratis tahun pertama; VPS mulai Rp43.200 (DomaiNesia Lite) / Rp50.000 (Rumahweb XS).
 
 ## Open questions
@@ -52,4 +55,5 @@ tags: [hosting, web, vps, indonesia]
 - [Hostinger](../entities/hostinger.md)
 - [Rumahweb](../entities/rumahweb.md)
 - [DomaiNesia](../entities/domainesia.md)
+- [Exabytes](../entities/exabytes.md)
 - [Overview](../overview.md)
