@@ -216,3 +216,9 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Dibuat: 1 halaman sumber + entitas `openai` (menghimpun jejak OpenAI yang tersebar: katalog GPT-6, GPT-6 Luna Decisions, Codex, Sign in with ChatGPT, donor OpenClaw Foundation).
 - Diperbarui: `overview.md` (249 sumber; domain 1 = 101), `index.md` (+1 sumber, +1 entitas), `README.md`.
 - Tidak ada kontradiksi.
+## [2026-10-08] ingest | OpenAI — Research (1 klip) + fix tautan
+- 1 klip diarsipkan ke `raw/2026/oktober/08/`: indeks riset openai.com — GPT-6 global di ChatGPT + Intelligent UI; update keselamatan Sol/Luna; GPT-6.1 Sol (⅕ harga Astra); riset matematika (Lean); MentalHealthBench.
+- Dibuat: 1 halaman sumber (`openai-research`); entitas `openai` diperluas.
+- Perbaikan: 2 tautan rusak di `entities/openai.md` (path analisis) dikoreksi ke `../analyses/`.
+- Diperbarui: `overview.md` (250 sumber; domain 1 = 102), `index.md`, `README.md`.
+- Tidak ada kontradiksi.
