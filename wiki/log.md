@@ -211,3 +211,8 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Catatan: ToS situs **tidak** mencakup cloud services (diatur Groq Services Agreement terpisah — belum di-ingest).
 - Diperbarui: `overview.md` (248 sumber; domain 1 = 100; frontmatter 237→248), `index.md` (+11 sumber, refresh entitas groq), `README.md`.
 - Tidak ada kontradiksi keras.
+## [2026-10-08] ingest | OpenAI — Landing (1 klip)
+- 1 klip diarsipkan ke `raw/2026/oktober/08/` (created 2026-10-08): beranda openai.com — sorotan "GPT-6 and Intelligent UI for everyone"; berita MentalHealthBench, DevDay 2026 Recap, Ironclad computer use, kemitraan Atlassian, Albertsons, Lenfest.
+- Dibuat: 1 halaman sumber + entitas `openai` (menghimpun jejak OpenAI yang tersebar: katalog GPT-6, GPT-6 Luna Decisions, Codex, Sign in with ChatGPT, donor OpenClaw Foundation).
+- Diperbarui: `overview.md` (249 sumber; domain 1 = 101), `index.md` (+1 sumber, +1 entitas), `README.md`.
+- Tidak ada kontradiksi.

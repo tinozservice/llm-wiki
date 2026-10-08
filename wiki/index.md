@@ -263,6 +263,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Groq — Trademark Policy](sources/groq-trademark-policy.md) — Nominative fair use + atribusi; izin tertulis untuk logo. (2026-10-08)
 - [Groq — Recruitment Fraud Awareness](sources/groq-recruitment-fraud.md) — Komunikasi resmi hanya @groq.com; tidak pernah minta uang/passport. (2026-10-08)
 - [Groq — Photography and Filming Policy](sources/groq-photography-policy.md) — Allowed/conditional/prohibited areas; pre-screen export-control; lisensi terbatas. (2026-10-08)
+- [OpenAI — Landing: Research & Deployment](sources/openai-landing.md) — GPT-6 + Intelligent UI; berita: MentalHealthBench, DevDay 2026, Ironclad, Atlassian. (2026-10-08)
 
 ## Entities
 
@@ -290,6 +291,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Hermes Agent](entities/hermes-agent.md) — AI agent open-source MIT (Nous Research) dengan learning loop; 7 backend, 21+ platform; Nous Portal $0–200/bln (+Business/Enterprise/Cloud); Series B Okt 2026. (2026-10-08)
 - [DeepSeek](entities/deepseek.md) — Platform API resmi: Flash/V4 Pro (1M context), off-peak pricing, konkurensi, integrasi "no code" ke Claude Code/Codex/OpenClaw/Hermes/OpenCode/dll. (2026-10-08)
 - [DeepSeek Harness](entities/deepseek-harness.md) — Agent harness MIT (developer preview): everything-is-a-plugin (Cordis), Web UI/Python SDK/desktop/ACP; MCP, reminder, webhook; official vs custom model data policy. (2026-10-08)
+- [OpenAI](entities/openai.md) — Lab GPT/Codex; jejak wiki: GPT-6 di katalog, GPT-6 Luna Decisions, Codex, Sign in with ChatGPT (OpenClaw/Nous), donor OpenClaw Foundation. (2026-10-08)
 - [TypeSafe](entities/typesafe.md) — Perusahaan "Machine Native Intelligence"; kelas System One + Jev; RLCD; schema `/v1/systemone` jadi standar de facto kategori decisions. (2026-10-08)
 - [Jev](entities/jev.md) — Model keputusan "first System One": $0.042/M input, output gratis; 64k/32k; alias jev-latest/jev-preview; bukan pengganti LLM coding agent. (2026-10-08)
 
