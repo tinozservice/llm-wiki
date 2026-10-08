@@ -222,3 +222,10 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Perbaikan: 2 tautan rusak di `entities/openai.md` (path analisis) dikoreksi ke `../analyses/`.
 - Diperbarui: `overview.md` (250 sumber; domain 1 = 102), `index.md`, `README.md`.
 - Tidak ada kontradiksi.
+## [2026-10-08] ingest | OpenAI — 40 klip (Dev/Plugins, Learn ChatGPT, produk & legal)
+- 40 klip diarsipkan ke `raw/2026/oktober/08/` (created 2026-10-08): 14 halaman OpenAI Dev (plugins: quickstart/architecture/tools/skills/MCP/brainstorm/checkout; API: models/pricing/Luna/model-selection/reasoning/voice/deep-research), 8 halaman Learn ChatGPT (Work, Use, Models, Pricing, Prompting, Quickstart, Import, Meet dots), 18 halaman produk/perusahaan (About, API Platform, Codex, ChatGPT Business/Edu/Enterprise, Dots, GPT-5.5/5.6/Astra/6.1 Sol, open models, privacy, security, research, Signals, terms & policies, ToS).
+- Dibuat: **40 halaman sumber** + entitas `codex` & `dots` + konsep `chatgpt-plugins`; entitas `openai` ditulis ulang penuh.
+- Temuan: (1) **harga resmi API** — Astra $10/$50 (cache write $12,5), 6.1 Sol $2/$10/$0.10, Luna $0.10/$0.50/$0.01; konteks 1,05M; >272K = 2×/1.5×; (2) **GPT-5.5 pensiun dari ChatGPT/Work/Codex 14 Okt 2026** (API tidak); (3) **Dots** = agen always-on GPT-6 Astra dengan komputer cloud (Pro/Business Premium/Enterprise); (4) **Plugin platform** ChatGPT+Codex: direktori universal, skills+MCP+UI+hooks, checkout (external GA / payment sheet beta; Stripe/Adyen/dll.); (5) benchmark Astra: FrontierMath T4 98%, ARC-AGI-3 99,9%, scope-overreach 0%; (6) plan: Free/Go $8/Plus $20/Pro $100–500; Work & Codex berbagi usage.
+- Catatan: nama file "Plugins" memakai en-dash (dibaca via salinan temp); harga agregator vs resmi kini bisa diverifikasi (mis. Zen gpt-6.1-sol $2/$10 = resmi).
+- Diperbarui: `overview.md` (290 sumber; domain 1 = 142), `index.md` (+40 sumber, +2 entitas, +1 konsep), `README.md`.
+- Tidak ada kontradiksi keras.
