@@ -2,8 +2,8 @@
 title: Perbandingan GPT-6 Luna Antar Penyedia
 type: analysis
 created: 2026-10-07
-updated: 2026-10-07
-sources: [tokenharbor-models-value, tokenharbor-pricing, tokenharbor-office-pass, tokenharbor-frontier-pass, tokenharbor-docs-subscription, opencode-go, opencode-zen-price-list, puter-tutorial-openai, puter-docs-user-pays]
+updated: 2026-10-08
+sources: [tokenharbor-models-value, tokenharbor-pricing, tokenharbor-office-pass, tokenharbor-frontier-pass, tokenharbor-docs-subscription, opencode-go, opencode-zen-price-list, puter-tutorial-openai, puter-docs-user-pays, openrouter-decisions-models]
 tags: [gpt-6-luna, perbandingan, pricing, token-harbor, opencode, puter]
 ---
 
@@ -33,6 +33,8 @@ Tergantung **siapa yang membayar** dan **pola pemakaian**:
 | [VyceAI](../entities/vyceai.md) (baru, 7 Okt) | Langganan Lite $5/Pro $20 + reward harian $10–30 | **$2/$2** (jauh di atas TH/Zen) | Daily quota 50 juta token (tampilan klip); endpoint **offline** saat klip | Deskripsi vendor "flagship running in Codex" — berbeda dari posisi tier murah di sumber lain; data baru 1 snapshot ([status](../sources/vyceai-system-status.md)) |
 
 Harga Token Harbor ↔ Zen untuk Luna **identik** ($0,10/$0,50) — konsisten dengan pola paritas harga antar katalog ([Layanan Akses Model](../concepts/model-access-services.md)).
+
+**Catatan (8 Okt)**: GPT-6 Luna juga tersedia sebagai **GPT-6 Luna Decisions** — mode [Model Keputusan](../concepts/decision-models.md) lewat OpenAI Decisions API (terdaftar di OpenRouter: $0.10/M input, **output gratis**, konteks 1,05 jt, ≤200 pertanyaan/request). Ini produk berbeda dari GPT-6 Luna chat dan berada di luar perbandingan tarif di atas.
 
 ## Analisis biaya per skenario
 

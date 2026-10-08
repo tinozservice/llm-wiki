@@ -2,8 +2,8 @@
 title: OpenCode Zen
 type: entity
 created: 2026-10-01
-updated: 2026-10-01
-sources: [opencode-zen-price-list]
+updated: 2026-10-08
+sources: [opencode-zen-price-list, typesafe-docs-models, openrouter-jev-113]
 tags: [opencode, zen, model-access, pricing]
 ---
 
@@ -108,7 +108,7 @@ Sembilan model berharga $0 untuk input dan output: Big Pickle, Jev 1.13Free, Lin
 ## Catatan harga
 
 - **Termahal**: GPT-5.4 Pro dan GPT-5.5 Pro ($30/$180; cache read $30). Disusul Claude Fable 5, Claude Fable 5.1, dan GPT-6 Astra (masing-masing $10/$50).
-- **Termurah berbayar**: Jev 1.13 ($0.04 input — output tercantum $0.00, kemungkinan anomali klip); GPT-5 Nano ($0.05/$0.40); GPT-6 Luna ($0.10/$0.50).
+- **Termurah berbayar**: Jev 1.13 ($0.04 input — output $0.00; **bukan anomali klip**: Jev memang menagih input saja, output gratis — lihat [docs TypeSafe](../sources/typesafe-docs-models.md)); GPT-5 Nano ($0.05/$0.40); GPT-6 Luna ($0.10/$0.50).
 - **Cache write** tersedia untuk keluarga Claude, beberapa GPT (5.6+, 6, 6.1), dan Qwen Plus/Flash/Max; banyak model lain mencantumkan "—".
 - Claude Fable 5.1 lebih murah dari Claude Fable 5 pada cache read ($0.25 vs $1.00) dan Claude Opus 5.5 lebih murah dari Opus 5 ($4/$20 vs $5/$25).
 
@@ -117,13 +117,14 @@ Sembilan model berharga $0 untuk input dan output: Big Pickle, Jev 1.13Free, Lin
 - Apakah pay-as-you-go di luar batas Go ditagih pada harga di halaman ini? Per user kredit menyatu, tetapi tarif per model belum dikonfirmasi.
 - Apakah harga ini yang dimaksud Token Harbor sebagai "published per-token prices"? Tidak ada konfirmasi; harga internal tiap layanan bisa berbeda.
 - Apa arti kolom "Features" (kosong di klip) dan bagaimana mekanisme "Enable" per anggota?
-- Apa itu Big Pickle, Jev, dan Ling? Tidak ada deskripsi di sumber.
+- Apa itu Big Pickle dan Ling? Tidak ada deskripsi di sumber. (*Jev kini terjawab*: model keputusan TypeSafe — lihat [Jev](jev.md).)
 - Apakah model gratis $0 akan berganti mengikuti waktu?
 
 ## Related
 
 - [OpenCode Zen — Daftar Harga Model](../sources/opencode-zen-price-list.md) — sumber harga.
 - [OpenCode](opencode.md) — induk produk; langganan Go dan Go Plus.
+- [Jev](jev.md) — model keputusan di balik `jev-1.13`/`jev-1.13-free`.
 - [Token Harbor](token-harbor.md) — layanan lain dengan model yang tumpang tindih.
 - [Layanan Akses Model](../concepts/model-access-services.md) — pola umum layanan akses model.
 - [Overview](../overview.md)

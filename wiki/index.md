@@ -166,6 +166,26 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Exabytes — Google Workspace](sources/exabytes-google-workspace.md) — Starter/Standard/Plus Rp59.900–359.900 (Gemini included); diskon 50% pembelian pertama. (2026-10-08)
 - [Exabytes — Heylink (link-in-bio)](sources/exabytes-heylink.md) — Link-in-bio Pro Rp75.900/bln; toko e-commerce, analitik, gratis domain .LINK. (2026-10-08)
 - [Exabytes — Lark (kolaborasi tim)](sources/exabytes-lark.md) — Suite kolaborasi OKR/workflow/approval; Pro ≤500 pengguna, Enterprise unlimited + SSO. (2026-10-08)
+- [TypeSafe Docs — Introduction](sources/typesafe-docs-introduction.md) — Jev = model pertama kelas System One; tiga primitives (Choice/Score/Noul); keputusan bertipe, bukan teks. (2026-10-08)
+- [TypeSafe Docs — System One](sources/typesafe-docs-system-one.md) — Kelas model keputusan: state + pertanyaan bertipe → jawaban terkalibrasi; `/v1/systemone`. (2026-10-08)
+- [TypeSafe Docs — Models (Jev 1.13)](sources/typesafe-docs-models.md) — Spesifikasi jev-1.13.0: $0.042/M input, output gratis; 100K tok/s & 80 req/s; konteks 64k/32k; alias jev-latest. (2026-10-08)
+- [TypeSafe Docs — Quick Start](sources/typesafe-docs-quickstart.md) — Playground → API → Python SDK → agent skill; contoh tiket dijawab satu request. (2026-10-08)
+- [TypeSafe Docs — AI Primer](sources/typesafe-docs-ai-primer.md) — Machine Native Intelligence; RLCD vs RLHF; kalibrasi; cofounder co-inventor RLHF. (2026-10-08)
+- [TypeSafe Docs — State](sources/typesafe-docs-state.md) — Format state (string/object/array); teks saja; pisahkan konten dari pertanyaan. (2026-10-08)
+- [TypeSafe Docs — Confidence](sources/typesafe-docs-confidence.md) — Rumus confidence Choice/Noul/Score; pola tiga jalur & threshold per risiko. (2026-10-08)
+- [TypeSafe Docs — API Reference](sources/typesafe-docs-api.md) — `POST /v1/systemone`: schema request/answer, batas (255 opsi, 10 level), error 401/422/429/529. (2026-10-08)
+- [TypeSafe Docs — How to Build](sources/typesafe-docs-how-to-build.md) — "AI-powered software, bukan agen"; ~100 ms; contoh triage tiket lengkap. (2026-10-08)
+- [TypeSafe Docs — Example Use Cases](sources/typesafe-docs-use-cases.md) — Lima kategori besar + ~15 industri; taksonomi tugas (routing/guardrail/verifikasi). (2026-10-08)
+- [TypeSafe Docs — Jev 1.13 Jaggedness](sources/typesafe-docs-jaggedness-jev-113.md) — 9 mode kegagalan resmi: literal, angka/tanggal, indireksi, adversarial, bias urutan opsi. (2026-10-08)
+- [TypeSafe Docs — Jev with Coding Agents](sources/typesafe-docs-coding-agents.md) — Jev bukan pengganti LLM coding agent; pola pakai di dalam aplikasi/agen. (2026-10-08)
+- [TypeSafe Docs — Agent Skill](sources/typesafe-docs-agent-skill.md) — Skill drop-in untuk Claude Code/Codex; prinsip "good vibe coding". (2026-10-08)
+- [TypeSafe Docs — Primitives (Questions)](sources/typesafe-docs-primitives.md) — Tiga tipe pertanyaan; speculative fan-out (klaim 11,5× murah); composite scoring. (2026-10-08)
+- [TypeSafe Docs — Choice](sources/typesafe-docs-choice.md) — Choice ≤255 opsi; distribusi penuh + confidence; klasifikasi hierarkis/beam search. (2026-10-08)
+- [TypeSafe Docs — Score](sources/typesafe-docs-score.md) — Score 2–10 level; nilai pecahan; tulis level sebagai situasi; normalisasi & bobot. (2026-10-08)
+- [TypeSafe Docs — Noul](sources/typesafe-docs-noul.md) — Probabilitas ya/tidak; contoh kalibrasi; threshold per biaya salah. (2026-10-08)
+- [TypeSafe Docs — Advanced: Structure](sources/typesafe-docs-advanced-structure.md) — JSON di instructions/criteria; taxonomy walk; level & kriteria terstruktur. (2026-10-08)
+- [OpenRouter — Jev 1.13](sources/openrouter-jev-113.md) — $0.042/$0; latensi 0,18 s; uptime 100%; varian Jev Router (1M) & Jev Latest. (2026-10-08)
+- [OpenRouter — Model "Decisions"](sources/openrouter-decisions-models.md) — Ekosistem 10+ vendor model keputusan: Solar Decide, Decider, GPT-6 Luna Decisions, d1, Clef, Tev1, Mercury Decide, Span-01, Kev. (2026-10-08)
 
 ## Entities
 
@@ -191,6 +211,8 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Exabytes](entities/exabytes.md) — Penyedia hosting Indonesia "GROW AI": domain, hosting AI (cPanel/Plesk/WP), VPS Linux/Windows + VPS agent (Hermes/OpenClaw/n8n), dedicated, bizapp (M365, Workspace, Heylink, Lark); NEX DC Tier-3. (2026-10-08)
 - [OpenClaw](entities/openclaw.md) — Platform asisten AI self-hosted (perintah shell, file, chat apps); dibundel VPS Exabytes, katalog Hostinger, integrasi MCP DomaiNesia. (2026-10-08)
 - [Hermes Agent](entities/hermes-agent.md) — AI agent open-source MIT dari Nous Research; memori persisten, multi-channel; dibundel VPS Exabytes. (2026-10-08)
+- [TypeSafe](entities/typesafe.md) — Perusahaan "Machine Native Intelligence"; kelas System One + Jev; RLCD; schema `/v1/systemone` jadi standar de facto kategori decisions. (2026-10-08)
+- [Jev](entities/jev.md) — Model keputusan "first System One": $0.042/M input, output gratis; 64k/32k; alias jev-latest/jev-preview; bukan pengganti LLM coding agent. (2026-10-08)
 
 ## Concepts
 
@@ -199,6 +221,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Layanan Akses Model](concepts/model-access-services.md) — Pola penjualan akses banyak model (langganan, per token, kredit); contoh: Token Harbor, OpenCode, Agnes, Groq, Manus, Novita, Sail Research. (2026-10-01)
 - [Hosting Web](concepts/web-hosting.md) — Jenis hosting (shared/cloud/VPS/dedicated), dimensi pembanding, empat provider (Hostinger, Rumahweb, DomaiNesia, Exabytes), tren AI/MCP & agent self-hosted. (2026-10-08)
 - [User-Pays Model](concepts/user-pays-model.md) — Skema biaya ditanggung end-user: developer $0, allowance bulanan per akun; dipelopori Puter. (2026-10-07)
+- [Model Keputusan (Decision Models)](concepts/decision-models.md) — Kelas model tanpa generasi teks: state + pertanyaan bertipe → choice/score/noul terkalibrasi; ekosistem 10+ vendor; output gratis. (2026-10-08)
 
 ## Analyses
 

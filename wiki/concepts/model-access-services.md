@@ -2,8 +2,8 @@
 title: Layanan Akses Model
 type: concept
 created: 2026-10-01
-updated: 2026-10-07
-sources: [tokenharbor-pricing, opencode-go, opencode-zen-price-list, tokenharbor-docs-subscription, tokenharbor-docs-vs-openrouter, puter-ai-gateway, puter-docs-user-pays, vyceai-pricing-monthly, vyceai-system-status]
+updated: 2026-10-08
+sources: [tokenharbor-pricing, opencode-go, opencode-zen-price-list, tokenharbor-docs-subscription, tokenharbor-docs-vs-openrouter, puter-ai-gateway, puter-docs-user-pays, vyceai-pricing-monthly, vyceai-system-status, openrouter-decisions-models, typesafe-docs-models]
 tags: [pricing, subscription, per-token, model-access]
 ---
 
@@ -47,6 +47,7 @@ tags: [pricing, subscription, per-token, model-access]
 - **Teknologi berbeda**: Inception Labs menjual *diffusion LLM* (dLLM) yang diklaim 5× lebih cepat dari LLM autoregresif; Mercury Voice menargetkan latensi percakapan (TTFAT p50 320 ms).
 - **Kecepatan sebagai produk**: Cerebras mengklaim ~3.000 t/s (GPT OSS 120B) dan Groq ~1.000 t/s (gpt-oss-20b) — kecepatan token menjadi pembeda utama, bukan hanya harga.
 - **Model "anonymous"/gratis** muncul sebagai taktik akuisisi: `union-alpha`/`space-bunny-alpha` (Tokenra), `Space Bunny Free` (OpenCode Zen).
+- **Kategori baru — model keputusan (8 Okt)**: kategori output **"Decisions"** di OpenRouter berisi belasan model yang menagih **input saja (output gratis)** dan mengembalikan `choice`/`score`/`noul` bertipe alih-alih teks — Jev (TypeSafe), GPT-6 Luna Decisions (OpenAI), Solar Decide (Upstage), Decider (Perplexity), Mercury Decide (Inception), d1 (Liquid), Clef (Cloudflare), Kev (open-weight), dll.; banyak yang memakai schema `/v1/systemone` yang sama — lihat [Model Keputusan](decision-models.md) & [Jev](../entities/jev.md).
 - **Akses multimodal & media**: Agnes menjual kuota gabungan teks/gambar/video; Novita juga menyediakan image/video/audio/search API di samping model teks.
 
 ## Pertanyaan terbuka
@@ -72,5 +73,6 @@ tags: [pricing, subscription, per-token, model-access]
 - [Puter](../entities/puter.md)
 - [VyceAI](../entities/vyceai.md)
 - [User-Pays Model](user-pays-model.md)
+- [Model Keputusan](decision-models.md)
 - [Prompt Caching](prompt-caching.md)
 - [Overview](../overview.md)

@@ -2,8 +2,8 @@
 title: Tokenra
 type: entity
 created: 2026-10-03
-updated: 2026-10-03
-sources: [tokenra-model-square-page-1, tokenra-model-square-page-2]
+updated: 2026-10-08
+sources: [tokenra-model-square-page-1, tokenra-model-square-page-2, openrouter-jev-113]
 tags: [tokenra, gateway, api, pricing]
 ---
 
@@ -41,10 +41,11 @@ tags: [tokenra, gateway, api, pricing]
 - Beberapa model dijual dengan **harga lebih murah** dari katalog lain (mis. `kimi-k3` $2.54/$12.69 vs $3/$15 di Token Harbor; `glm-5.3` $1.02/$3.56 vs $1.4/$4.4) — kemungkinan strategi margin/diskonto.
 - Model gratis termasuk "anonymous model" (`union-alpha`) dan `space-bunny-alpha` (bandingkan `Space Bunny Free` di OpenCode Zen).
 - Nama model baru muncul: `omen-alpha`, `ox-alpha`, `jev-*`, `step-5-preview`, `seedance-*`, `artsdance-*`.
+- **`jev-*` kini terjelaskan (8 Okt)**: `jev-latest` = alias resmi model keputusan **[Jev](jev.md)** (TypeSafe, $0.042/M input resmi — Tokenra menulis output $0.042, berbeda dari resmi $0); `jev-router` = **Jev Router** TypeSafe (router model, konteks 1M — lihat [OpenRouter](../sources/openrouter-jev-113.md), [Model Keputusan](../concepts/decision-models.md)).
 
 ## Open questions
 
-- Siapa operator Tokenra dan dari mana model-model "alpha/anonymous" berasal?
+- Siapa operator Tokenra dan dari mana model-model "alpha/anonymous" berasal? (Sebagian terjelaskan 8 Okt: `jev-router` = Jev Router dari [TypeSafe](typesafe.md)/[Jev](jev.md); model `*-alpha` masih belum jelas.)
 - Apakah ada limit/rate limit dan dokumen API? (klip hanya halaman pricing)
 - Apakah harga diskon (`-50off`, `-discounted`) berlaku permanen atau promo?
 
@@ -52,6 +53,7 @@ tags: [tokenra, gateway, api, pricing]
 
 - [Tokenra — Model Square (Halaman 1)](../sources/tokenra-model-square-page-1.md)
 - [Tokenra — Model Square (Halaman 2)](../sources/tokenra-model-square-page-2.md)
+- [Jev](jev.md) — di balik `jev-latest`/`jev-router`.
 - [OpenCode Zen](opencode-zen.md) — katalog gateway lain dengan model gratis.
 - [Token Harbor](token-harbor.md) — pembanding harga.
 - [Layanan Akses Model](../concepts/model-access-services.md)
