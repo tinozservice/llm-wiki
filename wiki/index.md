@@ -337,6 +337,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Dots](entities/dots.md) — Agen always-on GPT-6 Astra dengan komputer cloud sendiri; Slack/Teams/panggilan; Pro/Business Premium/Enterprise. (2026-10-08)
 - [TypeSafe](entities/typesafe.md) — Perusahaan "Machine Native Intelligence"; kelas System One + Jev; RLCD; schema `/v1/systemone` jadi standar de facto kategori decisions. (2026-10-08)
 - [Jev](entities/jev.md) — Model keputusan "first System One": $0.042/M input, output gratis; 64k/32k; alias jev-latest/jev-preview; bukan pengganti LLM coding agent. (2026-10-08)
+- [OpenRouter](entities/openrouter.md) — Gateway multi-model besar: satu key ±190 model, routing/fallback/Pareto/Auto Model, kategori "Decisions" (10+ vendor), free tier `:free` 20/menit & 1.000/hari; provider cookbook Hermes & OpenClaw. (2026-10-08)
 
 ## Concepts
 
@@ -348,6 +349,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Model Keputusan (Decision Models)](concepts/decision-models.md) — Kelas model tanpa generasi teks: state + pertanyaan bertipe → choice/score/noul terkalibrasi; ekosistem 10+ vendor; output gratis; adopsi OpenClaw. (2026-10-08)
 - [Platform Agen Self-Hosted](concepts/self-hosted-agent-platforms.md) — Agen persisten di infrastruktur sendiri (OpenClaw, Hermes & DeepSeek Harness): gateway, multi-channel, memori, sandbox, policy; tiga filosofi tata kelola. (2026-10-08)
 - [Plugin ChatGPT & Codex](concepts/chatgpt-plugins.md) — Paket skills + MCP + UI + hooks di direktori universal; kontrak tool, safety annotations, monetisasi checkout. (2026-10-08)
+- [Model Context Protocol (MCP)](concepts/mcp.md) — Standar terbuka tool/koneksi data: tools/resources/prompts, stdio & streamable HTTP; adopsi lintas OpenAI, Puter, Groq, OpenClaw, Hermes, DSH, hingga panel hosting. (2026-10-08)
 
 ## Analyses
 

@@ -9,7 +9,7 @@ tags: [decision-models, system-one, api, ai]
 
 # Model Keputusan (Decision Models)
 
-**Model keputusan** adalah kelas model AI yang **tidak menghasilkan teks**, melainkan mengevaluasi sebuah `state` terhadap **pertanyaan bertipe** dan mengembalikan **jawaban terstruktur + probabilitas terkalibrasi** untuk dikonsumsi kode langsung. Kelas ini dipelopori **[TypeSafe](../entities/typesafe.md) dengan "System One" dan model [Jev](../entities/jev.md)**; kini menjadi kategori tersendiri (modalitas output *"Decisions"*) di OpenRouter dengan **belasan model lintas vendor** ([OpenRouter — Decisions](../sources/openrouter-decisions-models.md), [Introduction](../sources/typesafe-docs-introduction.md)).
+**Model keputusan** adalah kelas model AI yang **tidak menghasilkan teks**, melainkan mengevaluasi sebuah `state` terhadap **pertanyaan bertipe** dan mengembalikan **jawaban terstruktur + probabilitas terkalibrasi** untuk dikonsumsi kode langsung. Kelas ini dipelopori **[TypeSafe](../entities/typesafe.md) dengan "System One" dan model [Jev](../entities/jev.md)**; kini menjadi kategori tersendiri (modalitas output *"Decisions"*) di [OpenRouter](../entities/openrouter.md) dengan **belasan model lintas vendor** ([OpenRouter — Decisions](../sources/openrouter-decisions-models.md), [Introduction](../sources/typesafe-docs-introduction.md)).
 
 ## Kontrak umum
 
@@ -51,6 +51,7 @@ tags: [decision-models, system-one, api, ai]
 ## Related
 
 - [Jev](../entities/jev.md) · [TypeSafe](../entities/typesafe.md)
+- [OpenRouter](../entities/openrouter.md) — gateway tempat kategori "decisions" hidup.
 - [OpenRouter — Decisions Models (sumber)](../sources/openrouter-decisions-models.md)
 - [Layanan Akses Model](model-access-services.md) — pola akses model lain.
 - [Inception Labs](../entities/inception-labs.md) — Mercury Decide.

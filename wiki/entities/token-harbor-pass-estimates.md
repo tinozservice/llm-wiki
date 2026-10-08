@@ -2,7 +2,7 @@
 title: Estimasi Request per Pass
 type: entity
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-02
 sources: [tokenharbor-pricing, tokenharbor-frontier-pass, tokenharbor-office-pass]
 tags: [token-harbor, pass, estimates, capacity]
 ---

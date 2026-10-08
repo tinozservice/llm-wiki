@@ -2,7 +2,7 @@
 title: VyceAI
 type: entity
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-08
 sources: [vyceai-models-free-plan, vyceai-models-paid-plan, vyceai-pricing-monthly, vyceai-pricing-yearly, vyceai-daily-rewards, vyceai-referrals, vyceai-integrations, vyceai-system-status]
 tags: [vyceai, proxy, api-gateway, subscription, rewards]
 ---
@@ -46,7 +46,8 @@ Harga per 1M token (kecuali disebut lain); status saat klip 7 Okt ([direktori](.
 - **Reward harian**: klaim 1×/24 jam (reset tengah malam UTC) dengan **streak** — nilai Free ≈ **$300/bulan** kredit ([daily rewards](../sources/vyceai-daily-rewards.md)).
 - **Referral**: $10 untuk kedua pihak ([referrals](../sources/vyceai-referrals.md)).
 - **Pembayaran**: checkout kripto otomatis via NOWPayments; aktivasi 30 hari instan.
-- **Inkonsistensi internal klip**: rate limit fair-use tertulis "Lite 60 / Pro 120 req/min" vs daftar fitur "Lite 120 req/min" & "Pro 300 req/min overall" — dicatat, belum teresolusi.
+
+> [!warning] Contradiction: rate limit fair-use tercatat ganda di sumber — "Lite 60 / Pro 120 req/min" (fair-use) vs "Lite 120 / Pro 300 req/min" (daftar fitur). Belum teresolusi.
 
 ## Keandalan
 

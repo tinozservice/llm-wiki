@@ -29,8 +29,10 @@ tags: [inceptionlabs, mercury, dllm, model-provider]
 ## Akses & deployment
 
 - **Plans**: Free (100 juta token gratis), Developer (usage-based, rate limit lega), Enterprise (custom limit, SLA, volume).
-  - Catatan sumber: langkah setup menyebut 10 juta token gratis untuk API key baru — angka berbeda dari plan Free.
-- **Jalur deployment**: Inception API; AWS Bedrock; Azure Foundry; model router (OpenRouter, Models.dev).
+
+> [!warning] Contradiction: bonus token gratis berbeda antar halaman sumber — plan Free menyebut 100 juta token, sedangkan langkah setup menyebut 10 juta untuk API key baru.
+
+- **Jalur deployment**: Inception API; AWS Bedrock; Azure Foundry; model router ([OpenRouter](openrouter.md), Models.dev).
 - **Jaminan enterprise**: no training on your data; prompts/outputs sebagai customer data; retensi & caching konfigurabel; opsi no prompt logging, private networking, dedicated capacity.
 - Integrasi framework: AISuite, LiteLLM, LangChain; voice agent: LiveKit, Pipecat, Vapi, Retell.
 

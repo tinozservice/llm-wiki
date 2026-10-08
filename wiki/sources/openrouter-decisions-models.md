@@ -10,7 +10,7 @@ tags: [openrouter, decision-models, system-one, katalog]
 # OpenRouter — Model "Decisions" (Kelas System One)
 
 - **Sumber**: Daftar model OpenRouter difilter `output_modalities=decisions`
-- **Penulis**: openrouter.ai (atribusi klip menyertakan [[upstage]])
+- **Penulis**: openrouter.ai (atribusi klip menyertakan Upstage)
 - **URL**: <https://openrouter.ai/models?output_modalities=decisions>
 - **Tanggal publikasi**: tidak dicantumkan; klip dibuat 2026-10-08
 - **Berkas mentah**: `raw/2026/oktober/08/openrouter. Compare AI Models Pricing, Context & Benchmarks. output_modalities=decisions.md`

@@ -38,7 +38,8 @@ tags: [exabytes, hosting, domain, vps, dedicated, indonesia, ai]
 
 ## Kelemahan / catatan kualitas data
 
-- **Angka uptime tidak konsisten antar halaman**: dominan 99,9%, tapi ada klaim 99,99% (FAQ hosting & WP), 99,8% (Windows hosting), 99,5% server/99,9% network (FAQ Windows hosting). Pemasaran, bukan laporan independen.
+> [!warning] Contradiction: klaim uptime tidak konsisten antar halaman — dominan 99,9%, tetapi ada 99,99% (FAQ hosting & WP), 99,8% (Windows hosting), serta 99,5% server/99,9% network (FAQ Windows hosting). Semua materi pemasaran, bukan laporan independen.
+
 - **Teks promosi usang** masih tayang: promo "sampai 31 Desember 2018" di halaman Windows Dedicated; harga OpenClaw FAQ "Rp150.000-an" vs tabel "Rp194.000".
 - Staf runtime lama di WP hosting (Node.js 12.4, Python 2.7) meski diposisikan "AI hosting" ([fitur WP](../sources/exabytes-wp-hosting-fitur.md)).
 

@@ -32,7 +32,7 @@ DeepSeek menyediakan panduan integrasi untuk banyak agent/coding tool ([awesome 
 - **[OpenClaw](../entities/openclaw.md)** (provider DeepSeek di onboarding) ([sumber](../sources/deepseek-integrate-openclaw.md)).
 - **[Hermes Agent](../entities/hermes-agent.md)** (`hermes setup` → provider DeepSeek) ([sumber](../sources/deepseek-integrate-hermes.md)).
 - **[OpenCode](../entities/opencode.md)** (`/connect` → deepseek; ≥v1.18.30) ([sumber](../sources/deepseek-integrate-opencode.md)).
-- **Qoder** (built-in + custom key), **Reasonix** (DeepSeek-native), **WorkBuddy/CodeBuddy** (models.json), + AstrBot, Cherry Studio, Cline, Crush, Deep Code, DeepSeek-TUI, Copilot (+CLI), Kilo Code, Langcli, LobeHub, nanobot, Oh My Pi, Pi, Qwen Code.
+- **Qoder** ([sumber](../sources/deepseek-integrate-qoder.md)) (built-in + custom key), **Reasonix** ([sumber](../sources/deepseek-integrate-reasonix.md)) (DeepSeek-native), **WorkBuddy/CodeBuddy** ([sumber](../sources/deepseek-integrate-workbuddy.md)) (models.json), + AstrBot, Cherry Studio, Cline, Crush, Deep Code, DeepSeek-TUI, Copilot (+CLI), Kilo Code, Langcli, LobeHub, nanobot, Oh My Pi, Pi, Qwen Code.
 
 ## Produk terkait
 
@@ -46,7 +46,7 @@ DeepSeek menyediakan panduan integrasi untuk banyak agent/coding tool ([awesome 
 
 ## Related
 
-- Sumber: [Models & Pricing](../sources/deepseek-models-pricing.md) · [Rate Limit](../sources/deepseek-rate-limits.md) · [Awesome list](../sources/awesome-deepseek-agent.md)
+- Sumber: [Models & Pricing](../sources/deepseek-models-pricing.md) · [Rate Limit](../sources/deepseek-rate-limits.md) · [Token & Token Usage](../sources/deepseek-token-usage.md) · [Awesome list](../sources/awesome-deepseek-agent.md)
 - [DeepSeek Harness](deepseek-harness.md) · [Layanan Akses Model](../concepts/model-access-services.md)
 - [OpenClaw](openclaw.md) · [Hermes Agent](hermes-agent.md) · [OpenCode](opencode.md)
 - [Overview](../overview.md)

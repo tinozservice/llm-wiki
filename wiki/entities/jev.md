@@ -34,7 +34,7 @@ TypeSafe menegaskan tidak ada setting `model: "jev-latest"` untuk mengubah Claud
 
 - **OpenCode Zen**: `jev-1.13` ($0.04 in / $0.00 out — kini terkonfirmasi bukan anomali) dan `jev-1.13-free` ($0/$0) ([Zen](opencode-zen.md)).
 - **Tokenra**: `jev-latest` ($0.042/$0.042 — output terdaftar berbeda dari resmi $0; catatan) dan `jev-router` ($0, anonymous — kemungkinan Jev Router; varian resminya di OpenRouter) ([Tokenra](tokenra.md)).
-- **OpenRouter**: satu provider, latensi 0.18 s, uptime 100% (3 hari); volume 63,7B token prompt ([OpenRouter](../sources/openrouter-jev-113.md)).
+- **OpenRouter**: satu provider, latensi 0.18 s, uptime 100% (3 hari); volume 63,7B token prompt ([OpenRouter](../sources/openrouter-jev-113.md)); entitas: [OpenRouter](openrouter.md).
 
 ## Open questions
 

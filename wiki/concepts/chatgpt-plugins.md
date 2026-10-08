@@ -33,7 +33,7 @@ Plugin
 
 ## Keterkaitan
 
-- Berbagi fondasi **MCP** dengan [OpenClaw](../entities/openclaw.md), [DeepSeek Harness](../entities/deepseek-harness.md), dan ekosistem agent lain — satu standar, tiga implementasi host.
+- Berbagi fondasi **[MCP](mcp.md)** dengan [OpenClaw](../entities/openclaw.md), [DeepSeek Harness](../entities/deepseek-harness.md), dan ekosistem agent lain — satu standar, tiga implementasi host.
 - Pola **skills** juga dipakai di [OpenClaw](../entities/openclaw.md) (ClawHub) dan Hermes (agentskills.io).
 
 ## Pertanyaan terbuka

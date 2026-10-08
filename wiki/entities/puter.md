@@ -2,7 +2,7 @@
 title: Puter
 type: entity
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-08
 sources: [puter-landing, puter-backend-for-ai-apps, puter-docs-getting-started, puter-docs-puterjs, puter-tutorial-getting-started, puter-docs-ai, puter-ai-gateway, puter-docs-user-pays, puter-puterjs-pricing, puter-docs-rate-limits, puter-docs-apps, puter-docs-auth, puter-docs-cli, puter-docs-cloud-storage, puter-docs-deployments, puter-docs-email, puter-docs-events, puter-docs-framework-integrations, puter-docs-hosting, puter-docs-key-value-store, puter-docs-mcp-server, puter-docs-networking, puter-docs-peer, puter-docs-security, puter-docs-serverless-workers, puter-docs-site-configuration, puter-docs-supported-platforms, puter-dev-cloud-storage, puter-dev-networking, puter-dev-nosql, puter-dev-peer, puter-dev-workers, puter-dev-auth, puter-dev-hosting, puter-dev-image-generation, puter-dev-ocr, puter-dev-speech-to-text, puter-dev-text-to-speech, puter-dev-video-generation, puter-dev-voice-changer, puter-tutorial-free-llm-api, puter-tutorial-claude, puter-tutorial-openai, puter-tutorial-openrouter, puter-tutorial-chatbot, puter-tutorial-kv-store, puter-tutorial-rag, puter-tutorial-mcp, puter-tutorial-ats-video, puter-tutorial-fullstack-video]
 tags: [puter, platform, backend, ai-gateway, user-pays]
 ---
@@ -33,6 +33,9 @@ tags: [puter, platform, backend, ai-gateway, user-pays]
 
 - Namespace `puter.ai.*`: `chat`, `listModels`, `listModelProviders`, `txt2img`, `img2txt` (OCR), `txt2speech` (+ `listEngines`/`listVoices`), `speech2speech` (voice changer), `txt2vid` (Wan, Seedance, Veo), `speech2txt` ([docs AI](../sources/puter-docs-ai.md)).
 - **500+ model** lewat satu API — GPT, Claude, Gemini, Grok, DeepSeek, Nano Banana, GPT Image, FLUX, dll.; tanpa API key; test mode untuk coba tanpa kredit ([AI Gateway](../sources/puter-ai-gateway.md)).
+
+> [!warning] Contradiction: jumlah model AI Gateway tidak konsisten antar klip — "500+" (docs AI Gateway & halaman backend) vs "400+" (tutorial Free LLM API & Chatbot). Kemungkinan snapshot waktu berbeda; belum teresolusi.
+
 - Endpoint **kompatibel OpenAI/Anthropic** tersedia (`/puterai/openai/v1/*`, `/puterai/anthropic/v1/messages`) tetapi **butuh plan berbayar**; model yang sama tetap bisa diakses akun free lewat `puter.ai.*` ([rate limits](../sources/puter-docs-rate-limits.md)).
 - **Provider & model konkret per kemampuan** (klip developer): gambar — 40+ model (`gpt-image-1.5`, `gemini-3-pro-image`/Nano Banana, FLUX); OCR — AWS Textract & Mistral; STT — GPT-4o Transcribe/Whisper + diarization (output SRT); TTS — AWS Polly/OpenAI/ElevenLabs; video — Sora 2 & Veo 3.0 Fast (render ~menit; test mode instan); konversi suara — ElevenLabs ([image](../sources/puter-dev-image-generation.md), [ocr](../sources/puter-dev-ocr.md), [stt](../sources/puter-dev-speech-to-text.md), [tts](../sources/puter-dev-text-to-speech.md), [video](../sources/puter-dev-video-generation.md), [voice](../sources/puter-dev-voice-changer.md)).
 - **Keluarga GPT-6** (klip tutorial): Astra (flagship), Sol (mid; versi 6.1 memperbarui 6 di harga sama), Luna (termurah) + varian **Pro** pada harga sama (reasoning effort pro) — konteks **1.050.000 token**, output maks **128.000**; contoh "fast mode" Claude: `claude-opus-5-fast` (2,5× cepat dari Opus 5, 2× harga) ([tutorial OpenAI](../sources/puter-tutorial-openai.md), [tutorial Claude](../sources/puter-tutorial-claude.md)).
@@ -42,11 +45,11 @@ tags: [puter, platform, backend, ai-gateway, user-pays]
 - **Cloud storage** — file system per user: `write/read/mkdir/readdir/rename/copy/move/stat/delete/upload`, plus sharing (`share`, `getReadURL`, …); upload bisa membuat thumbnail gambar ([docs FS](../sources/puter-docs-cloud-storage.md)).
 - **Key-value store** — database default app: `set/get/incr/decr/add/remove/update/del/expire/expireAt/list/flush`; *key layout is the access boundary* — share handle Events dipaku ke prefix ([docs KV](../sources/puter-docs-key-value-store.md)).
 - **Events (beta)** — subscribe perubahan file/folder/KV/notifikasi; session (`onLocal`) atau persisten (`onPersistent`) dengan handler; delivery ditagih ke pemegang subscription ([docs Events](../sources/puter-docs-events.md)).
-- **Serverless Workers** — JavaScript server-side dengan router HTTP dan `me.puter.*`; satu-satunya pola resmi *data bersama* antar user (berjalan atas resource pemilik); deploy ke `<name>.puter.work` via UI/CLI/GitHub Actions ([docs Workers](../sources/puter-docs-serverless-workers.md)).
-- **Hosting & deployments** — situs statis gratis di `*.puter.site`: publish dari puter.com, `puter site deploy` (versioned), GitHub Action, atau API `puter.hosting.*`; konfigurasi `.puter_site_config` untuk 404 kustom / fallback SPA ([deployments](../sources/puter-docs-deployments.md), [hosting](../sources/puter-docs-hosting.md), [site config](../sources/puter-docs-site-configuration.md)).
+- **Serverless Workers** — JavaScript server-side dengan router HTTP dan `me.puter.*`; satu-satunya pola resmi *data bersama* antar user (berjalan atas resource pemilik); deploy ke `<name>.puter.work` via UI/CLI/GitHub Actions ([docs Workers](../sources/puter-docs-serverless-workers.md), [halaman produk](../sources/puter-dev-workers.md)).
+- **Hosting & deployments** — situs statis gratis di `*.puter.site`: publish dari puter.com, `puter site deploy` (versioned), GitHub Action, atau API `puter.hosting.*`; konfigurasi `.puter_site_config` untuk 404 kustom / fallback SPA ([deployments](../sources/puter-docs-deployments.md), [hosting](../sources/puter-docs-hosting.md), [produk hosting statis](../sources/puter-dev-hosting.md), [site config](../sources/puter-docs-site-configuration.md)).
 - **Apps, Auth & Email** — registry app (`puter.apps.*`); auth API (`signIn`, `getUser`, `getMonthlyUsage`, …); email `{username}@puter.email` + `sendTransactional()` (**butuh paid plan**) ([apps](../sources/puter-docs-apps.md), [auth](../sources/puter-docs-auth.md), [email](../sources/puter-docs-email.md)).
 - **Networking & Peer** — `puter.net.fetch/Socket/TLSSocket` **menembus CORS** langsung dari frontend (tunnel WebSocket — protokol **Wisp**, TLS **rustls-WASM** berjalan di browser sehingga relay tak melihat trafik terdekripsi); WebRTC data channel dengan signaling & TURN relay bawaan, guest tanpa akun via grant ([docs networking](../sources/puter-docs-networking.md), [arsitektur](../sources/puter-dev-networking.md), [peer](../sources/puter-docs-peer.md)).
-- **MCP Server** — `mcp.puter.com` (hosted, tanpa install): agen AI (Claude Code, Codex, Cursor, **OpenCode**) mengoperasikan akun Puter *as the user* — tool filesystem/hosting/workers/KV/apps/docs ([docs MCP](../sources/puter-docs-mcp-server.md)).
+- **MCP Server** — `mcp.puter.com` (hosted, tanpa install): agen AI (Claude Code, Codex, Cursor, **OpenCode**) mengoperasikan akun Puter *as the user* — tool filesystem/hosting/workers/KV/apps/docs ([docs MCP](../sources/puter-docs-mcp-server.md), [tutorial](../sources/puter-tutorial-mcp.md); konsep: [MCP](../concepts/mcp.md)).
 - **CLI** (`@heyputer/cli`, beta 0.x) — sites, workers, apps, fs (`puter:` paths + `--app` untuk storage app), `kv connect` REPL; auth via `puter login` atau `PUTER_AUTH_TOKEN` untuk CI ([docs CLI](../sources/puter-docs-cli.md)).
 - **Keamanan** — app **tersandbox default**: direktori `~/AppData/<app-id>/` + KV miliknya sendiri; layanan default: AI + hosting ([security](../sources/puter-docs-security.md)). Trade-off yang diakui dokumen: Puter memegang lapisan akun — tanpa sign-up flow/field akun kustom; data spesifik app disimpan di KV/FS per user ([dev auth](../sources/puter-dev-auth.md)).
 - **Platform** — website (ESM/CJS/CDN), Puter Apps (auth otomatis + desktop), Node.js (token), Workers; `file://` dan iframe tanpa `allow-same-origin` ditolak (`unsupported_origin`) ([supported platforms](../sources/puter-docs-supported-platforms.md)).
@@ -74,6 +77,7 @@ tags: [puter, platform, backend, ai-gateway, user-pays]
 ## Related
 
 - [User-Pays Model](../concepts/user-pays-model.md)
+- [Model Context Protocol (MCP)](../concepts/mcp.md) — server hosted Puter.
 - [Layanan Akses Model](../concepts/model-access-services.md)
 - [OpenCode](opencode.md) — disebut sebagai AI coding tool yang didukung Puter.js.
 - [Overview](../overview.md)

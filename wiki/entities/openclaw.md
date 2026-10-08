@@ -22,10 +22,10 @@ tags: [openclaw, ai-agent, self-hosted, open-source, gateway, mit]
 
 - **Gateway** = control plane tepercaya (sesi, routing, kredensial, state berversi); **eksekusi** dipisahkan (sandbox Docker/Podman/SSH/**OpenShell**, node terpasang ber-hash, **cloud workers** sekali pakai dengan RPC allowlist + kredensial TTL 10 menit). **Sandboxing & exec approval off by default** — default = asisten satu operator; postur enterprise = konfigurasi eksplisit (`openclaw sandbox explain`, `openclaw security audit`) ([trust boundary](../sources/openclaw-docs-trust-boundary.md)).
 - **Policy as code**: deny struktural, tiga kontrol terpisah (sandbox vs tool policy vs elevated), exec approval terikat ke command/cwd/env/operand persis; tanpa UI approval = deny ([policy](../sources/openclaw-docs-policy-as-code.md)).
-- **Kanal & provider**: 29 chat channels; 64 model/media providers (Anthropic, OpenAI+Codex, Google, xAI, Qwen, Moonshot/Kimi, MiniMax, Z.AI, OpenRouter, **OpenCode Zen/Go** sebagai pilihan auth onboarding, custom provider, Ollama lokal); 142 plugin resmi ([integrations](../sources/openclaw-integrations.md), [CLI automation](../sources/openclaw-docs-cli-automation.md)).
+- **Kanal & provider**: 29 chat channels; 64 model/media providers (Anthropic, OpenAI+Codex, Google, xAI, Qwen, Moonshot/Kimi, MiniMax, Z.AI, [OpenRouter](openrouter.md), **OpenCode Zen/Go** sebagai pilihan auth onboarding, custom provider, Ollama lokal); 142 plugin resmi ([integrations](../sources/openclaw-integrations.md), [CLI automation](../sources/openclaw-docs-cli-automation.md)).
 - **Fitur personal**: memori persisten, workspace berisi `AGENTS.md`/`SOUL.md`/`IDENTITY.md`/`USER.md`, heartbeats (default 30 menit), cron/hooks/webhooks, skill & plugin (agent bisa menulis skill sendiri), model lokal Windows RTX (≥24GB → kelas 30B via llama-server), installer macOS ([personal](../sources/openclaw-docs-personal-assistant.md), [onboarding](../sources/openclaw-blog-onboarding-improvements.md)).
 - **Tim/multiplayer**: satu gateway = satu trust domain; sesi bersama (creator/owner/prompter), presence, **Git co-author credit**, named operator roles, cloud sessions ([team](../sources/openclaw-docs-team-setup.md)).
-- **Standar terbuka**: MCP client+server, A2A 1.0, ACP, AgentSkills, OpenAI-compatible API di Gateway, OTel/Prometheus; harness vendor (Codex app-server, Copilot SDK, Claude Code CLI) sebagai plugin runtime ([why](../sources/openclaw-docs-why-openclaw.md)).
+- **Standar terbuka**: [MCP](../concepts/mcp.md) client+server, A2A 1.0, ACP, AgentSkills, OpenAI-compatible API di Gateway, OTel/Prometheus; harness vendor (Codex app-server, Copilot SDK, Claude Code CLI) sebagai plugin runtime ([why](../sources/openclaw-docs-why-openclaw.md)).
 - **Ekosistem**: 65 proyek open source (ClawHub registry, ClawScan, clawbench, Lobster, crawler local-first, tool native, dll.) ([ecosystem](../sources/openclaw-ecosystem.md)).
 
 ## Keamanan
@@ -46,7 +46,7 @@ OpenClaw mengadopsi **[model keputusan](../concepts/decision-models.md) secara p
 
 ## Related
 
-- Sumber: [Landing](../sources/openclaw-landing.md) · [Docs Landing](../sources/openclaw-docs-landing.md) · [Why OpenClaw](../sources/openclaw-docs-why-openclaw.md) · [Ecosystem](../sources/openclaw-ecosystem.md) · [Decision Models](../sources/openclaw-blog-decision-models.md) · [Microsoft Autopilot](../sources/openclaw-blog-microsoft-autopilot.md)
+- Sumber: [Landing](../sources/openclaw-landing.md) · [Docs Landing](../sources/openclaw-docs-landing.md) · [Configuration](../sources/openclaw-docs-configuration.md) · [Why OpenClaw](../sources/openclaw-docs-why-openclaw.md) · [Ecosystem](../sources/openclaw-ecosystem.md) · [Decision Models](../sources/openclaw-blog-decision-models.md) · [Microsoft Autopilot](../sources/openclaw-blog-microsoft-autopilot.md)
 - [Hermes Agent](hermes-agent.md) — platform agen self-hosted pembanding (perbandingan resmi: [vs Hermes](../sources/openclaw-docs-vs-hermes.md)).
 - [Jev](jev.md) · [TypeSafe](typesafe.md) · [Model Keputusan](../concepts/decision-models.md)
 - [Platform Agen Self-Hosted](../concepts/self-hosted-agent-platforms.md)

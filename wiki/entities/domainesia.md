@@ -9,7 +9,7 @@ tags: [domainesia, hosting, vps, ai]
 
 # DomaiNesia
 
-**DomaiNesia** adalah penyedia hosting Indonesia (sejak 2009; 300.000+ pelanggan; ISO/IEC 27001:2022). Pembeda utamanya: **integrasi MCP (Model Context Protocol)** yang menghubungkan hosting langsung ke AI seperti ChatGPT, Claude, OpenCode, dan OpenClaw; infrastruktur AMD EPYC + SSD NVMe dengan cPanel ([web hosting](../sources/domainesia-web-hosting.md)).
+**DomaiNesia** adalah penyedia hosting Indonesia (sejak 2009; 300.000+ pelanggan; ISO/IEC 27001:2022). Pembeda utamanya: **integrasi [MCP (Model Context Protocol)](../concepts/mcp.md)** yang menghubungkan hosting langsung ke AI seperti ChatGPT, Claude, OpenCode, dan OpenClaw; infrastruktur AMD EPYC + SSD NVMe dengan cPanel ([web hosting](../sources/domainesia-web-hosting.md)).
 
 ## Produk & harga (IDR, promo)
 
@@ -37,7 +37,7 @@ tags: [domainesia, hosting, vps, ai]
 - **Cloud VPS Turbo** — AMD EPYC Genoa (Zen4, 96C/192T, DDR5-4800, PCIe 5.0), **3× replikasi data**, 40 GbE, direct connect 10G, IPv6, failover otomatis; diskon 50% (`CLOUDHANDAL`).
 - **Managed VPS (Pluton)** — dikelola penuh (monitoring, maintenance, patch); gratis cPanel, CloudLinux, Imunify360, SSL, migrasi; weekly backup (mulai Pluton 4GB).
 - **Dedicated Server (Neva)** — HPE ProLiant enterprise; Xeon/EPYC 8–64 core; varian **GPU NVIDIA L4** (Rp13.599.000) untuk AI/ML; proteksi DDoS; use case e-commerce, game, big data.
-- **Object Storage** — S3-compatible, 15 GB–10 TB, 3× replikasi (uptime 99,99%), HTTP/3 + Brotli, Cloudflare CDN, unlimited bandwidth.
+- **Object Storage** — S3-compatible, 15 GB–10 TB, 3× replikasi (uptime 99,99%), HTTP/3 + Brotli, Cloudflare CDN, unlimited bandwidth ([sumber](../sources/domainesia-object-storage.md)).
 
 ## Open questions
 

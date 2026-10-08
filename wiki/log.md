@@ -2,7 +2,7 @@
 title: Log
 type: meta
 created: 2026-10-01
-updated: 2026-10-07
+updated: 2026-10-08
 sources: []
 tags: [log]
 ---
@@ -162,7 +162,6 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Catatan keandalan (dari status page pihak pertama): uptime 96,7%, degraded saat klip, `gpt-6-luna` offline, Grok 4.6 maintenance.
 - Inkonsistensi internal klip: rate limit 60/120 vs 120/300 req/min; "12/7 days for max bonus"; deskripsi Luna "flagship" vs posisi tier murah di sumber lain.
 - Tidak ada kontradiksi lintas-wiki.
-- Tidak ada kontradiksi lintas-wiki.
 
 ## [2026-10-08] ingest | Exabytes — batch hosting/domain/bizapp (19 klip)
 - 19 klip exabytes.co.id diarsipkan ke `raw/2026/oktober/08/` (created 2026-10-08) dan di-ingest: landing "GROW AI", web hosting cPanel 17 AI, WP 17 AI (halaman produk + fitur), VPS Linux NVMe, VPS Windows SSD, NVMe VPS Hermes/OpenClaw/n8n, dedicated Linux & Windows, Windows hosting ASP.NET, domain .ID / domain murah / AI Domain Generator, Office 365, Google Workspace, Heylink, Lark.
@@ -197,6 +196,7 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Catatan angka: "200+" (portal) vs "300+" (README) model — dicatat, tidak ditimpa.
 - Diperbarui: `overview.md` (208 sumber; domain 4 = 37; frontmatter 198→208), `index.md` (+10 sumber, refresh entitas hermes), `README.md`.
 - Tidak ada kontradiksi keras.
+
 ## [2026-10-08] ingest | DeepSeek & DeepSeek Harness — 29 klip (API docs, DSH docs, 2 README)
 - 29 klip diarsipkan ke `raw/2026/oktober/08/` (created 2026-10-08): 13 halaman DeepSeek API Docs (models & pricing, rate limit, token usage, first call, errors + 8 integrasi agent), 14 berkas DeepSeek Harness (landing, README, architecture, configure models, Python SDK, Web UI, first plugin, memory MCP, LLM adapter, GitHub webhooks, proxy, reminders, privacy, terms), + awesome-deepseek-agent & OpenClaw README.
 - Dibuat: **29 halaman sumber** + entitas `deepseek` & `deepseek-harness`; konsep `self-hosted-agent-platforms` (+wakil ketiga DSH); `entities/openclaw` (+nuansa README: statistik fitur opt-in, donor/infra sponsor).
@@ -204,6 +204,7 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Catatan angka: harga agregator vs resmi (mis. Tokenra `deepseek-v4-flash` output $0.30 vs resmi off-peak $0.60); DSH masih preview ("compatibility-breaking changes").
 - Diperbarui: `overview.md` (237 sumber; domain 1 = 89, domain 4 = 52; frontmatter 208→237), `index.md` (+29 sumber, +2 entitas, refresh konsep), `README.md`.
 - Tidak ada kontradiksi keras.
+
 ## [2026-10-08] ingest | Groq — 11 klip (SDK, MCP, desktop, legal/security)
 - 11 klip diarsipkan ke `raw/2026/oktober/08/` (created 2026-10-08): README SDK Python & TypeScript, MCP server, Desktop beta; halaman Security, Terms of Use, Privacy Policy, Cookie Policy, Trademark Policy, Recruitment Fraud, Photography & Filming Policy.
 - Dibuat: **11 halaman sumber**; entitas `groq` diperluas (SDK & tooling + keamanan & legal).
@@ -211,17 +212,20 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Catatan: ToS situs **tidak** mencakup cloud services (diatur Groq Services Agreement terpisah — belum di-ingest).
 - Diperbarui: `overview.md` (248 sumber; domain 1 = 100; frontmatter 237→248), `index.md` (+11 sumber, refresh entitas groq), `README.md`.
 - Tidak ada kontradiksi keras.
+
 ## [2026-10-08] ingest | OpenAI — Landing (1 klip)
 - 1 klip diarsipkan ke `raw/2026/oktober/08/` (created 2026-10-08): beranda openai.com — sorotan "GPT-6 and Intelligent UI for everyone"; berita MentalHealthBench, DevDay 2026 Recap, Ironclad computer use, kemitraan Atlassian, Albertsons, Lenfest.
 - Dibuat: 1 halaman sumber + entitas `openai` (menghimpun jejak OpenAI yang tersebar: katalog GPT-6, GPT-6 Luna Decisions, Codex, Sign in with ChatGPT, donor OpenClaw Foundation).
 - Diperbarui: `overview.md` (249 sumber; domain 1 = 101), `index.md` (+1 sumber, +1 entitas), `README.md`.
 - Tidak ada kontradiksi.
+
 ## [2026-10-08] ingest | OpenAI — Research (1 klip) + fix tautan
 - 1 klip diarsipkan ke `raw/2026/oktober/08/`: indeks riset openai.com — GPT-6 global di ChatGPT + Intelligent UI; update keselamatan Sol/Luna; GPT-6.1 Sol (⅕ harga Astra); riset matematika (Lean); MentalHealthBench.
 - Dibuat: 1 halaman sumber (`openai-research`); entitas `openai` diperluas.
 - Perbaikan: 2 tautan rusak di `entities/openai.md` (path analisis) dikoreksi ke `../analyses/`.
 - Diperbarui: `overview.md` (250 sumber; domain 1 = 102), `index.md`, `README.md`.
 - Tidak ada kontradiksi.
+
 ## [2026-10-08] ingest | OpenAI — 40 klip (Dev/Plugins, Learn ChatGPT, produk & legal)
 - 40 klip diarsipkan ke `raw/2026/oktober/08/` (created 2026-10-08): 14 halaman OpenAI Dev (plugins: quickstart/architecture/tools/skills/MCP/brainstorm/checkout; API: models/pricing/Luna/model-selection/reasoning/voice/deep-research), 8 halaman Learn ChatGPT (Work, Use, Models, Pricing, Prompting, Quickstart, Import, Meet dots), 18 halaman produk/perusahaan (About, API Platform, Codex, ChatGPT Business/Edu/Enterprise, Dots, GPT-5.5/5.6/Astra/6.1 Sol, open models, privacy, security, research, Signals, terms & policies, ToS).
 - Dibuat: **40 halaman sumber** + entitas `codex` & `dots` + konsep `chatgpt-plugins`; entitas `openai` ditulis ulang penuh.
@@ -229,8 +233,17 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Catatan: nama file "Plugins" memakai en-dash (dibaca via salinan temp); harga agregator vs resmi kini bisa diverifikasi (mis. Zen gpt-6.1-sol $2/$10 = resmi).
 - Diperbarui: `overview.md` (290 sumber; domain 1 = 142), `index.md` (+40 sumber, +2 entitas, +1 konsep), `README.md`.
 - Tidak ada kontradiksi keras.
+
 ## [2026-10-08] query | GPT-6 Luna: resmi OpenAI vs agregator (+fileback analisis)
 - Pertanyaan pengguna: "gpt 6 luna resmi vs sumber lain (agregator)".
 - Diperbarui: `wiki/analyses/perbandingan-gpt-6-luna.md` — +baris **OpenAI API resmi** & **Nous Portal** di tabel; section baru "Resmi vs agregator (8 Okt)": paritas $0.10/$0.50 di TH/Zen/Portal = resmi; Fast TH $0.20/$1.00 = Fast mode resmi 2×; cache Zen ($0.01/$0.13) ≈ resmi ($0.01/$0.125); surcharge >272K & Batch/Flex −50% hanya di resmi; VyceAI $2/$2 outlier; Puter/Go beda dimensi. Caveats & Related diperbarui (frontmatter +3 sumber).
 - Diperbarui: `wiki/index.md` (refresh entri analisis; 2026-10-08).
 - Tidak ada kontradiksi.
+
+## [2026-10-08] lint | Pass #1
+- Cakupan: 332 halaman saat mulai (290 sumber, 29 entitas, 8 konsep, 2 analisis) → **334** setelah penambahan (290/30/9/2 + 3 meta). Pemeriksaan: tautan, orphan, frontmatter, kecocokan index, `updated` vs riwayat git, callout kontradiksi, kandidat halaman baru, marker stale/TODO.
+- **Struktur bersih**: 0 tautan rusak, 0 orphan, 0 halaman di luar index, frontmatter lengkap (title/type/created/updated di semua halaman), hitungan index = aktual (290/30/9/2), 0 marker TODO.
+- Perbaikan diterapkan: wikilink gaya Obsidian `upstage` di `sources/openrouter-decisions-models.md` → teks biasa (tidak ada halaman target; konvensi = link relatif); `log.md` frontmatter `updated` 10-07→10-08 + hapus 1 baris duplikat + baris kosong antar 6 entri 8 Okt; `entities/token-harbor-pass-estimates.md` `updated` 10-01→10-02 (perbaikan tautan 2 Okt).
+- Diterapkan (lanjutan pass, persetujuan pengguna): (1) **5 callout `[!warning]`** kontradiksi di entitas — `exabytes` (uptime 99,5–99,99%), `puter` ("400+" vs "500+" model), `hermes-agent` ("200+" vs "300+" model), `vyceai` (rate limit 60/120 vs 120/300), `inception-labs` (bonus token 10M vs 100M); (2) **2 halaman baru** — `entities/openrouter.md` (dari 6 sumber: 4 halaman OpenRouter, perbandingan Token Harbor, tutorial Puter) dan `concepts/mcp.md` (20 sumber lintas platform: OpenAI, Puter, Groq, DSH, OpenClaw, Hermes, Hostinger, DomaiNesia); (3) **14 halaman sumber kini ditaut balik** dari hub (`deepseek`, `hostinger`, `openai`, `openclaw`, `puter`, `domainesia`).
+- Diperbarui: `index.md` (+1 entitas, +1 konsep), `overview.md` (domain 1: 13 layanan + bullet MCP), `model-access-services` & `decision-models` (tautan entitas OpenRouter + open question disegarkan), `jev`/`token-harbor`/`hermes-agent`/`openclaw`/`cerebras`/`inception-labs`/`chatgpt-plugins`/`groq`/`deepseek-harness`/`hostinger`/`domainesia`/`web-hosting`/`self-hosted-agent-platforms`/`puter` (tautan silang OpenRouter & MCP).
+- Saran pertanyaan berikutnya: harga & kebijakan data Claude/Anthropic langsung (belum ada sumber resmi); nominal free allowance Token Harbor; kesepakatan layanan Groq cloud (Services Agreement) belum di-ingest; halaman per model (harga lintas penyedia); x402 (Solana USDC) sebagai konsep pembayaran per-request.

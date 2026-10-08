@@ -2,7 +2,7 @@
 title: Token Harbor
 type: entity
 created: 2026-10-01
-updated: 2026-10-02
+updated: 2026-10-08
 sources: [tokenharbor-pricing, tokenharbor-models-frontier, tokenharbor-models-value, tokenharbor-models-free, tokenharbor-th-rudder, tokenharbor-frontier-pass, tokenharbor-office-pass, tokenharbor-docs-subscription, tokenharbor-docs-credits, tokenharbor-docs-rewards, tokenharbor-docs-rate-limits, tokenharbor-docs-prompt-caching, tokenharbor-docs-models, tokenharbor-docs-web-chat-limits, tokenharbor-docs-speed, tokenharbor-docs-vs-openrouter, opencode-go, opencode-zen-price-list]
 tags: [token-harbor, api, pricing]
 ---
@@ -93,6 +93,7 @@ Klip katalog model (2026-10-01) mendokumentasikan harga per 1M token tiap model,
 - [Token Harbor docs — Rate limits](../sources/tokenharbor-docs-rate-limits.md) · [Models](../sources/tokenharbor-docs-models.md) · [Prompt caching on Claude](../sources/tokenharbor-docs-prompt-caching.md) · [Web chat limits](../sources/tokenharbor-docs-web-chat-limits.md) · [Speed](../sources/tokenharbor-docs-speed.md) · [vs OpenRouter](../sources/tokenharbor-docs-vs-openrouter.md)
 - [One API for the world's leading AI models](../sources/tokenharbor-pricing.md) — sumber harga dan pass.
 - [Prompt Caching](../concepts/prompt-caching.md) — sintesis tarif cache lintas layanan.
+- [OpenRouter](openrouter.md) — gateway pembanding; perbandingan resmi dari sudut pandang Token Harbor.
 - [OpenCode](opencode.md) — layanan langganan lain dengan lineup tumpang tindih.
 - [OpenCode Zen](opencode-zen.md) — katalog per-token OpenCode; memuat harga untuk banyak model yang sama.
 - [Layanan Akses Model](../concepts/model-access-services.md) — pola umum layanan seperti ini.

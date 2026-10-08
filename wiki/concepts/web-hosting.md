@@ -38,7 +38,7 @@ tags: [hosting, web, vps, indonesia]
 
 ## Tren yang terlihat
 
-- **AI/MCP masuk ke panel hosting**: Hostinger Agent/Connector dan DomaiNesia MCP menghubungkan agen AI langsung ke infrastruktur; Exabytes menjadikan AI fitur jual utama ("AI Hosting", AI website builder) dan **membundel agent AI di VPS**.
+- **AI/MCP masuk ke panel hosting**: Hostinger Agent/Connector dan DomaiNesia MCP ([Model Context Protocol](mcp.md)) menghubungkan agen AI langsung ke infrastruktur; Exabytes menjadikan AI fitur jual utama ("AI Hosting", AI website builder) dan **membundel agent AI di VPS**.
 - **VPS sebagai rumah agent self-hosted** (tren baru Okt 2026): Exabytes menjual paket dengan **[Hermes](../entities/hermes-agent.md)/[OpenClaw](../entities/openclaw.md)/n8n** pre-installed (mulai Rp194.000/bln), Hostinger menyediakan keduanya di katalog deploy 1 klik (dan dicantumkan docs OpenClaw sebagai target deploy VPS), DomaiNesia mengoneksikan hosting ke OpenClaw via MCP — pola lengkap di [Platform Agen Self-Hosted](self-hosted-agent-platforms.md).
 - Shared hosting mulai mendukung **Node.js/Python** tanpa VPS; LiteSpeed/NVMe menjadi standar.
 - **Reseller bizapp**: provider hosting mulai membundel aplikasi bisnis pihak ketiga (Exabytes: Microsoft 365, Google Workspace, Heylink, Lark) sebagai satu paket dengan hosting.

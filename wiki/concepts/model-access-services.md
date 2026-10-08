@@ -16,7 +16,7 @@ tags: [pricing, subscription, per-token, model-access]
 | Layanan | Model akses | Cara membatasi / menagih |
 | --- | --- | --- |
 | [Token Harbor](../entities/token-harbor.md) | Langganan pass: Free, Agent $1.99/bln (pertama $0.99), Office $9.99/bln, Frontier $99/bln + wallet pay-as-you-go | *Included usage* bernilai dolar pada harga per-token; boost hingga 2× untuk model terpilih; kelebihan → lanjut PAYG dari saldo dengan diskon 5–15% **bila toggle overage aktif**, jika tidak Pass jadi hard limit (lihat [sumber](../sources/tokenharbor-docs-subscription.md)) |
-| [OpenRouter](https://openrouter.ai/) | Pay-as-you-go per token (gateway) | Gateway besar satu key untuk banyak model; endpoint OpenAI-compatible; menurut perbandingan versi Token Harbor, tidak menawarkan endpoint Anthropic native, free tier tetap, atau setup agent satu perintah (lihat [sumber](../sources/tokenharbor-docs-vs-openrouter.md)) |
+| [OpenRouter](../entities/openrouter.md) | Pay-as-you-go per token (gateway) | Gateway besar satu key untuk banyak model; endpoint OpenAI-compatible; kategori output "Decisions"; free tier `:free` 20/menit & 1.000/hari (menurut perbandingan versi Token Harbor, tidak menawarkan endpoint Anthropic native atau setup agent satu perintah — lihat [sumber](../sources/tokenharbor-docs-vs-openrouter.md)) |
 | [OpenCode Go](../entities/opencode.md) | Langganan: Go $10/bln, Go Plus $40/bln | Batas per model: estimasi request per 5 jam + batas pemakaian bulanan (dalam dolar); kelebihan otomatis pay-as-you-go dari kredit bersama Go–Zen (per user, 2026-10-01; lihat [sumber](../sources/opencode-go.md)) |
 | [OpenCode Zen](../entities/opencode-zen.md) | Pay-as-you-go per token (katalog console) | Harga per 1M token (input/output/cache read/cache write); 9 model gratis $0; model harus diaktifkan dulu; berbagi saldo kredit dengan Go (per user, 2026-10-01; lihat [sumber](../sources/opencode-zen-price-list.md)) |
 | [Agnes](../entities/agnes.md) | Langganan Token Plan: Starter $4/bln, Plus $10/bln, Pro $50/bln (kartu promo $2/$5/$25) | Kuota request per jendela 5 jam bergulir + kuota mingguan; gambar 4.000/hari; video 500 detik/hari; RPM lebih tinggi (lihat [sumber](../sources/agnes-token-plan.md)) |
@@ -57,7 +57,7 @@ tags: [pricing, subscription, per-token, model-access]
 - Harga efektif per beban kerja: langganan (Go/Token Harbor) vs per token (Zen)? Perbandingan bisa mulai dihitung, tapi basis estimasi request di halaman Go tidak dijelaskan dan harga antar layanan belum tentu sama.
 - Seberapa luas kesamaan harga Token Harbor ↔ Zen? Perbandingan awal: banyak yang identik, beberapa berbeda; perlu pengecekan menyeluruh.
 - Apakah harga yang identik antar penyedia mencerminkan harga upstream yang sama? Belum ada sumber.
-- OpenRouter baru dikenal dari halaman perbandingan Token Harbor; butuh sumber independen untuk penilaian yang seimbang.
+- OpenRouter kini punya dokumentasi sendiri di wiki (halaman model Jev, kategori decisions, cookbook agen) — [entitas](../entities/openrouter.md); tetap belum ada sumber independen untuk menilai keandalan/posisinya vs gateway lain (perbandingan yang ada ditulis Token Harbor).
 
 ## Related
 

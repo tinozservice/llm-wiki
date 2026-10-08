@@ -2,7 +2,7 @@
 title: Cerebras
 type: entity
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-08
 sources: [cerebras-get-started, cerebras-model-catalog, cerebras-choose-a-model, cerebras-pricing, cerebras-limits, cerebras-gpt-oss, cerebras-qwen-38-27b, cerebras-reasoning, cerebras-structured-outputs, cerebras-tool-calling, cerebras-image-inputs]
 tags: [cerebras, inference, model-provider, speed]
 ---
@@ -40,7 +40,7 @@ tags: [cerebras, inference, model-provider, speed]
 
 ## Akses partner
 
-AWS Marketplace, OpenRouter, Hugging Face, Vercel AI Gateway ([pricing](../sources/cerebras-pricing.md)).
+AWS Marketplace, [OpenRouter](openrouter.md), Hugging Face, Vercel AI Gateway ([pricing](../sources/cerebras-pricing.md)).
 
 ## Peta migrasi (dari model tertutup)
 

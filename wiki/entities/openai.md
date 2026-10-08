@@ -21,7 +21,7 @@ tags: [openai, lab, model-provider, chatgpt, gpt-6]
 | `gpt-6-sol` / `gpt-5.6-*` | $2–4 | … | $10–20 | 1,05M | Keluarga sebelumnya |
 | `gpt-5.5(-pro)` | $5 / $30 | — | $30 / $180 | — | **Pensiun dari ChatGPT 14 Okt 2026** |
 
-- Detail: [API Models](../sources/openai-dev-models.md), [API Pricing](../sources/openai-dev-pricing.md), [GPT-6 Astra](../sources/openai-gpt-6-astra.md) (FrontierMath T4 98%, ARC-AGI-3 99,9%, ExploitBench 100%, scope-overreach 0% vs Sol 48%), [GPT-6.1 Sol](../sources/openai-gpt-61-sol.md), [GPT-5.6](../sources/openai-gpt-56.md), [GPT-5.5](../sources/openai-gpt-55.md).
+- Detail: [API Models](../sources/openai-dev-models.md), [API Pricing](../sources/openai-dev-pricing.md), [Model selection](../sources/openai-dev-model-selection.md), [GPT-6 Astra](../sources/openai-gpt-6-astra.md) (FrontierMath T4 98%, ARC-AGI-3 99,9%, ExploitBench 100%, scope-overreach 0% vs Sol 48%), [GPT-6.1 Sol](../sources/openai-gpt-61-sol.md), [GPT-5.6](../sources/openai-gpt-56.md), [GPT-5.5](../sources/openai-gpt-55.md); **deep research** o3/o4-mini → gpt-5.6-sol ([deep research](../sources/openai-dev-deep-research.md)).
 - **Reasoning**: effort `none…max` (model-dependent; Astra tanpa `none`; Sol default medium) + mode `standard`/`pro`; reasoning token ditagih sebagai output ([reasoning](../sources/openai-dev-reasoning-models.md)).
 - **Open-weight**: gpt-oss 120B/20B + safeguard, Apache 2.0 ([open models](../sources/openai-open-models.md)) — yang dijual di [Groq](../entities/groq.md)/[Cerebras](../entities/cerebras.md)/dll.
 - **Spesialis**: GPT-5.6 Cyber (Daybreak), GPT-Rosalind (life sciences), GPT-Image 2.5 Flare/Sunburst, GPT-Live-1 (voice $0.05/menit).
@@ -31,7 +31,7 @@ tags: [openai, lab, model-provider, chatgpt, gpt-6]
 - **ChatGPT** — tiga mode: **Chat** (tanya), **Work** (delegasi task → deliverable: docs/slides/sheets/Sites; local/cloud; scheduled tasks) ([work](../sources/openai-learn-chatgpt-work.md)), **Codex** (lihat [Codex](codex.md)).
 - **[Dots](dots.md)** — agen always-on GPT-6 Astra dengan komputer cloud sendiri; Pro/Business Premium/Enterprise ([sumber](../sources/openai-dots.md)).
 - **Plan**: Free $0, Go $8, Plus $20, Pro $100/$200/$500 (Ultrafast di $500); Business (~IDR 337rb/user/bln), Edu, Enterprise; **Work & Codex berbagi usage** (estimasi pesan 5 jam: Astra 5–45, 6.1 Sol 15–160, Luna 350–3.000) ([pricing](../sources/openai-learn-pricing.md)).
-- **Import dari agent lain**: desktop dari Claude Code/Cowork/Cursor; Codex CLI `/import` ([sumber](../sources/openai-learn-import.md)).
+- **Import dari agent lain**: desktop dari Claude Code/Cowork/Cursor; Codex CLI `/import` ([sumber](../sources/openai-learn-import.md)); setup awal aplikasi desktop & mode ([quickstart](../sources/openai-learn-quickstart.md)).
 - **Platform API**: Agents SDK + Responses API, tools (web/file search, remote MCP, computer use, code interpreter), voice (GPT-Live/Realtime/chained), enterprise controls (ZDR, BAA, SOC 2, ISO 27001/27017/27018/27701/42001, PCI-DSS, CSA STAR 1) ([platform](../sources/openai-api-platform.md), [security](../sources/openai-security-privacy.md)).
 - **[Plugin ChatGPT & Codex](../concepts/chatgpt-plugins.md)** — skills + MCP + UI + checkout; satu direktori universal ([arsitektur](../sources/openai-dev-plugin-architecture.md)).
 

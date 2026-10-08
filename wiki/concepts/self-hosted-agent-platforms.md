@@ -28,7 +28,7 @@ tags: [agent, self-hosted, openclaw, hermes, gateway]
 | Tata kelola | Yayasan 501(c)(3) donasi; tanpa tier berbayar | Nous Research (venture; **Series B Okt 2026** — investor NVIDIA/M12/Samsung Next dll.; laporan Juli: $75M pada $1,5B); Nous Portal $0–200/bln + Business/Enterprise + Hermes Cloud |
 | Arsitektur | Gateway tepercaya + eksekusi terisolasi (cloud worker, node ber-hash); **sandboxing off by default** | Parent-owned dispatch; **tujuh backend** eksekusi (local, Docker, SSH, Singularity, Modal, Daytona, Vercel Sandbox); eksekusi remote opsional |
 | Policy | Policy as code, deny struktural, approval terikat binding | "Smart review" + deny hardline; beberapa jalur headless bisa auto-approve |
-| Ekosistem | 65 proyek, 142 plugin, ClawHub, OCE, Microsoft Autopilot | Plugin Python + desktop SDK, MCP catalog |
+| Ekosistem | 65 proyek, 142 plugin, ClawHub, OCE, Microsoft Autopilot | Plugin Python + desktop SDK, [MCP catalog](mcp.md) |
 | Bukti adopsi | Microsoft Autopilot, OpenAI internal, Red Hat, 346k+ bintang | 21+ platform; 326 use case; kemitraan **Sign in with ChatGPT**; klaim "most widely used open source agent harness" |
 
 > [!note] Sumber perbandingan

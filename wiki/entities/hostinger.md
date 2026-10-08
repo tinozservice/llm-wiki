@@ -9,7 +9,7 @@ tags: [hostinger, hosting, nodejs, vps]
 
 # Hostinger
 
-**Hostinger** adalah penyedia hosting global (klaim 3 juta+ developer; 5+ juta pengguna) dengan rangkaian produk shared hosting, cloud hosting, VPS KVM, dan **managed Node.js hosting** (Web Apps), dikelola lewat panel **hPanel**. Dua fitur AI menonjol: **Hostinger Agent** (AI agent hosting/WordPress) dan **Hostinger Connector** (MCP untuk VS Code, Cursor, Claude Code) ([produk Node.js](../sources/hostinger-nodejs-product.md)).
+**Hostinger** adalah penyedia hosting global (klaim 3 juta+ developer; 5+ juta pengguna) dengan rangkaian produk shared hosting, cloud hosting, VPS KVM, dan **managed Node.js hosting** (Web Apps), dikelola lewat panel **hPanel**. Dua fitur AI menonjol: **Hostinger Agent** (AI agent hosting/WordPress) dan **Hostinger Connector** ([MCP](../concepts/mcp.md) untuk VS Code, Cursor, Claude Code) ([produk Node.js](../sources/hostinger-nodejs-product.md)).
 
 ## Produk & harga (IDR, promo)
 
@@ -26,9 +26,9 @@ Cloud hosting: klaim 4× lebih cepat & resource 20×; Cloud Professional Rp174.9
 
 - Managed Node.js (Web App): deploy via **GitHub** (auto-deploy per push), **arsip**, atau **Connector**; Node 18/20/22 (default)/24; auto-detect framework; proses on-demand (stop saat idle, start saat request) dan auto-restart.
 - Framework: Next.js, Nuxt, Express, NestJS, Fastify, Hono, Nitro, React Router, Astro, SvelteKit, Gatsby, + frontend statis.
-- Konfigurasi: root directory (monorepo), build script, output directory, entry file, package manager; batas build 15 menit, satu deployment sekaligus (antre 20).
+- Konfigurasi: root directory (monorepo), build script, output directory, entry file, package manager; batas build 15 menit, satu deployment sekaligus (antre 20) ([build settings](../sources/hostinger-nodejs-build-settings.md)); **env vars** untuk build+runtime (import `.env`, batas 1.000 variabel, save = redeploy) ([env vars](../sources/hostinger-nodejs-env-vars.md)).
 - File: `hbuilds/` dikelola otomatis; live di `hbuilds/current/nodejs` atau `public_html`; jangan edit manual.
-- Log: build (Deployments, 10 terakhir) + **Runtime Logs** (stdout/stderr, buffer 5.000 baris, live mode 5 detik).
+- Log: build (Deployments, 10 terakhir) + **Runtime Logs** (stdout/stderr, buffer 5.000 baris, live mode 5 detik) ([deployments](../sources/hostinger-nodejs-deployments.md), [runtime logs](../sources/hostinger-nodejs-runtime-logs.md)).
 - Keamanan: **vulnerability scanning** npm per deploy + berkala; **auto-fix PR** untuk app Git; WAF + DDoS + malware detector.
 - Database: wizard Supabase/MongoDB Atlas (set env otomatis); Managed MySQL.
 

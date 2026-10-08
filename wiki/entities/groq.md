@@ -78,5 +78,6 @@ tags: [groq, inference, api, rate-limits]
 - [GroqCloud — Free Limits (sumber)](../sources/groqcloud-free-limits.md)
 - [Groq — Python SDK (sumber)](../sources/groq-python-sdk.md) · [TypeScript SDK (sumber)](../sources/groq-typescript-sdk.md) · [MCP Server (sumber)](../sources/groq-mcp-server.md) · [Desktop beta (sumber)](../sources/groq-desktop-beta.md)
 - [Groq — Security (sumber)](../sources/groq-security.md) · [Terms of Use (sumber)](../sources/groq-terms-of-use.md) · [Privacy Policy (sumber)](../sources/groq-privacy-policy.md)
+- [Model Context Protocol (MCP)](../concepts/mcp.md) — server resmi Groq & Desktop sebagai klien.
 - [Layanan Akses Model](../concepts/model-access-services.md)
 - [Overview](../overview.md)
