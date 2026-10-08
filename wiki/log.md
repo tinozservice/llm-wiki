@@ -204,3 +204,10 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Catatan angka: harga agregator vs resmi (mis. Tokenra `deepseek-v4-flash` output $0.30 vs resmi off-peak $0.60); DSH masih preview ("compatibility-breaking changes").
 - Diperbarui: `overview.md` (237 sumber; domain 1 = 89, domain 4 = 52; frontmatter 208→237), `index.md` (+29 sumber, +2 entitas, refresh konsep), `README.md`.
 - Tidak ada kontradiksi keras.
+## [2026-10-08] ingest | Groq — 11 klip (SDK, MCP, desktop, legal/security)
+- 11 klip diarsipkan ke `raw/2026/oktober/08/` (created 2026-10-08): README SDK Python & TypeScript, MCP server, Desktop beta; halaman Security, Terms of Use, Privacy Policy, Cookie Policy, Trademark Policy, Recruitment Fraud, Photography & Filming Policy.
+- Dibuat: **11 halaman sumber**; entitas `groq` diperluas (SDK & tooling + keamanan & legal).
+- Temuan: (1) **SDK resmi** — Python (`groq`, sync/async, Stainless) & TypeScript (`groq-sdk`; Node 20+/Deno/Bun/CF Workers; browser off by default); (2) **MCP server resmi** (TTS/STT/Vision/Chat/Batch dari Claude/Cursor/Windsurf) + **Groq Desktop beta** dengan MCP lokal; (3) **disclosure privat HackerOne** — jailbreak/halusinasi model eksplisit out of scope; (4) ToS situs: **liabilitas cap USD $100**, California/Santa Clara, klaim ≤1 tahun; **Service-Specific Terms**: Designated Model **Kimi K2 0905** diproses per **DPA** untuk Beta; (5) Privacy: targeted ads + opt-out (GPC); Cookies 4 kategori; Trademark nominative fair use; Recruitment fraud (@groq.com only); Photography policy (export-control pre-screen).
+- Catatan: ToS situs **tidak** mencakup cloud services (diatur Groq Services Agreement terpisah — belum di-ingest).
+- Diperbarui: `overview.md` (248 sumber; domain 1 = 100; frontmatter 237→248), `index.md` (+11 sumber, refresh entitas groq), `README.md`.
+- Tidak ada kontradiksi keras.
