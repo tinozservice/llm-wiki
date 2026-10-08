@@ -352,4 +352,4 @@ See also: [Overview](overview.md) · [Log](log.md)
 ## Analyses
 
 - [Perhitungan Limit Agent Pass & Beban Konteks Besar](analyses/perhitungan-limit-agent-pass.md) — mekanisme usage value, contoh hitungan DeepSeek V4.1 Flash, kapasitas token Qwen3.7 Flash (±256 jt input + ±25,6 jt output per $10), dan simulasi beban konteks 50k token/turn. (2026-10-04)
-- [Perbandingan GPT-6 Luna Antar Penyedia](analyses/perbandingan-gpt-6-luna.md) — Token Harbor vs OpenCode Go/Zen vs Puter vs VyceAI: harga, kuota, peran cache, dan rekomendasi per skenario. (2026-10-07)
+- [Perbandingan GPT-6 Luna Antar Penyedia](analyses/perbandingan-gpt-6-luna.md) — Resmi OpenAI vs Token Harbor vs OpenCode Go/Zen vs Nous Portal vs Puter vs VyceAI: paritas harga, cache, Fast mode, dan rekomendasi per skenario. (2026-10-08)

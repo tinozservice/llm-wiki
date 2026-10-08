@@ -229,3 +229,8 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Catatan: nama file "Plugins" memakai en-dash (dibaca via salinan temp); harga agregator vs resmi kini bisa diverifikasi (mis. Zen gpt-6.1-sol $2/$10 = resmi).
 - Diperbarui: `overview.md` (290 sumber; domain 1 = 142), `index.md` (+40 sumber, +2 entitas, +1 konsep), `README.md`.
 - Tidak ada kontradiksi keras.
+## [2026-10-08] query | GPT-6 Luna: resmi OpenAI vs agregator (+fileback analisis)
+- Pertanyaan pengguna: "gpt 6 luna resmi vs sumber lain (agregator)".
+- Diperbarui: `wiki/analyses/perbandingan-gpt-6-luna.md` — +baris **OpenAI API resmi** & **Nous Portal** di tabel; section baru "Resmi vs agregator (8 Okt)": paritas $0.10/$0.50 di TH/Zen/Portal = resmi; Fast TH $0.20/$1.00 = Fast mode resmi 2×; cache Zen ($0.01/$0.13) ≈ resmi ($0.01/$0.125); surcharge >272K & Batch/Flex −50% hanya di resmi; VyceAI $2/$2 outlier; Puter/Go beda dimensi. Caveats & Related diperbarui (frontmatter +3 sumber).
+- Diperbarui: `wiki/index.md` (refresh entri analisis; 2026-10-08).
+- Tidak ada kontradiksi.
