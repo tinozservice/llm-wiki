@@ -57,6 +57,7 @@ tags: [openai, lab, model-provider, chatgpt, gpt-6]
 ## Related
 
 - [Codex](codex.md) · [Dots](dots.md)
+- [Anthropic](anthropic.md) — lab frontier pembanding (keluarga Claude).
 - [Plugin ChatGPT & Codex](../concepts/chatgpt-plugins.md) · [Model Keputusan](../concepts/decision-models.md) · [Perbandingan GPT-6 Luna](../analyses/perbandingan-gpt-6-luna.md)
 - [OpenClaw](openclaw.md) · [Hermes Agent](hermes-agent.md) · [DeepSeek](deepseek.md)
 - [Overview](../overview.md)

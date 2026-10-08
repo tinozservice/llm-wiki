@@ -24,7 +24,7 @@ tags: [hermes, nous-research, ai-agent, self-hosted, mit]
 
 > [!warning] Contradiction: jumlah model Portal tidak konsisten — halaman Portal menulis "200+", README "300+", sedangkan katalog menampilkan 350 baris. Definisi/snapshot kemungkinan berbeda; belum teresolusi.
 
-- **API** OpenAI-compatible (`inference-api.nousresearch.com/v1`); auth: API key + kredit, **atau x402 (beta) — bayar per request dengan Solana USDC tanpa akun**; rate limit per tier (Free 50 RPM/500K TPM … Ultra 1.600/16 jt); model **Hermes-4.3-36B / Hermes-4-70B / Hermes-4-405B** (128k) ([API](../sources/hermes-agent-nous-portal-api.md)).
+- **API** OpenAI-compatible (`inference-api.nousresearch.com/v1`); auth: API key + kredit, **atau [x402](../concepts/x402.md) (beta) — bayar per request dengan Solana USDC tanpa akun**; rate limit per tier (Free 50 RPM/500K TPM … Ultra 1.600/16 jt); model **Hermes-4.3-36B / Hermes-4-70B / Hermes-4-405B** (128k) ([API](../sources/hermes-agent-nous-portal-api.md)).
 - **Hermes Cloud**: hosting agen always-on (satu klik; scale-to-zero; sandbox per agen) ([cloud](../sources/hermes-agent-cloud.md)); **Hermes Business** (skill dibagi lintas org; spend intelligence) & **Hermes Enterprise** (on-prem/private cloud, SSO, SLA) ([business](../sources/hermes-agent-business.md)).
 - **Hermes Index** (6 Okt 2026): indeks benchmark model di dalam Hermes (Hermes Bench + Terminal-Bench 4.0 + Terminal-Bench-Science + SkillsBench) — Opus 5.5 memimpin (63,31 / $4,99 per task) ([beranda](../sources/hermes-agent-nous-research.md)).
 - **Kemitraan**: "Sign in with ChatGPT" (pakai plan ChatGPT di Hermes Agent, Sep 2026); web search gratis via Perplexity Fast Search; Grok 4.7 promo 50%.

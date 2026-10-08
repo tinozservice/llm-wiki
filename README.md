@@ -6,12 +6,13 @@ Vault ini dibuka dengan [Obsidian](https://obsidian.md) dan dioperasikan bersama
 
 ## Status saat ini (README diperbarui 2026-10-08)
 
-- **290 sumber** ter-ingest dari arsip `raw/2026/oktober/01–08/`, dalam empat domain:
-  - **Akses model AI (142 sumber)** — Token Harbor, OpenCode Go/Zen, Agnes, Groq, Manus, Novita, Sail Research, Inception Labs, Cerebras, Tokenra, VyceAI, **OpenRouter** (gateway), kelas **model keputusan** (TypeSafe/Jev dan ekosistem "decisions"), + **platform DeepSeek** (API resmi & panduan integrasi) + **platform OpenAI** (40+ klip: model GPT-6, ChatGPT/Codex/Dots, plugin, API & legal).
+- **310 sumber** ter-ingest dari arsip `raw/2026/oktober/01–08/`, dalam lima domain:
+  - **Akses model AI (155 sumber)** — Token Harbor, OpenCode Go/Zen, Agnes, Groq (+legal cloud: Services Agreement & DPA), Manus, Novita, Sail Research, Inception Labs, Cerebras, Tokenra, VyceAI, **OpenRouter** (gateway), kelas **model keputusan** (TypeSafe/Jev dan ekosistem "decisions"), + platform **Anthropic/Claude** (11 klip: lineup resmi Fable/Mythos/Opus/Sonnet/Haiku, pricing API, plans, Claude Code) + **platform DeepSeek** (API resmi & panduan integrasi) + **platform OpenAI** (40+ klip: model GPT-6, ChatGPT/Codex/Dots, plugin, API & legal).
   - **Hosting web (46 sumber)** — Hostinger, Rumahweb, DomaiNesia, Exabytes.
   - **Platform pengembangan Puter (50 sumber)** — Puter.js: AI Gateway 500+ model, storage, KV, workers, hosting, MCP; model bisnis user-pays.
   - **Platform agen self-hosted (52 sumber)** — OpenClaw (OpenClaw Foundation, MIT), Hermes Agent (Nous Research; Nous Portal & Hermes Cloud), DeepSeek Harness (DeepSeek AI, MIT).
-- Isi wiki: **290 halaman sumber · 30 entitas · 9 konsep · 2 analisis** (ditambah `index.md`, `log.md`, dan `overview.md`).
+  - **Solana & pembayaran agentik (7 sumber)** — Solana (network & tooling agen: MCP, skills, program examples) + **x402** (standar pembayaran HTTP 402; dipakai Nous Portal via Solana USDC).
+- Isi wiki: **310 halaman sumber · 33 entitas · 10 konsep · 2 analisis** (ditambah `index.md`, `log.md`, dan `overview.md`).
 - Pintu masuk: [`wiki/index.md`](wiki/index.md) (katalog) · [`wiki/overview.md`](wiki/overview.md) (sintesis top-level) · [`wiki/log.md`](wiki/log.md) (riwayat operasi).
 - Repo: `github.com/tinozservice/llm-wiki` — branch `main`.
 

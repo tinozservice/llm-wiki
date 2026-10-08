@@ -2,8 +2,8 @@
 title: Prompt Caching
 type: concept
 created: 2026-10-02
-updated: 2026-10-02
-sources: [tokenharbor-docs-prompt-caching, tokenharbor-docs-models, tokenharbor-docs-credits, opencode-zen-price-list, agnes-model-pricing, groq-rate-limits, inception-models, novita-model-libraries]
+updated: 2026-10-08
+sources: [tokenharbor-docs-prompt-caching, tokenharbor-docs-models, tokenharbor-docs-credits, opencode-zen-price-list, agnes-model-pricing, groq-rate-limits, inception-models, novita-model-libraries, anthropic-pricing]
 tags: [caching, pricing, latency, api]
 ---
 
@@ -22,10 +22,11 @@ tags: [caching, pricing, latency, api]
 | [Cerebras](../entities/cerebras.md) | Prompt caching (embedding efemeral per organisasi) | Limit "uncached tokens" dipisah dari total token |
 | [Inception Labs](../entities/inception-labs.md) | Cached input | Mercury 2.5: input $0.04 vs cached $0.004 (**10%**) |
 | [Novita](../entities/novita.md) | Cache Read per model | contoh DeepSeek V4.1 Flash: $0.006/M (input $0.3/M) |
+| [Anthropic](../entities/anthropic.md) (langsung) | Automatic caching (1 field `cache_control`) atau breakpoint eksplisit | write 1,25× (5m) / 2× (1h); read 0,1× standar, **0,05×** Opus/Sonnet 5.5, **0,025×** Fable/Mythos 5.1; minimum cacheable 512 token; menumpuk dengan batch (−50%) & US-only (1,1×) ([Pricing](../sources/anthropic-pricing.md)) |
 
 ## Pola yang terlihat
 
-- **Cache read ≈ 10% harga input** adalah pola umum (Agnes, Inception, Claude via Token Harbor). Token Harbor menyebut "up to 90% off" untuk upstream cache.
+- **Cache read ≈ 10% harga input** adalah pola umum (Agnes, Inception, Claude via Token Harbor), tetapi **model frontier terbaru bisa lebih murah**: Anthropic resmi menetapkan 0,05× (Opus/Sonnet 5.5) dan 0,025× (Fable/Mythos 5.1) — tren diskon cache membesar di kelas atas. Token Harbor menyebut "up to 90% off" untuk upstream cache.
 - **Cache write bisa lebih mahal** (Claude: 1,25×) — caching request sekali-jalan justru rugi.
 - Sebagian layanan memakai cache sebagai **pengurang rate limit**, bukan hanya diskon (Groq; Cerebras memisahkan kuota uncached).
 - Token Harbor otomatis memasang cache mark pada Claude bila klien tidak melakukannya — nilai tambah gateway (lihat [Prompt caching on Claude](../sources/tokenharbor-docs-prompt-caching.md)).
@@ -39,7 +40,7 @@ tags: [caching, pricing, latency, api]
 
 - Apakah diskon cache sepenuhnya diteruskan ke penghitungan *usage value* pass Token Harbor? (Dokumentasi menghitung biaya dari token upstream; implikasinya kuat, tapi tidak dinyatakan eksplisit untuk pass.)
 - Tarif cache efektif per model non-Claude di Token Harbor (dokumen hanya menyebut "up to 90% off" + badge per model).
-- Apakah rasio 10% konsisten lintas vendor? Belum ada sumber pembanding.
+- Rasio cache read **tidak seragam**: 10% umum (Agnes, Inception, Claude standar), 5% (Opus/Sonnet 5.5 resmi), 2,5% (Fable/Mythos 5.1 resmi), 3% (Zen DeepSeek) — bandingkan per model, bukan per vendor.
 
 ## Related
 
@@ -49,4 +50,5 @@ tags: [caching, pricing, latency, api]
 - [OpenCode Zen](../entities/opencode-zen.md)
 - [Agnes](../entities/agnes.md)
 - [Groq](../entities/groq.md)
+- [Anthropic](../entities/anthropic.md) — tarif caching resmi per model.
 - [Layanan Akses Model](model-access-services.md)

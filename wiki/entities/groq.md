@@ -3,7 +3,7 @@ title: Groq
 type: entity
 created: 2026-10-01
 updated: 2026-10-08
-sources: [groqcloud-plans, groq-billing-faqs, groq-rate-limits, groq-supported-models, groqcloud-free-limits, groq-python-sdk, groq-typescript-sdk, groq-mcp-server, groq-desktop-beta, groq-security, groq-terms-of-use, groq-privacy-policy, groq-cookie-policy, groq-trademark-policy, groq-recruitment-fraud, groq-photography-policy]
+sources: [groqcloud-plans, groq-billing-faqs, groq-rate-limits, groq-supported-models, groqcloud-free-limits, groq-python-sdk, groq-typescript-sdk, groq-mcp-server, groq-desktop-beta, groq-security, groq-terms-of-use, groq-privacy-policy, groq-cookie-policy, groq-trademark-policy, groq-recruitment-fraud, groq-photography-policy, groq-services-agreement, groq-dpa]
 tags: [groq, inference, api, rate-limits]
 ---
 
@@ -58,6 +58,8 @@ tags: [groq, inference, api, rate-limits]
 
 - **Security**: Trust Center; **disclosure privat via HackerOne** (reward at discretion); out of scope eksplisit: **jailbreak/prompt bypass & halusinasi/simulasi model** ([sumber](../sources/groq-security.md)).
 - **Terms of Use situs** (efektif 15 Okt 2025): cloud services diatur Groq Services Agreement terpisah; **batas liabilitas USD $100**; hukum California (Santa Clara County); klaim ≤1 tahun; **Service-Specific Terms** — Designated Model **Kimi K2 0905** diproses per **DPA** untuk Beta Services ([sumber](../sources/groq-terms-of-use.md)).
+- **Services Agreement (cloud — 8 Okt, rev. 22 Jun 2026)**: menutup GroqChat/Playground/GroqCloud/AI Model Services — **18+ & bukan untuk konsumen**; pihak kontrak per wilayah (Groq LLC/UK Limited/Limited KSA/Public Sector LLC); **tidak memakai Inputs/Outputs untuk training/fine-tuning** kecuali izin eksplisit (§4.2) + setelan **zero data retention**; **cap liabilitas = biaya 12 bulan terakhir**, dan **$5.000** untuk Beta/layanan gratis (§14.2); data dihapus **≤30 hari** pasca-terminasi; larangan High Risk/kompetisi/penghapusan watermark; governing law California (Amerika/Asia/Oceania), Inggris (EMEA), **arbitrase SCCA** (KSA); precedensi dokumen: DPA > BAA > AUP > Agreement ([sumber](../sources/groq-services-agreement.md)).
+- **DPA (cloud)**: selaras GDPR/CCPA/UK GDPR/FADP Swiss/PDPL Saudi; **notifikasi Data Breach ≤72 jam**; daftar subprocessor publik + hak objektif 15 hari; transfer via **EU SCCs (Irlandia)** + UK Addendum + KSA C2P; **penghapusan data ≤180 hari** atas permintaan; audit (SOC 2 Type II; ≤1×/12 bulan) ([sumber](../sources/groq-dpa.md)).
 - **Privacy**: analytics + **targeted advertising** pihak ketiga; hak opt-out (US state laws, GPC); retensi; transfer internasional ([sumber](../sources/groq-privacy-policy.md)). **Cookies**: 4 kategori (Necessary/Functional/Analytics/Marketing) ([sumber](../sources/groq-cookie-policy.md)).
 - **Trademark**: nominative fair use + atribusi "Groq is a trademark of Groq LLC"; logo butuh lisensi ([sumber](../sources/groq-trademark-policy.md)).
 - **Recruitment fraud**: komunikasi resmi hanya dari **@groq.com**; tidak pernah minta uang/data passport ([sumber](../sources/groq-recruitment-fraud.md)). **Photography/filming** di fasilitas: allowed/conditional/prohibited areas, pre-screen export-control ([sumber](../sources/groq-photography-policy.md)).
@@ -67,7 +69,7 @@ tags: [groq, inference, api, rate-limits]
 - Limit Free vs base Developer tampak identik di sumber; apakah Developer benar-benar menaikkan RPM default?
 - Harga on-demand lengkap ada di halaman terpisah (tidak ada di klip).
 - Ketersediaan model per region/tier tidak dijelaskan.
-- DPA & pemrosesan Beta (Designated Model Kimi K2 0905) — detail DPA belum di-ingest; kapan Groq Desktop keluar dari beta.
+- Designated Model **Kimi K2 0905** di Beta — mekanisme per DPA kini tercatat ([DPA](../sources/groq-dpa.md)); model lain yang berdesignasi belum lengkap; kapan Groq Desktop keluar dari beta.
 
 ## Related
 
@@ -78,6 +80,7 @@ tags: [groq, inference, api, rate-limits]
 - [GroqCloud — Free Limits (sumber)](../sources/groqcloud-free-limits.md)
 - [Groq — Python SDK (sumber)](../sources/groq-python-sdk.md) · [TypeScript SDK (sumber)](../sources/groq-typescript-sdk.md) · [MCP Server (sumber)](../sources/groq-mcp-server.md) · [Desktop beta (sumber)](../sources/groq-desktop-beta.md)
 - [Groq — Security (sumber)](../sources/groq-security.md) · [Terms of Use (sumber)](../sources/groq-terms-of-use.md) · [Privacy Policy (sumber)](../sources/groq-privacy-policy.md)
+- [Groq Services Agreement (sumber)](../sources/groq-services-agreement.md) · [DPA for GroqCloud (sumber)](../sources/groq-dpa.md)
 - [Model Context Protocol (MCP)](../concepts/mcp.md) — server resmi Groq & Desktop sebagai klien.
 - [Layanan Akses Model](../concepts/model-access-services.md)
 - [Overview](../overview.md)

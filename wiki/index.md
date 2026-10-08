@@ -305,6 +305,26 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [OpenAI Learn — Prompting](sources/openai-learn-prompting.md) — Panduan prompting lintas surface (Chat/Work/Codex). (2026-10-08)
 - [OpenAI Learn — Quickstart](sources/openai-learn-quickstart.md) — Setup app desktop; pilih mode; Codex Cloud environment. (2026-10-08)
 - [OpenAI Learn — Use ChatGPT](sources/openai-learn-use-chatgpt.md) — Chat vs Work vs Codex; cloud/local; share snapshot; review hasil. (2026-10-08)
+- [Claude Code by Anthropic (produk)](sources/anthropic-claude-code.md) — Coding agent terminal+IDE; termasuk Pro/Max; lokal & berizin; MCP servers; fast mode $8/$40. (2026-10-08)
+- [Anthropic docs — Models overview](sources/anthropic-models-overview.md) — Tabel resmi lineup Claude (Fable/Opus/Sonnet/Haiku); semua 1M ctx/128K out; Models API capabilities. (2026-10-08)
+- [Anthropic docs — Choosing the right model](sources/anthropic-choosing-model.md) — Kriteria & matriks pemilihan; effort sebagai lever; fast mode 2,5×; pola multi-model. (2026-10-08)
+- [Anthropic docs — Pricing](sources/anthropic-pricing.md) — Harga API lengkap (base/cache/batch/fast/tools/managed agents); CCU AWS & Foundry; verifikasi paritas agregator. (2026-10-08)
+- [Claude — Plans & pricing](sources/anthropic-plans-pricing.md) — Free/Pro $17–20/Max $100+; Claude Code termasuk; Fable via credits; training opt-out. (2026-10-08)
+- [Claude Opus (produk) — Opus 5.5](sources/anthropic-opus.md) — $4/$20; cache read $0,20; fast mode $8/$40; daily driver agentic coding. (2026-10-08)
+- [Claude Sonnet (produk) — Sonnet 5.5](sources/anthropic-sonnet.md) — $2/$10; 30% lebih cepat/murah dari Sonnet 5; caching s.d. 90%; CursorBench 55,5%. (2026-10-08)
+- [Anthropic docs — Claude Haiku 5.5](sources/anthropic-haiku-55.md) — Tier harga ≤/>100K; 1M ctx; tokenizer baru (+30% token); rilis 7 Okt 2026. (2026-10-08)
+- [Anthropic docs — Claude Fable 5.1](sources/anthropic-fable-51.md) — $10/$50; cache read $0,25; breaking changes; model IDs dateless = snapshot tetap. (2026-10-08)
+- [Anthropic docs — Claude Mythos 5.1](sources/anthropic-mythos-51.md) — Sama dengan Fable 5.1 tapi hanya organisasi terverifikasi; model IDs & versioning. (2026-10-08)
+- [Claude Mythos (produk)](sources/anthropic-mythos.md) — Akses terverifikasi (Cyber/Life Sciences); Claude Security di Mythos 5.1; retensi 30 hari; riwayat Mythos 5. (2026-10-08)
+- [Groq Services Agreement (cloud)](sources/groq-services-agreement.md) — 18+; no-training default (§4.2) + ZDR; cap liabilitas 12 bulan ($5.000 beta); KSA/UK/California. (2026-10-08)
+- [Groq — DPA](sources/groq-dpa.md) — GDPR/CCPA/UK/FADP/PDPL; breach ≤72 jam; SCCs EU/UK/KSA; hapus ≤180 hari; SOC 2. (2026-10-08)
+- [x402 (situs resmi)](sources/x402.md) — Standar pembayaran HTTP 402: 75,4 jt tx/30 hari ($24,24 jt), stablecoin, tanpa akun/KYC; Linux Foundation. (2026-10-08)
+- [Solana — Landing](sources/solana-landing.md) — 557,5B tx, 5.068 TPS, $3,3T volume; institusi & RWA; slot 250→200ms; Samsung Wallet. (2026-10-08)
+- [Solana — Learn hub](sources/solana-learn.md) — Jalur belajar; llms.txt/SKILL.md; produk x402/Agent Registry/Skills. (2026-10-08)
+- [Solana — Use Solana](sources/solana-use.md) — Onboarding pemula: wallet → dasar → keamanan → apps. (2026-10-08)
+- [Solana — x402 on Solana](sources/solana-x402.md) — 37 jt+ tx, 70% volume x402; finality 400ms; ekosistem PayAI/Corbits/x402scan; MCP with x402. (2026-10-08)
+- [Solana docs — Coding with agents](sources/solana-coding-with-agents.md) — Solana Developer MCP (mcp.solana.com) + skill resmi untuk coding agent. (2026-10-08)
+- [Solana — Program Examples](sources/solana-program-examples.md) — Contoh onchain Anchor/Pinocchio/Native: basics, token-2022 hooks, cNFT, kripto, games ECVRF. (2026-10-08)
 
 ## Entities
 
@@ -338,6 +358,9 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [TypeSafe](entities/typesafe.md) — Perusahaan "Machine Native Intelligence"; kelas System One + Jev; RLCD; schema `/v1/systemone` jadi standar de facto kategori decisions. (2026-10-08)
 - [Jev](entities/jev.md) — Model keputusan "first System One": $0.042/M input, output gratis; 64k/32k; alias jev-latest/jev-preview; bukan pengganti LLM coding agent. (2026-10-08)
 - [OpenRouter](entities/openrouter.md) — Gateway multi-model besar: satu key ±190 model, routing/fallback/Pareto/Auto Model, kategori "Decisions" (10+ vendor), free tier `:free` 20/menit & 1.000/hari; provider cookbook Hermes & OpenClaw. (2026-10-08)
+- [Anthropic](entities/anthropic.md) — Lab Claude: lineup resmi (Fable/Mythos $10/$50 · Opus $4/$20 · Sonnet $2/$10 · Haiku dari $0.10/$0.50), harga API & caching, plans Free–Max, platforms, verifikasi paritas agregator. (2026-10-08)
+- [Claude Code](entities/claude-code.md) — Coding agent terminal+IDE (Pro/Max/Team/Console); lokal & berizin; MCP servers; jalur DeepSeek; fast mode Opus. (2026-10-08)
+- [Solana](entities/solana.md) — Blockchain high-performance (5.068 TPS; RWA $4,6B+): rumah x402 (70% volume), Solana MCP & skills agen, program examples. (2026-10-08)
 
 ## Concepts
 
@@ -350,6 +373,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Platform Agen Self-Hosted](concepts/self-hosted-agent-platforms.md) — Agen persisten di infrastruktur sendiri (OpenClaw, Hermes & DeepSeek Harness): gateway, multi-channel, memori, sandbox, policy; tiga filosofi tata kelola. (2026-10-08)
 - [Plugin ChatGPT & Codex](concepts/chatgpt-plugins.md) — Paket skills + MCP + UI + hooks di direktori universal; kontrak tool, safety annotations, monetisasi checkout. (2026-10-08)
 - [Model Context Protocol (MCP)](concepts/mcp.md) — Standar terbuka tool/koneksi data: tools/resources/prompts, stdio & streamable HTTP; adopsi lintas OpenAI, Puter, Groq, OpenClaw, Hermes, DSH, hingga panel hosting. (2026-10-08)
+- [x402 (protokol pembayaran)](concepts/x402.md) — HTTP 402 + stablecoin per request: 75,4 jt tx/30 hari ($24,24 jt; Solana 70%); tanpa akun/KYC; diadopsi Nous Portal; payment-gate MCP server. (2026-10-08)
 
 ## Analyses
 
