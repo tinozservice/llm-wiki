@@ -3,7 +3,7 @@ title: Hosting Web
 type: concept
 created: 2026-10-02
 updated: 2026-10-08
-sources: [hostinger-cloud-hosting, hostinger-vps, hostinger-nodejs-overview, rumahweb-shared-hosting, rumahweb-vps, domainesia-web-hosting, domainesia-cloud-hosting, exabytes-web-hosting-murah, exabytes-vps-linux, exabytes-nvme-vps-hermes, exabytes-nvme-vps-openclaw]
+sources: [hostinger-cloud-hosting, hostinger-vps, hostinger-nodejs-overview, rumahweb-shared-hosting, rumahweb-vps, domainesia-web-hosting, domainesia-cloud-hosting, exabytes-web-hosting-murah, exabytes-vps-linux, exabytes-nvme-vps-hermes, exabytes-nvme-vps-openclaw, openclaw-docs-install]
 tags: [hosting, web, vps, indonesia]
 ---
 
@@ -39,7 +39,7 @@ tags: [hosting, web, vps, indonesia]
 ## Tren yang terlihat
 
 - **AI/MCP masuk ke panel hosting**: Hostinger Agent/Connector dan DomaiNesia MCP menghubungkan agen AI langsung ke infrastruktur; Exabytes menjadikan AI fitur jual utama ("AI Hosting", AI website builder) dan **membundel agent AI di VPS**.
-- **VPS sebagai rumah agent self-hosted** (tren baru Okt 2026): Exabytes menjual paket dengan **[Hermes](../entities/hermes-agent.md)/[OpenClaw](../entities/openclaw.md)/n8n** pre-installed (mulai Rp194.000/bln), Hostinger menyediakan keduanya di katalog deploy 1 klik, DomaiNesia mengoneksikan hosting ke OpenClaw via MCP.
+- **VPS sebagai rumah agent self-hosted** (tren baru Okt 2026): Exabytes menjual paket dengan **[Hermes](../entities/hermes-agent.md)/[OpenClaw](../entities/openclaw.md)/n8n** pre-installed (mulai Rp194.000/bln), Hostinger menyediakan keduanya di katalog deploy 1 klik (dan dicantumkan docs OpenClaw sebagai target deploy VPS), DomaiNesia mengoneksikan hosting ke OpenClaw via MCP — pola lengkap di [Platform Agen Self-Hosted](self-hosted-agent-platforms.md).
 - Shared hosting mulai mendukung **Node.js/Python** tanpa VPS; LiteSpeed/NVMe menjadi standar.
 - **Reseller bizapp**: provider hosting mulai membundel aplikasi bisnis pihak ketiga (Exabytes: Microsoft 365, Google Workspace, Heylink, Lark) sebagai satu paket dengan hosting.
 - Harga pasar Indonesia sangat agresif (mulai ~Rp13.000–Rp18.000/bln promo) dengan domain gratis tahun pertama; VPS mulai Rp43.200 (DomaiNesia Lite) / Rp50.000 (Rumahweb XS).

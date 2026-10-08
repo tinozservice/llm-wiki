@@ -3,7 +3,7 @@ title: Model Keputusan (Decision Models)
 type: concept
 created: 2026-10-08
 updated: 2026-10-08
-sources: [typesafe-docs-introduction, typesafe-docs-system-one, openrouter-decisions-models, openrouter-jev-113, typesafe-docs-how-to-build, typesafe-docs-jaggedness-jev-113]
+sources: [typesafe-docs-introduction, typesafe-docs-system-one, openrouter-decisions-models, openrouter-jev-113, typesafe-docs-how-to-build, typesafe-docs-jaggedness-jev-113, openclaw-blog-decision-models, openclaw-yt-decision-models]
 tags: [decision-models, system-one, api, ai]
 ---
 
@@ -37,6 +37,7 @@ tags: [decision-models, system-one, api, ai]
 
 ## Keterkaitan dengan domain lain di wiki
 
+- **Adopsi nyata — OpenClaw (8 Okt)**: platform agen self-hosted [OpenClaw](../entities/openclaw.md) mengintegrasikan decision model secara **plugin-first**: model terkonfigurasi terpisah dari model chat, dipakai via `api.runtime.decisions.evaluate` (plugin) dan tool `decision_evaluate` (core); adapter TypeSafe mendukung **Jev hosted + System One lokal (Kev)**; opt-in. Use case komunitas: filter tool/skill, skill curation, context management saat compaction, pemilihan model, dan **"harus menjawab atau diam?" di grup** (Noul murah). Klaim: Jev = model dengan adopsi tercepat di Vercel AI Gateway ([blog OpenClaw](../sources/openclaw-blog-decision-models.md), [YT](../sources/openclaw-yt-decision-models.md)).
 - **Melengkapi, bukan menggantikan, LLM**: Jev dkk. **bukan** pengganti model coding agent — dipakai *oleh* kode/agen untuk keputusan sempit ([coding agents](../sources/typesafe-docs-coding-agents.md)).
 - **Jev di katalog pihak ketiga**: [OpenCode Zen](../entities/opencode-zen.md) & [Tokenra](../entities/tokenra.md) menjual varian Jev di samping model chat.
 - **Batas resmi**: model keputusan tetap bisa salah — lihat [jaggedness Jev](../sources/typesafe-docs-jaggedness-jev-113.md) (literal, lemah aritmetika, bias urutan opsi).

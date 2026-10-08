@@ -2,8 +2,8 @@
 title: OpenCode
 type: entity
 created: 2026-10-01
-updated: 2026-10-01
-sources: [opencode-go, opencode-zen-price-list]
+updated: 2026-10-08
+sources: [opencode-go, opencode-zen-price-list, openclaw-docs-cli-automation, openclaw-docs-cli-setup-reference]
 tags: [opencode, coding-agent, subscription, model-access]
 ---
 
@@ -19,6 +19,7 @@ tags: [opencode, coding-agent, subscription, model-access]
 - **Fleksibilitas** — bisa dipakai dengan OpenCode atau agen lain, *top up* kredit bila perlu, batal kapan saja.
 - **Kredit bersama** — saldo kredit berasal dari *top up* dan menyatu antara Go dan Zen (per user, 2026-10-01).
 - **OpenCode Zen** — katalog model dengan harga per token di console OpenCode; kemungkinan inilah "Zen" yang disebut di FAQ Go (lihat [OpenCode Zen](opencode-zen.md), [sumber](../sources/opencode-zen-price-list.md)).
+- **Integrasi eksternal (8 Okt)** — [OpenClaw](openclaw.md) mendukung **OpenCode Zen/Go** sebagai pilihan auth di onboarding (`--auth-choice opencode-zen`/`opencode-go`; satu API key via opencode.ai/auth) — OpenCode dipakai sebagai jalur model provider di platform agen self-hosted ([sumber](../sources/openclaw-docs-cli-automation.md), [setup reference](../sources/openclaw-docs-cli-setup-reference.md)).
 
 ## Batas pemakaian per model
 
@@ -74,6 +75,7 @@ Estimasi request per 5 jam dan batas pemakaian bulanan tiap model untuk langgana
 ## Related
 
 - [Low cost coding models for everyone](../sources/opencode-go.md) — sumber harga dan batas.
+- [OpenClaw](openclaw.md) — platform agen yang mendukung Zen/Go sebagai provider.
 - [Token Harbor](token-harbor.md) — layanan langganan lain dengan lineup tumpang tindih.
 - [OpenCode Zen](opencode-zen.md) — katalog model OpenCode dengan harga per token.
 - [Layanan Akses Model](../concepts/model-access-services.md)
