@@ -16,6 +16,7 @@ tags: [openclaw, ai-agent, self-hosted, open-source, gateway, mit]
 - Klaim komunitas: proyek dengan pertumbuhan tercepat di GitHub — **346k+ bintang <5 bulan** (YC); "half a million systems running" (Fast Company); **OpenClaw 2.0** (Agu 2026) dibangun **933 kontributor** (569 baru) dengan **16.000+ PR** ([2.0](../sources/openclaw-blog-2-0.md)).
 - Donatur yayasan (30+ organisasi): University of Michigan, **OpenAI**, Amazon, Red Hat, Microsoft, NVIDIA, Atlassian, GitHub, Tencent, dll. — "donor tidak memiliki/mengarahkan proyek; tidak ada model lab yang diistimewakan"; Peter bekerja di OpenAI, tetapi "OpenClaw bukan produk OpenAI".
 - **Adopsi besar**: **Microsoft Autopilot** (dulu Scout) dibangun di atas OpenClaw dengan kontribusi upstream dua arah ([blog](../sources/openclaw-blog-microsoft-autopilot.md)); **OpenClaw Enterprise (OCE)** — proyek terpisah (dihibahkan OpenAI ke Foundation, dikembangkan bersama Red Hat & NVIDIA) untuk deployment multi-tenant di lingkungan sensitif, selalu gratis ([blog](../sources/openclaw-blog-enterprise.md)). *Nuansa*: "no enterprise edition" berlaku untuk OpenClaw inti; OCE adalah proyek open-source terpisah, bukan edisi berbayar.
+- **Telemetri & donor (README GitHub)**: default hanya version check harian; **statistik fitur anonim = opt-in**; donor yayasan — Amazon, Lobster Computer Company, Offline Holdings, OpenAI, Red Hat, University of Michigan; infrastruktur — Blacksmith, Convex, GitHub, NVIDIA, Vercel ([README](../sources/openclaw-readme.md)).
 
 ## Arsitektur & kemampuan
 

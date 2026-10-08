@@ -3,13 +3,13 @@ title: Platform Agen Self-Hosted
 type: concept
 created: 2026-10-08
 updated: 2026-10-08
-sources: [openclaw-landing, openclaw-docs-why-openclaw, openclaw-docs-trust-boundary, openclaw-docs-vs-hermes, hermes-agent-landing, hermes-agent-readme, hermes-agent-nous-research, hermes-agent-nous-portal-subscription, hermes-agent-cloud, hermes-agent-business, openrouter-hermes-integration, exabytes-nvme-vps-hermes]
+sources: [openclaw-landing, openclaw-docs-why-openclaw, openclaw-docs-trust-boundary, openclaw-docs-vs-hermes, hermes-agent-landing, hermes-agent-readme, hermes-agent-nous-research, hermes-agent-nous-portal-subscription, hermes-agent-cloud, hermes-agent-business, openrouter-hermes-integration, exabytes-nvme-vps-hermes, deepseek-harness-readme, deepseek-harness-architecture, deepseek-harness-landing]
 tags: [agent, self-hosted, openclaw, hermes, gateway]
 ---
 
 # Platform Agen Self-Hosted
 
-**Platform agen self-hosted** adalah kelas produk yang menjalankan **agen AI persisten di infrastruktur milik pengguna sendiri**, menghubungkannya ke banyak aplikasi chat, dan menyimpan memori/state di mesin sendiri — bukan layanan cloud pihak ketiga. Dua wakil di wiki: **[OpenClaw](../entities/openclaw.md)** dan **[Hermes Agent](../entities/hermes-agent.md)**.
+**Platform agen self-hosted** adalah kelas produk yang menjalankan **agen AI persisten di infrastruktur milik pengguna sendiri**, menghubungkannya ke banyak aplikasi chat, dan menyimpan memori/state di mesin sendiri — bukan layanan cloud pihak ketiga. Tiga wakil di wiki: **[OpenClaw](../entities/openclaw.md)**, **[Hermes Agent](../entities/hermes-agent.md)**, dan **[DeepSeek Harness](../entities/deepseek-harness.md)**.
 
 ## Pola umum
 
@@ -33,6 +33,10 @@ tags: [agent, self-hosted, openclaw, hermes, gateway]
 
 > [!note] Sumber perbandingan
 > Tabel di atas menggabungkan sumber **kedua vendor**; dokumen [OpenClaw vs Hermes](../sources/openclaw-docs-vs-hermes.md) adalah sudut pandang OpenClaw dan harus dibaca sebagai posisi kompetitif.
+
+## DeepSeek Harness (wakil ketiga, 8 Okt)
+
+**[DeepSeek Harness (DSH)](../entities/deepseek-harness.md)** — agent harness **MIT** dari DeepSeek AI (**developer preview**), arsitektur **"everything is a plugin"** di atas framework **Cordis**: model adapter, tool registry, session log, dan agent loop semuanya plugin yang dapat ditukar; runtime disusun dari *profile* + *bundle* + patch ([arsitektur](../sources/deepseek-harness-architecture.md)). Jalankan `npx @deepseek-ai/dsh web` (Web UI 3080) atau lewat **Python SDK** tanpa Node sistem. Punya klien **MCP**, plugin Automation/reminder, GitHub webhook review, dan desktop app. Kebijakan data: layanan model **official** memakai session log untuk training; layanan model **custom** tidak disimpan server-side ([privacy](../sources/deepseek-harness-privacy.md)).
 
 ## Keterkaitan wiki
 

@@ -197,3 +197,10 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Catatan angka: "200+" (portal) vs "300+" (README) model — dicatat, tidak ditimpa.
 - Diperbarui: `overview.md` (208 sumber; domain 4 = 37; frontmatter 198→208), `index.md` (+10 sumber, refresh entitas hermes), `README.md`.
 - Tidak ada kontradiksi keras.
+## [2026-10-08] ingest | DeepSeek & DeepSeek Harness — 29 klip (API docs, DSH docs, 2 README)
+- 29 klip diarsipkan ke `raw/2026/oktober/08/` (created 2026-10-08): 13 halaman DeepSeek API Docs (models & pricing, rate limit, token usage, first call, errors + 8 integrasi agent), 14 berkas DeepSeek Harness (landing, README, architecture, configure models, Python SDK, Web UI, first plugin, memory MCP, LLM adapter, GitHub webhooks, proxy, reminders, privacy, terms), + awesome-deepseek-agent & OpenClaw README.
+- Dibuat: **29 halaman sumber** + entitas `deepseek` & `deepseek-harness`; konsep `self-hosted-agent-platforms` (+wakil ketiga DSH); `entities/openclaw` (+nuansa README: statistik fitur opt-in, donor/infra sponsor).
+- Temuan: (1) platform resmi DeepSeek — Flash/V4 Pro konteks 1M, output 384K, off-peak = ½ peak, konkurensi 2.500/500, `user_id` isolation, error 402 saldo habis; (2) **23 panduan integrasi resmi** (Claude Code, Codex, OpenClaw, Hermes, OpenCode, Qoder, Reasonix, WorkBuddy + awesome list 15 tool lain); (3) **DeepSeek Harness (DSH)** — agent harness MIT, everything-is-a-plugin di atas Cordis, developer preview; Web UI 3080 + Python SDK tanpa Node sistem; MCP/reminder/GitHub webhook; data policy official vs custom model; (4) Claude Code mapping: `claude-opus*`→v4-pro, `sonnet/haiku*`→flash.
+- Catatan angka: harga agregator vs resmi (mis. Tokenra `deepseek-v4-flash` output $0.30 vs resmi off-peak $0.60); DSH masih preview ("compatibility-breaking changes").
+- Diperbarui: `overview.md` (237 sumber; domain 1 = 89, domain 4 = 52; frontmatter 208→237), `index.md` (+29 sumber, +2 entitas, refresh konsep), `README.md`.
+- Tidak ada kontradiksi keras.
