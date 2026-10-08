@@ -3,7 +3,7 @@ title: Layanan Akses Model
 type: concept
 created: 2026-10-01
 updated: 2026-10-08
-sources: [tokenharbor-pricing, opencode-go, opencode-zen-price-list, tokenharbor-docs-subscription, tokenharbor-docs-vs-openrouter, puter-ai-gateway, puter-docs-user-pays, vyceai-pricing-monthly, vyceai-system-status, openrouter-decisions-models, typesafe-docs-models]
+sources: [tokenharbor-pricing, opencode-go, opencode-zen-price-list, tokenharbor-docs-subscription, tokenharbor-docs-vs-openrouter, puter-ai-gateway, puter-docs-user-pays, vyceai-pricing-monthly, vyceai-system-status, openrouter-decisions-models, typesafe-docs-models, hermes-agent-nous-portal-subscription, hermes-agent-nous-portal-api]
 tags: [pricing, subscription, per-token, model-access]
 ---
 
@@ -29,6 +29,7 @@ tags: [pricing, subscription, per-token, model-access]
 | [Tokenra](../entities/tokenra.md) | Pay-as-you-go per token (gateway) | 37 model; varian diskon (`-50off`/`-discounted`); gratis/anonymous (`union-alpha`, `space-bunny-alpha`); image per request; video per 1M unit (lihat [sumber](../sources/tokenra-model-square-page-1.md)) |
 | [Puter](../entities/puter.md) | Bagian dari platform **Puter**: [AI Gateway 500+ model](../sources/puter-ai-gateway.md) lewat `puter.ai.*` (keyless, client-side); endpoint OpenAI/Anthropic-compatible untuk pemegang plan berbayar | **Gratis untuk developer — user-pays**: tiap user aplikasi memakai allowance akun Puter sendiri (kelebihan dibayar user langsung ke Puter); limit dihitung per user (lihat [docs User-Pays](../sources/puter-docs-user-pays.md)) |
 | [VyceAI](../entities/vyceai.md) | Langganan + kredit: Free $0; Lite $5/bln ($4 tahunan); Pro $20/bln ($16) | API proxy multi-model (OpenAI & Anthropic compatible): model "unlimited" (DeepSeek V4.1 & Agnes 3.0 Flash) untuk Lite/Pro + bonus bulanan $100–500 + **reward harian $10–30**; model frontier lain per token (lihat [sumber](../sources/vyceai-pricing-monthly.md)) |
+| [Nous Portal](../entities/hermes-agent.md) (baru, 8 Okt) | Langganan kredit: Free $0; Plus $20; Super $100; Ultra $200 (+10% bonus kredit; rollover cap $10/$50/$100) | 350 model + hosted tools untuk Hermes Agent; **API OpenAI-compatible** + **x402 (Solana USDC, bayar-per-request anonim)**; rate limit per tier (lihat [sumber](../sources/hermes-agent-nous-portal-subscription.md)) |
 
 ## Kesamaan dan perbedaan
 
@@ -48,6 +49,7 @@ tags: [pricing, subscription, per-token, model-access]
 - **Kecepatan sebagai produk**: Cerebras mengklaim ~3.000 t/s (GPT OSS 120B) dan Groq ~1.000 t/s (gpt-oss-20b) — kecepatan token menjadi pembeda utama, bukan hanya harga.
 - **Model "anonymous"/gratis** muncul sebagai taktik akuisisi: `union-alpha`/`space-bunny-alpha` (Tokenra), `Space Bunny Free` (OpenCode Zen).
 - **Kategori baru — model keputusan (8 Okt)**: kategori output **"Decisions"** di OpenRouter berisi belasan model yang menagih **input saja (output gratis)** dan mengembalikan `choice`/`score`/`noul` bertipe alih-alih teks — Jev (TypeSafe), GPT-6 Luna Decisions (OpenAI), Solar Decide (Upstage), Decider (Perplexity), Mercury Decide (Inception), d1 (Liquid), Clef (Cloudflare), Kev (open-weight), dll.; banyak yang memakai schema `/v1/systemone` yang sama — lihat [Model Keputusan](decision-models.md) & [Jev](../entities/jev.md).
+- **Skema portal agen + kripto (8 Okt)**: [Nous Portal](../entities/hermes-agent.md) menjual langganan kredit (+10% bonus, rollover cap) dengan 350 model & hosted tools untuk Hermes Agent — dan menerima **x402: pembayaran per request dengan Solana USDC tanpa akun/API key** (beta, surcharge kecil) ([API](../sources/hermes-agent-nous-portal-api.md)).
 - **Akses multimodal & media**: Agnes menjual kuota gabungan teks/gambar/video; Novita juga menyediakan image/video/audio/search API di samping model teks.
 
 ## Pertanyaan terbuka

@@ -3,7 +3,7 @@ title: Platform Agen Self-Hosted
 type: concept
 created: 2026-10-08
 updated: 2026-10-08
-sources: [openclaw-landing, openclaw-docs-why-openclaw, openclaw-docs-trust-boundary, openclaw-docs-vs-hermes, hermes-agent-landing, openrouter-hermes-integration, exabytes-nvme-vps-hermes]
+sources: [openclaw-landing, openclaw-docs-why-openclaw, openclaw-docs-trust-boundary, openclaw-docs-vs-hermes, hermes-agent-landing, hermes-agent-readme, hermes-agent-nous-research, hermes-agent-nous-portal-subscription, hermes-agent-cloud, hermes-agent-business, openrouter-hermes-integration, exabytes-nvme-vps-hermes]
 tags: [agent, self-hosted, openclaw, hermes, gateway]
 ---
 
@@ -19,17 +19,17 @@ tags: [agent, self-hosted, openclaw, hermes, gateway]
 - **Eksekusi nyata**: shell, file, browser, form, API — dengan pilihan **sandbox** (Docker/SSH/OpenShell/Singularity/Modal) dan policy/approval di kode.
 - **Otomasi**: cron/heartbeat/hooks/webhook; subagent paralel; cloud worker sekali pakai.
 - **Model bebas**: provider mana pun (termasuk [OpenCode Zen/Go](../entities/opencode.md), OpenRouter, model lokal Ollama/RTX); model percakapan dapat dipisah dari **[model keputusan](../concepts/decision-models.md)** (OpenClaw) dan model auxiliary (Hermes).
-- **Distribusi**: MIT open source; bundel VPS siap pakai oleh hoster ([Exabytes](../entities/exabytes.md), [Hostinger](../entities/hostinger.md)); install desktop/CLI/container.
+- **Distribusi**: MIT open source; bundel VPS siap pakai oleh hoster ([Exabytes](../entities/exabytes.md), [Hostinger](../entities/hostinger.md)); install desktop/CLI/container; opsi **hosting terkelola** (Hermes Cloud; OpenClaw OCE/cloud workers).
 
 ## Dua filosofi (per Okt 2026)
 
 | Aspek | [OpenClaw](../entities/openclaw.md) | [Hermes Agent](../entities/hermes-agent.md) |
 | --- | --- | --- |
-| Tata kelola | Yayasan 501(c)(3) donasi; tanpa tier berbayar | Nous Research (venture; laporan $75M/$1,5B); tier Nous Portal $20–200/bln |
-| Arsitektur | Gateway tepercaya + eksekusi terisolasi (cloud worker, node ber-hash); **sandboxing off by default** | Parent-owned dispatch; lima backend sandbox; eksekusi remote opsional |
+| Tata kelola | Yayasan 501(c)(3) donasi; tanpa tier berbayar | Nous Research (venture; **Series B Okt 2026** — investor NVIDIA/M12/Samsung Next dll.; laporan Juli: $75M pada $1,5B); Nous Portal $0–200/bln + Business/Enterprise + Hermes Cloud |
+| Arsitektur | Gateway tepercaya + eksekusi terisolasi (cloud worker, node ber-hash); **sandboxing off by default** | Parent-owned dispatch; **tujuh backend** eksekusi (local, Docker, SSH, Singularity, Modal, Daytona, Vercel Sandbox); eksekusi remote opsional |
 | Policy | Policy as code, deny struktural, approval terikat binding | "Smart review" + deny hardline; beberapa jalur headless bisa auto-approve |
 | Ekosistem | 65 proyek, 142 plugin, ClawHub, OCE, Microsoft Autopilot | Plugin Python + desktop SDK, MCP catalog |
-| Bukti adopsi | Microsoft Autopilot, OpenAI internal, Red Hat, 346k+ bintang | 21+ platform, desktop app, bundel VPS |
+| Bukti adopsi | Microsoft Autopilot, OpenAI internal, Red Hat, 346k+ bintang | 21+ platform; 326 use case; kemitraan **Sign in with ChatGPT**; klaim "most widely used open source agent harness" |
 
 > [!note] Sumber perbandingan
 > Tabel di atas menggabungkan sumber **kedua vendor**; dokumen [OpenClaw vs Hermes](../sources/openclaw-docs-vs-hermes.md) adalah sudut pandang OpenClaw dan harus dibaca sebagai posisi kompetitif.
