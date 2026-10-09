@@ -2,7 +2,7 @@
 title: Log
 type: meta
 created: 2026-10-01
-updated: 2026-10-08
+updated: 2026-10-10
 sources: []
 tags: [log]
 ---
@@ -254,3 +254,10 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Temuan: (1) **lineup resmi Claude** — Fable 5.1 & Mythos 5.1 $10/$50 (cache read $0,25), Opus 5.5 $4/$20 (cache read $0,20; fast mode $8/$40 = 2,5×), Sonnet 5.5 $2/$10, Haiku 5.5 $0,10–$2,50 (bertingkat 100K); semua 1M/128K, cutoff Jun 2026; tokenizer 4.7+ (+30% token); batch −50%; US-only 1,1×; plan Free/Pro $17–20/Max $100+/Team/Enterprise; **Claude Code termasuk Pro+**; Mythos = verified-only + retensi 30 hari; (2) **paritas agregator terverifikasi** — harga Opus/Sonnet resmi = listing TH/Zen/Nous Portal; varian `claude-opus-5-fast` Puter = fast mode resmi; docs TH cache read 0,1×/0,025× kini "ketinggalan" tier resmi 0,05× (Opus/Sonnet 5.5) — dicatat, tidak ditimpa; (3) **Groq cloud**: no-training default (§4.2) + ZDR; cap liabilitas 12 bulan / $5.000 beta (ToS situs $100 = dokumen berbeda); data dihapus ≤30 hari (SA) & ≤180 hari (DPA); breach ≤72 jam; (4) **x402**: 75,41 jt tx/30 hari · $24,24 jt · 94K pembeli · Linux Foundation; **Solana 70% volume** (37 jt+ tx; 400ms finality; ~$0,00025); (5) **tooling agen Solana**: Solana MCP (`mcp.solana.com`), skill resmi, `SKILL.md`/`llms.txt`, Program Examples, **MCP with x402** (payment-gate MCP server).
 - Diperbarui: `entities/groq` (+2 sumber legal cloud), `concepts/prompt-caching` (baris Anthropic + tren diskon 0,05×/0,025×), `concepts/model-access-services` & `entities/hermes-agent` (tautan konsep x402), `entities/openai` (tautan Anthropic), `overview.md` (310 sumber; **lima domain**; +bullet Anthropic & Solana/x402; +2 open questions), `index.md` (+20 sumber, +3 entitas, +1 konsep), `README.md`.
 - Tidak ada kontradiksi keras. Catatan: tab API `claude.com/pricing` & pricing Team/Enterprise tidak tertangkap penuh (open question); klip pricing Anthropic memuat bagian spec Haiku/Opus yang tumpang tindih dengan klip model (dicatat di halaman sumber).
+
+## [2026-10-10] maintenance + schema | Redaksi data sensitif & pengecualian immutability `raw/`
+- **Audit keamanan** repo publik `github.com/tinozservice/llm-wiki` (diminta pengguna). Hasil: **tidak ada kredensial asli** (semua `sk-…`/`thk_…`/`sk-or-…` = placeholder); email yang ada hanya kontak perusahaan generik & `example.com`; tidak ada telepon/alamat/IP/NIK.
+- **Ditemukan & diredaksi** ID akun yang tertangkap Web Clipper dari dashboard login: Cerebras `org_…` + `prj_…` (di `raw/2026/oktober/01/Cerebras Cloud. limits.md`, `Get started with Cerebras.md`, `wiki/sources/cerebras-get-started.md`, `cerebras-limits.md`) dan OpenCode `wrk_…` (di `raw/2026/oktober/01/OpenCode ZEN Price.md`, `wiki/sources/opencode-zen-price-list.md`) → diganti `org_redacted`/`prj_redacted`/`wrk_redacted`.
+- **Rewrite history**: `git filter-repo --replace-text` (3 ID) + purge `.obsidian/` dari seluruh riwayat; 30 commit ditulis ulang; force-push `main` (`75a0b45`→`4102643`). Ditambah `.workbuddy-ai/` ke `.gitignore`.
+- **Schema** (`AGENTS.md`): section baru **Security edits**; tabel layer, layout, dan hard rules diperbarui — isi `raw/` boleh diedit **khusus perbaikan keamanan** (dengan syarat dicatat di log).
+- **Belum tuntas**: commit lama masih dapat diakses via URL SHA langsung di GitHub (uji HTTP 200 mengembalikan ID asli). Perlu minta GitHub Support menjalankan GC + hapus cached views; pertimbangkan rotasi ID sebagai lapisan kedua.

@@ -15,7 +15,7 @@ not re-derived from raw chunks on every question.
 
 | Layer | Path | Owner | Rule |
 | --- | --- | --- | --- |
-| Raw sources | `raw/<tahun>/<bulan>/<DD>/` | Human | **Immutable.** Konten hanya dibaca dan dikutip — tidak diedit, di-rename, atau dihapus. LLM boleh *memindahkan* file ke arsip tanggal (lihat *Raw archive layout*). |
+| Raw sources | `raw/<tahun>/<bulan>/<DD>/` | Human | **Immutable** — konten hanya dibaca dan dikutip; tidak diedit, di-rename, atau dihapus. Dua pengecualian: LLM boleh *memindahkan* file ke arsip tanggal (lihat *Raw archive layout*) dan **menyunting konten khusus untuk perbaikan keamanan** (redaksi data sensitif; lihat *Security edits*). |
 | Wiki | `wiki/` | LLM | You create and maintain everything here. |
 | Schema | `AGENTS.md`, `.opencode/skills/` | Both | Co-evolve deliberately: propose changes and wait for approval. |
 
@@ -30,7 +30,7 @@ not re-derived from raw chunks on every question.
 ## Layout
 
 ```text
-raw/                    # curated sources, immutable
+raw/                    # curated sources, immutable (dikecualikan: perbaikan keamanan)
 ├── assets/             # images downloaded from clipped articles
 └── 2026/               # arsip per tahun
     └── oktober/        # per bulan: januari … desember
@@ -59,10 +59,26 @@ raw/2026/oktober/01/
   `desember`); tanggal `DD` dua digit.
 - Tanggal arsip diambil dari `created` pada frontmatter klip; jika tidak ada, pakai tanggal
   ingest.
-- LLM boleh **memindahkan** file sumber ke folder arsip (satu-satunya aksi tulis di `raw/`),
-  dan wajib memakai path arsip lengkap saat mengutip berkas mentah.
-- Isi file di `raw/` **tidak pernah diubah**.
+- LLM boleh **memindahkan** file sumber ke folder arsip, dan wajib memakai path arsip lengkap
+  saat mengutip berkas mentah.
+- Isi file di `raw/` **tidak diubah** — kecuali untuk perbaikan keamanan (lihat *Security edits*).
 - `raw/assets/` tetap satu folder global untuk gambar hasil unduhan klip.
+
+## Security edits (pengecualian immutability `raw/`)
+
+Satu-satunya alasan sah untuk **mengubah isi** file di `raw/` adalah **perbaikan keamanan**
+ketika sumber mentah memuat data sensitif yang tidak seharusnya publik — mis. kredensial,
+API key/token, atau ID akun seperti `org_…` / `prj_…` / `wrk_…` yang tertangkap Web Clipper
+dari halaman dashboard yang sudah login.
+
+- Tindakan: redaksi/normalisasi string sensitif (mis. `<id>` → `*_redacted`) tanpa mengubah
+  makna sumber; jangan pernah menghapus atau menulis ulang isi lain.
+- Wajib: catat setiap edit di `wiki/log.md` (tipe `maintenance`) — file, string yang
+  diredaksi, dan alasannya.
+- Karena `raw/` ter-track, redaksi harus diterapkan ke **seluruh riwayat git**, bukan hanya
+  commit terbaru (mis. `git filter-repo --replace-text`), lalu force-push.
+- Catatan: force-push tidak menghapus objek lama dari server GitHub; minta GitHub Support
+  menjalankan garbage collection untuk pembersihan tuntas.
 
 ## Page conventions
 
@@ -139,7 +155,7 @@ do the work → update `index.md` → append to `log.md` → report the files yo
 
 ## Hard rules
 
-- Never write or edit the content of files in `raw/`. Satu-satunya aksi yang diizinkan: memindahkan/mengarsipkan file sumber ke folder tanggal (`raw/<tahun>/<bulan>/<DD>/`).
+- Never write or edit the content of files in `raw/` — **kecuali untuk perbaikan keamanan** (lihat *Security edits*). Aksi lain yang diizinkan: memindahkan/mengarsipkan file sumber ke folder tanggal (`raw/<tahun>/<bulan>/<DD>/`).
 - Do not invent content. Everything traces back to a source in `raw/`, to the user's
   explicit instructions, or is marked as unverified.
 - One source can legitimately touch 10–15 pages. Prefer updating existing pages over
