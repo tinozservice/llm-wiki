@@ -14,3 +14,6 @@ Desktop.ini
 # Local agent state (skills tetap di-commit — bagian dari schema)
 .opencode/node_modules/
 .opencode/.cache/
+
+# Memori kerja agen lokal — tidak untuk publik
+.workbuddy-ai/
