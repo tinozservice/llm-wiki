@@ -268,3 +268,9 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Temuan: hanya 3 penyedia mempublikasikan t/s per model — Cerebras, Groq, Inception Labs; model sama berbeda jauh antar platform (`gpt-oss-120b` 3.000 vs 500 t/s; `qwen-3.8-27b` 1.850 vs 450 t/s) → kecepatan ditentukan platform.
 - Diperbarui: `wiki/index.md` (+1 analisis, frontmatter `updated` 2026-10-10), `wiki/log.md`.
 - Tidak ada kontradiksi.
+
+## [2026-10-10] query | Model dengan input gambar/vision (+fileback analisis)
+- Pertanyaan pengguna: "model yang punya input image atau vision".
+- Dibuat: `wiki/analyses/model-vision-input.md` — 12 baris model/platform dengan input gambar eksplisit: Claude Fable/Opus/Sonnet/Haiku 5.5 (vision), GPT-6 Astra/Sol/Luna (text+image), `deepseek-flash` V4.1-Flash (V4 Pro tidak), Cerebras `qwen-3.8-27b` (image inputs Public Preview), Sail Research (Kimi K3, Kimi-K2.6, Gemma 4 31B IT, Qwen3.6 35B A3B), OpenCode Zen `deepseek-v4-flash-vision-exp` (nama pensiun), Tokenra `deepseek-v4.1-flash` (multimodal beta), plus platform Puter (vision analysis/OCR) & Groq (tool Vision via MCP). Section pembeda **vision vs image generation** (Agnes, Grok Imagine 2, Puter txt2img, Seedance), daftar **gap** (modalitas Grok/Gemini/MiMo/GLM & katalog agregator tidak dinyatakan), caveats (klaim vendor, batas deployment).
+- Diperbarui: `wiki/index.md` (+1 analisis), `wiki/log.md`.
+- Tidak ada kontradiksi.
