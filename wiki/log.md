@@ -261,3 +261,10 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - **Rewrite history**: `git filter-repo --replace-text` (3 ID) + purge `.obsidian/` dari seluruh riwayat; 30 commit ditulis ulang; force-push `main` (`75a0b45`→`4102643`). Ditambah `.workbuddy-ai/` ke `.gitignore`.
 - **Schema** (`AGENTS.md`): section baru **Security edits**; tabel layer, layout, dan hard rules diperbarui — isi `raw/` boleh diedit **khusus perbaikan keamanan** (dengan syarat dicatat di log).
 - **Belum tuntas**: commit lama masih dapat diakses via URL SHA langsung di GitHub (uji HTTP 200 mengembalikan ID asli). Perlu minta GitHub Support menjalankan GC + hapus cached views; pertimbangkan rotasi ID sebagai lapisan kedua.
+
+## [2026-10-10] query | Throughput model tercepat (+fileback analisis)
+- Pertanyaan pengguna: "daftar throughput tercepat dari seluruh model" lalu "tandai yang belum terverifikasi nilai t/s-nya".
+- Dibuat: `wiki/analyses/throughput-model-tercepat.md` — peringkat 10 baris model menurut t/s (Cerebras `gpt-oss-120b` ~3.000 t/s → Groq MiniMax M2.7 260 t/s); kolom **Status** menandai **10/10 = klaim vendor/belum terverifikasi**; section "Nilai yang belum terverifikasi" (daftar eksplisit + koreborasi parsial Inception untuk GPT-OSS-120B low Cerebras, tetap vendor); section "Metrik yang sering tertukar" (rate limit Jev 100K tok/s, latensi Jev/Mercury/VyceAI, prefill agregat Token Harbor); daftar penyedia tanpa data t/s (OpenAI, Anthropic, DeepSeek, Google, agregator/pass).
+- Temuan: hanya 3 penyedia mempublikasikan t/s per model — Cerebras, Groq, Inception Labs; model sama berbeda jauh antar platform (`gpt-oss-120b` 3.000 vs 500 t/s; `qwen-3.8-27b` 1.850 vs 450 t/s) → kecepatan ditentukan platform.
+- Diperbarui: `wiki/index.md` (+1 analisis, frontmatter `updated` 2026-10-10), `wiki/log.md`.
+- Tidak ada kontradiksi.
