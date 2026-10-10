@@ -24,7 +24,39 @@ Turn new source material into durable, interlinked wiki pages. One source usuall
 - Citation: halaman sumber mencantumkan **path arsip lengkap**, mis.
   `raw/2026/oktober/01/<file>.md`.
 
-## 2. Read and discuss
+## 2. Security & privacy scan (wajib sebelum commit)
+
+Repo ini publik — setiap berkas baru **wajib dipindai** sebelum di-commit; Web Clipper
+sering menangkap token/ID dari halaman dashboard yang sudah login. Aturan lengkap di
+`AGENTS.md` → *Security edits*. Pola yang dicari:
+
+- **Kunci & token**: `sk-`, `sk-ant-`, `sk-or-v1-`, `gsk_`, `thk_`, `ghp_`/`ghu_`/`ghs_`,
+  `github_pat_`, `AKIA…`/`AIza…`, `xox[baprs]-`, `glpat-`, `npm_`, `hf_`, `r8_`, `Bearer …`.
+- **JWT** (`eyJ…` dengan dua titik) & **parameter token di URL**: `?jwt=`, `?token=`,
+  `website_token=`, `cw_conversation=`, `X-Amz-Signature=`/`X-Amz-Credential=` (presigned URL).
+- **ID akun dashboard**: `org_…`/`org-…`, `prj_…`/`proj_…`, `wrk_…`, `acc_…`
+  (Console OpenAI/Cerebras/OpenCode/Anthropic, dsb.).
+- **Data pribadi**: email pribadi (kontak resmi perusahaan & `example.com` tidak dihitung),
+  nomor telepon (`+62`/`08…`), alamat, NIK/NPWP/nomor rekening; periksa manual screenshot
+  dashboard login di `raw/assets/`.
+
+Jika ditemukan:
+
+1. **Belum ter-commit** → redaksi di file `raw/` (pengecualian immutability khusus
+   keamanan): ganti nilai dengan `*_redacted`, jangan ubah bagian lain.
+2. **Sudah ter-commit** → redaksi **current tree + seluruh riwayat** dengan
+   `git filter-repo --replace-text` (baris `literal:<nilai>==>*_redacted`) + force-push;
+   buat backup mirror dulu.
+3. **Catat** di `wiki/log.md` (tipe `maintenance`): file, string (terpotong — jangan tulis
+   nilai penuh), dan alasan.
+4. Ingatkan pengguna: force-push tidak menghapus objek lama di GitHub — commit lama masih
+   dapat diakses via URL SHA sampai GitHub Support menjalankan GC.
+
+**Higiene metadata commit**: pastikan `git config user.email` berakhiran
+`@users.noreply.github.com` (jangan email asli) dan author name mengikuti preferensi
+pemilik repo.
+
+## 3. Read and discuss
 
 Read the source fully. Then report briefly to the user:
 
@@ -34,7 +66,7 @@ Read the source fully. Then report briefly to the user:
 
 Wait for direction before mass-updating, unless the user asked for batch/unattended ingest.
 
-## 3. Write
+## 4. Write
 
 Create or update pages in this order:
 
@@ -46,14 +78,17 @@ Create or update pages in this order:
 4. Contradictions: add `> [!warning] Contradiction: ...` to every affected page and
    summarize them in the source page's "What this changes".
 
-## 4. Bookkeeping
+## 5. Bookkeeping
 
+- Jalankan **security scan (bagian 2)** pada setiap berkas baru sebelum commit.
 - Update `wiki/index.md`: add new pages, refresh changed summaries.
 - Append to `wiki/log.md`: `## [YYYY-MM-DD] ingest | <Source Title>` with details.
 - Report the list of files touched, one line of reason each.
 
 ## Quality bar
 
+- Repo publik: jangan pernah menulis kredensial, token, ID akun, atau data pribadi ke
+  halaman wiki mana pun maupun ke log — gunakan deskripsi terpotong (mis. `6NUK…`).
 - Every non-obvious claim traces to a source page.
 - Prefer editing existing pages over creating new ones; split pages that grow unwieldy.
 - Keep source pages factual; put interpretation in analysis pages.
