@@ -2,7 +2,7 @@
 title: Log
 type: meta
 created: 2026-10-01
-updated: 2026-10-10
+updated: 2026-10-12
 sources: []
 tags: [log]
 ---
@@ -282,3 +282,11 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - **Skill** (`.opencode/skills/wiki-ingest`): bagian baru **Security & privacy scan** (wajib sebelum commit) + higiene metadata commit + aturan jangan menulis kredensial/data pribadi ke wiki/log.
 - **Eksekusi**: satu `git filter-repo --replace-text + --mailmap` atas seluruh 34 commit (`4114d78` → `8e947a9`), lalu force-push. Backup pre-rewrite: `%TEMP%\opencode\llm-wiki-backup-20261010.git` (lokal — hapus setelah pembersihan GitHub selesai). Verifikasi: 0 jejak 6 token/email lama di seluruh riwayat; author & committer kini tunggal.
 - **Masih terbuka**: force-push tidak menghapus objek lama di GitHub — commit lama masih dapat diakses via URL SHA (sama seperti catatan pagi); satu permintaan GC + purge cache ke **GitHub Support** mencakup `org_`/`prj_`/`wrk_` dan 6 token ini. Lokal: `.workbuddy-ai/memory/*` (ignored, tidak ter-commit) masih memuat `org_`/`wrk_` akun pribadi — pertimbangkan redaksi lokal.
+
+## [2026-10-12] ingest | Manus 2.0, Cue, Privacy & Terms — 4 klip
+- 4 klip diarsipkan ke `raw/2026/oktober/12/` (created 2026-10-12): blog "Introducing Manus 2.0", landing **Cue** (cue.im), Privacy Policy, dan Terms of Use (manus.im).
+- **Cek duplikat**: tidak ada berkas duplikat identik di seluruh `raw/` (perbandingan SHA256 seluruh arsip, termasuk antar 4 klip ini). **Scan keamanan/privasi bersih**: tanpa kredensial/ID akun/JWT/telepon; email hanya kontak perusahaan (manus.im/cue.im).
+- Dibuat: **4 halaman sumber** + entitas `cue` + konsep `agent-identity`; entitas `manus` ditulis ulang.
+- Temuan: (1) **Manus 2.0** — Cascade agent harness (klaim vendor: −23,2% token, −28,2% waktu, −32% biaya di satu konfigurasi uji), Cloud Computer, Automations (event-triggered), Studio (Video Editor + Alchemy; Game Dev + multiplayer), Remote Control/Computer Use; (2) **Cue** — app agen pribadi terpisah: tiap agen punya email, nomor telepon, wallet, komputer sendiri; group chat multi-agen; connector (Trip.com, Oura, Gmail, MyFitnessPal) + routines; early access gratis via invite code (mis. `MEETCUE`); (3) **Terms** — aksi agen "may be attributed to you"; kredit expire & non-refundable (konsumen EU/UK/Turki 14 hari); cap liabilitas 3 bulan; arbitrase SIAC/NAM + opt-out 30 hari (AS); (4) **Privacy** — hapus akun ≤30 hari; sandbox 7/21 hari; Owner Team Plan dapat mengakses session data anggota; kredensial pihak ketiga disimpan untuk autentikasi.
+- Diperbarui: `entities/manus` (ditulis ulang), `entities/dots` (tautan silang Cue), `concepts/agent-identity` (baru), `overview.md` (314 sumber; domain 1 = 159; frontmatter sources +24 slug — 20 slug Anthropic/Groq legal/x402/Solana yang tertinggal + 4 baru), `index.md`, `README.md` (status; pengecualian *Security edits* di aturan inti).
+- Tidak ada kontradiksi; harga Manus (tier & Cloud Computer) dan harga Cue pasca-early-access tetap open question.

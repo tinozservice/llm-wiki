@@ -2,7 +2,7 @@
 title: Index
 type: meta
 created: 2026-10-01
-updated: 2026-10-10
+updated: 2026-10-12
 sources: []
 tags: [index]
 ---
@@ -325,6 +325,10 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Solana — x402 on Solana](sources/solana-x402.md) — 37 jt+ tx, 70% volume x402; finality 400ms; ekosistem PayAI/Corbits/x402scan; MCP with x402. (2026-10-08)
 - [Solana docs — Coding with agents](sources/solana-coding-with-agents.md) — Solana Developer MCP (mcp.solana.com) + skill resmi untuk coding agent. (2026-10-08)
 - [Solana — Program Examples](sources/solana-program-examples.md) — Contoh onchain Anchor/Pinocchio/Native: basics, token-2022 hooks, cNFT, kripto, games ECVRF. (2026-10-08)
+- [Manus — Introducing Manus 2.0](sources/manus-blog-2-0.md) — Arsitektur baru Manus 2.0: Cascade harness (−23,2% token/−28,2% waktu/−32% biaya pada satu uji), Cloud Computer, Automations, Studio (Video Editor/Game Dev), + app agen pribadi Cue. (2026-10-12)
+- [Cue — Your Personal Agents, With Their Own Identity](sources/cue-landing.md) — App agen pribadi (Manus): tiap agen punya email, nomor telepon, dompet, dan komputer sendiri; group chat, connector, routine, batas approval. (2026-10-12)
+- [Manus — Privacy Policy](sources/manus-privacy.md) — Data & retensi produk Manus (Butterfly Effect, Singapura): hapus akun ≤30 hari, sandbox 7/21 hari, kredensial pihak ketiga, addendum EU/California/Korea/Jepang/Singapura. (2026-10-12)
+- [Manus — Terms of Use](sources/manus-terms.md) — Kredit expire & non-refundable (konsumen EU/UK/Turki 14 hari), aksi agen = tanggung jawab pengguna, cap liabilitas 3 bulan, arbitrase SIAC/NAM + opt-out. (2026-10-12)
 
 ## Entities
 
@@ -336,7 +340,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [OpenCode Zen](entities/opencode-zen.md) — Katalog model per-token OpenCode; 81 model, 9 gratis; berbagi saldo kredit dengan Go. (2026-10-01)
 - [Agnes](entities/agnes.md) — Aplikasi agentic + Token Plan multimodal; kuota request 5 jam + media harian, model flash gratis. (2026-10-01)
 - [Groq](entities/groq.md) — Platform inferensi cepat (gpt-oss-20b ~1.000 t/s); Free/Developer/Enterprise + SDK Python/TS, MCP server, Desktop beta, kebijakan legal/keamanan. (2026-10-08)
-- [Manus](entities/manus.md) — Agen AI berbasis kredit tugas; 4.000–40.000 kredit/bulan + 300 refresh harian. (2026-10-01)
+- [Manus](entities/manus.md) — Produk agen AI (Butterfly Effect, Singapura): Manus 2.0 (Cascade, Cloud Computer, Automations, Studio), kredit tugas 4.000–40.000/bulan + 300 refresh, legal/data (arbitrase SIAC/NAM; retensi 30 hari). (2026-10-12)
 - [Novita](entities/novita.md) — 200+ model API + GPU + sandbox; tier T1–T5 berdasar top-up; batch diskon 50%. (2026-10-01)
 - [Sail Research](entities/sail-research.md) — Inferensi completion windows (Default/Balanced/Flex) + Sailbox; model Reference tanpa requantization. (2026-10-01)
 - [Inception Labs](entities/inception-labs.md) — Pengembang dLLM Mercury (2.5, Voice, Router); 1.000+ t/s, voice agent latensi rendah, deployment enterprise. (2026-10-01)
@@ -361,6 +365,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Anthropic](entities/anthropic.md) — Lab Claude: lineup resmi (Fable/Mythos $10/$50 · Opus $4/$20 · Sonnet $2/$10 · Haiku dari $0.10/$0.50), harga API & caching, plans Free–Max, platforms, verifikasi paritas agregator. (2026-10-08)
 - [Claude Code](entities/claude-code.md) — Coding agent terminal+IDE (Pro/Max/Team/Console); lokal & berizin; MCP servers; jalur DeepSeek; fast mode Opus. (2026-10-08)
 - [Solana](entities/solana.md) — Blockchain high-performance (5.068 TPS; RWA $4,6B+): rumah x402 (70% volume), Solana MCP & skills agen, program examples. (2026-10-08)
+- [Cue](entities/cue.md) — App agen pribadi dari Manus (cue.im): agen dengan identitas sendiri (email, telepon, dompet, komputer); group chat, connector, routine; early access gratis via invite. (2026-10-12)
 
 ## Concepts
 
@@ -374,6 +379,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Plugin ChatGPT & Codex](concepts/chatgpt-plugins.md) — Paket skills + MCP + UI + hooks di direktori universal; kontrak tool, safety annotations, monetisasi checkout. (2026-10-08)
 - [Model Context Protocol (MCP)](concepts/mcp.md) — Standar terbuka tool/koneksi data: tools/resources/prompts, stdio & streamable HTTP; adopsi lintas OpenAI, Puter, Groq, OpenClaw, Hermes, DSH, hingga panel hosting. (2026-10-08)
 - [x402 (protokol pembayaran)](concepts/x402.md) — HTTP 402 + stablecoin per request: 75,4 jt tx/30 hari ($24,24 jt; Solana 70%); tanpa akun/KYC; diadopsi Nous Portal; payment-gate MCP server. (2026-10-08)
+- [Identitas Agen](concepts/agent-identity.md) — Pola agen pribadi dengan akun & sumber daya sendiri (email, telepon, wallet, komputer); Cue (implementasi penuh), Dots & Manus Cloud Computer (kerabat); batas approval & atribusi tanggung jawab. (2026-10-12)
 
 ## Analyses
 

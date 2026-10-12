@@ -2,7 +2,7 @@
 title: Dots
 type: entity
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-12
 sources: [openai-dots, openai-learn-dots]
 tags: [openai, dots, agent, always-on]
 ---
@@ -32,4 +32,5 @@ tags: [openai, dots, agent, always-on]
 
 - Sumber: [Dots — produk](../sources/openai-dots.md) · [Learn — Meet dots](../sources/openai-learn-dots.md)
 - [OpenAI](openai.md) · [Codex](codex.md)
+- [Cue](cue.md) · [Identitas Agen](../concepts/agent-identity.md) — agen pribadi beridentitas sendiri (paralel terdekat dengan Dots).
 - [Platform Agen Self-Hosted](../concepts/self-hosted-agent-platforms.md) — pembanding konsep (dots = hosted, bukan self-hosted).
