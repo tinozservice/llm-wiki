@@ -2,8 +2,8 @@
 title: Hermes Agent
 type: entity
 created: 2026-10-08
-updated: 2026-10-08
-sources: [exabytes-nvme-vps-hermes, hostinger-vps, hermes-agent-landing, openrouter-hermes-integration, openclaw-docs-vs-hermes, hermes-agent-business, hermes-agent-cloud, hermes-agent-nous-portal-api, hermes-agent-nous-portal-subscription, hermes-agent-nous-portal-models, hermes-agent-nous-portal-privacy, hermes-agent-nous-portal-terms, hermes-agent-nous-research-releases, hermes-agent-nous-research, hermes-agent-readme]
+updated: 2026-10-14
+sources: [exabytes-nvme-vps-hermes, hostinger-vps, hermes-agent-landing, openrouter-hermes-integration, openclaw-docs-vs-hermes, hermes-agent-business, hermes-agent-cloud, hermes-agent-nous-portal-api, hermes-agent-nous-portal-subscription, hermes-agent-nous-portal-models, hermes-agent-nous-portal-privacy, hermes-agent-nous-portal-terms, hermes-agent-nous-research-releases, hermes-agent-nous-research, hermes-agent-readme, hermes-agent-yt-beginner-guide]
 tags: [hermes, nous-research, ai-agent, self-hosted, mit]
 ---
 
@@ -16,6 +16,16 @@ tags: [hermes, nous-research, ai-agent, self-hosted, mit]
 - **Connect**: Telegram, Discord, Slack, WhatsApp, Signal, Email, CLI, dll. — satu agen, satu memori. **Remember**: memori persisten + auto-skill; **Honcho** dialectic user modeling; kompatibel standar **agentskills.io** (Skills Hub). **Schedule**: cron bahasa alami + delivery ke platform. **Delegate**: subagent terisolasi + skrip Python RPC (pipeline biaya-konteks-nol). **Search**: web search, browser automation, vision, image gen (FAL), TTS (OpenAI), cloud browser (Browser Use) — via **Tool Gateway Nous Portal**. **Experiment**: sandbox — **tujuh backend terminal**: local, Docker, SSH, Singularity, Modal, Daytona, Vercel Sandbox (dua terakhir serverless-persisten).
 - **TUI** penuh (multiline, slash-command, interrupt-and-redirect, streaming tool output); **40+ tools**; **Bot Screen** (stream layar sesi agent secara live dari Hermes Desktop, bisa diambil alih).
 - Model bebas: `hermes model` — Nous Portal, [OpenRouter](openrouter.md), OpenAI, endpoint sendiri, model lokal ([README](../sources/hermes-agent-readme.md)); kebutuhan konteks **≥64K** ([OpenRouter](../sources/openrouter-hermes-integration.md)). Eksekusi remote untuk terminal/file/Python ([trust boundary](../sources/openclaw-docs-trust-boundary.md)).
+
+## Operasional (dari tutorial pemula pihak ketiga, 14 Okt)
+
+Sintesis dari [tutorial Metics Media](../sources/hermes-agent-yt-beginner-guide.md) — **tutorial ber-afiliasi** (Hostinger/Nous Portal); perlakukan sebagai klaim tutorial.
+
+- **Deploy tanpa terminal**: template **1 klik** di VPS [Hostinger](hostinger.md) (Docker Manager: Hermes + Traefik, halaman login, backup, update/restart); model disambung ke Nous Portal dari halaman Keys (login, tanpa kode); channel **Telegram** via QR + allow-list + `/sethome`; **desktop app** mode remote gateway ke server yang sama (HUD, dictasi, TTS, wake word, voice).
+- **Kerja & kolaborasi**: skill **Google Workspace** (GCP OAuth desktop client; akun Google terpisah; folder Drive **Inbox/Outbox**), katalog **MCP** tinggal toggle, permission prompt untuk aksi berisiko ("progressive trust"), aturan email "draft, jangan kirim".
+- **Pembelajaran**: `MEMORY.md` + `USER.md` (pendek, dikirim tiap pesan) + pola `NOTES_INDEX.md`; `/learn` (PDF/webpage → skill) + skill ditulis/diperbarui agen sendiri; **Skills Hub** dipindai (hidden instructions/data theft) tapi tidak sempurna; `SOUL.md` permanen vs `/personality` sementara.
+- **Otomasi murah**: job terjadwal dapat dibangun sebagai **script deterministik** (tanpa panggilan LLM saat run), dibuat *paused* untuk review, idempoten via label; **fallback chain**; **pin model** per job (job unpinned menolak jalan saat default berubah); `/moa` (mixture-of-agents + aggregator; contoh biaya $1,30 satu tugas vs ≈$0,08/hari DeepSeek Flash).
+- **Tim & proyek**: subagent sekali pakai vs **profiles/teammates** (agen terpisah dengan memori/skill/model sendiri); plugin **Kanban** (orchestrator, dependency, kartu *blocked* butuh cron penjaga); **Achievements** 60 badge; backup/restore via System page; update backend vs desktop app terpisah.
 
 ## Nous Portal (platform & ekonomi)
 
@@ -42,7 +52,7 @@ tags: [hermes, nous-research, ai-agent, self-hosted, mit]
 
 ## Deployment di wiki
 
-- **[Exabytes](exabytes.md)** (VPS Hermes pre-installed, Rp194.000–2.980.000/bln) & **[Hostinger](hostinger.md)** (katalog app) — infra self-host; **[OpenClaw](openclaw.md)** menyediakan "Import from Hermes" dan sebaliknya **`hermes claw migrate`** memindahkan SOUL.md/memori/skill/API keys dari OpenClaw ([README](../sources/hermes-agent-readme.md)).
+- **[Exabytes](exabytes.md)** (VPS Hermes pre-installed, Rp194.000–2.980.000/bln) & **[Hostinger](hostinger.md)** (katalog app) — infra self-host; **[OpenClaw](openclaw.md)** menyediakan "Import from Hermes" dan sebaliknya **`hermes claw migrate`** memindahkan SOUL.md/memori/skill/API keys dari OpenClaw ([README](../sources/hermes-agent-readme.md)); rute pemula langkah-demi-langkah ada di [tutorial Metics Media](../sources/hermes-agent-yt-beginner-guide.md).
 
 ## Open questions
 

@@ -4,15 +4,15 @@ Basis pengetahuan pribadi dengan pola **LLM Wiki**: sumber mentah yang dikurasi 
 
 Vault ini dibuka dengan [Obsidian](https://obsidian.md) dan dioperasikan bersama agen LLM (OpenCode) yang mengikuti aturan di [`AGENTS.md`](AGENTS.md).
 
-## Status saat ini (README diperbarui 2026-10-12)
+## Status saat ini (README diperbarui 2026-10-14)
 
-- **314 sumber** ter-ingest dari arsip `raw/2026/oktober/01–12/`, dalam lima domain:
+- **315 sumber** ter-ingest dari arsip `raw/2026/oktober/01–14/`, dalam lima domain:
   - **Akses model AI (159 sumber)** — Token Harbor, OpenCode Go/Zen, Agnes, Groq (+legal cloud: Services Agreement & DPA), Manus, Novita, Sail Research, Inception Labs, Cerebras, Tokenra, VyceAI, **OpenRouter** (gateway), kelas **model keputusan** (TypeSafe/Jev dan ekosistem "decisions"), + platform **Anthropic/Claude** (11 klip: lineup resmi Fable/Mythos/Opus/Sonnet/Haiku, pricing API, plans, Claude Code) + **platform DeepSeek** (API resmi & panduan integrasi) + **platform OpenAI** (40+ klip: model GPT-6, ChatGPT/Codex/Dots, plugin, API & legal) + **Manus 2.0/Cue** (4 klip 12 Okt: Cascade/Cloud Computer/Studio, agen beridentitas sendiri, Privacy & Terms).
   - **Hosting web (46 sumber)** — Hostinger, Rumahweb, DomaiNesia, Exabytes.
   - **Platform pengembangan Puter (50 sumber)** — Puter.js: AI Gateway 500+ model, storage, KV, workers, hosting, MCP; model bisnis user-pays.
-  - **Platform agen self-hosted (52 sumber)** — OpenClaw (OpenClaw Foundation, MIT), Hermes Agent (Nous Research; Nous Portal & Hermes Cloud), DeepSeek Harness (DeepSeek AI, MIT).
+  - **Platform agen self-hosted (53 sumber)** — OpenClaw (OpenClaw Foundation, MIT), Hermes Agent (Nous Research; Nous Portal & Hermes Cloud; tutorial pemula pihak ketiga 14 Okt), DeepSeek Harness (DeepSeek AI, MIT).
   - **Solana & pembayaran agentik (7 sumber)** — Solana (network & tooling agen: MCP, skills, program examples) + **x402** (standar pembayaran HTTP 402; dipakai Nous Portal via Solana USDC).
-- Isi wiki: **314 halaman sumber · 34 entitas · 11 konsep · 4 analisis** (ditambah `index.md`, `log.md`, dan `overview.md`).
+- Isi wiki: **315 halaman sumber · 34 entitas · 11 konsep · 4 analisis** (ditambah `index.md`, `log.md`, dan `overview.md`).
 - Pintu masuk: [`wiki/index.md`](wiki/index.md) (katalog) · [`wiki/overview.md`](wiki/overview.md) (sintesis top-level) · [`wiki/log.md`](wiki/log.md) (riwayat operasi).
 - Repo: `github.com/tinozservice/llm-wiki` — branch `main`.
 

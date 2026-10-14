@@ -2,7 +2,7 @@
 title: Index
 type: meta
 created: 2026-10-01
-updated: 2026-10-12
+updated: 2026-10-14
 sources: []
 tags: [index]
 ---
@@ -329,6 +329,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Cue — Your Personal Agents, With Their Own Identity](sources/cue-landing.md) — App agen pribadi (Manus): tiap agen punya email, nomor telepon, dompet, dan komputer sendiri; group chat, connector, routine, batas approval. (2026-10-12)
 - [Manus — Privacy Policy](sources/manus-privacy.md) — Data & retensi produk Manus (Butterfly Effect, Singapura): hapus akun ≤30 hari, sandbox 7/21 hari, kredensial pihak ketiga, addendum EU/California/Korea/Jepang/Singapura. (2026-10-12)
 - [Manus — Terms of Use](sources/manus-terms.md) — Kredit expire & non-refundable (konsumen EU/UK/Turki 14 hari), aksi agen = tanggung jawab pengguna, cap liabilitas 3 bulan, arbitrase SIAC/NAM + opt-out. (2026-10-12)
+- [Hermes Agent YT — The Ultimate Beginner's Guide](sources/hermes-agent-yt-beginner-guide.md) — Tutorial pemula 6 level (Metics Media): deploy VPS 1 klik (Hostinger), Telegram & desktop app, Google Workspace & MCP, memori/skill/SOUL.md, cron script deterministik & MoA, profiles & Kanban. (2026-10-14)
 
 ## Entities
 
@@ -345,7 +346,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [Sail Research](entities/sail-research.md) — Inferensi completion windows (Default/Balanced/Flex) + Sailbox; model Reference tanpa requantization. (2026-10-01)
 - [Inception Labs](entities/inception-labs.md) — Pengembang dLLM Mercury (2.5, Voice, Router); 1.000+ t/s, voice agent latensi rendah, deployment enterprise. (2026-10-01)
 - [Cerebras](entities/cerebras.md) — Platform inferensi tercepat (~3.000 t/s); model Shared Inference, kapabilitas API, dan peta migrasi open-source. (2026-10-01)
-- [Hostinger](entities/hostinger.md) — Hosting global: shared/cloud/VPS + managed Node.js (Web App), Hostinger Agent & Connector (MCP). (2026-10-02)
+- [Hostinger](entities/hostinger.md) — Hosting global: shared/cloud/VPS + managed Node.js (Web App), Hostinger Agent & Connector (MCP); template Hermes 1-klik di Docker Manager. (2026-10-14)
 - [Rumahweb](entities/rumahweb.md) — Hosting Indonesia: shared/unlimited/VPS KVM/VPS Alibaba/dedicated; Turbo Booster, dual availability zone. (2026-10-02)
 - [DomaiNesia](entities/domainesia.md) — Hosting Indonesia dengan integrasi MCP AI; Nimbus/Cirrus + VPS Lite/Turbo/Managed + Object Storage + Dedicated (GPU L4). (2026-10-03)
 - [Tokenra](entities/tokenra.md) — Gateway 37 model dengan varian diskon dan model gratis/anonymous; image per request, video Seedance. (2026-10-03)
@@ -353,7 +354,7 @@ See also: [Overview](overview.md) · [Log](log.md)
 - [VyceAI](entities/vyceai.md) — API proxy OpenAI+Anthropic compatible: ~13 model (GPT-6, Claude, DeepSeek, Agnes, Grok); langganan Lite $5/Pro $20 + reward harian $10–30; uptime 96,7% saat klip. (2026-10-07)
 - [Exabytes](entities/exabytes.md) — Penyedia hosting Indonesia "GROW AI": domain, hosting AI (cPanel/Plesk/WP), VPS Linux/Windows + VPS agent (Hermes/OpenClaw/n8n), dedicated, bizapp (M365, Workspace, Heylink, Lark); NEX DC Tier-3. (2026-10-08)
 - [OpenClaw](entities/openclaw.md) — Platform agen AI open-source MIT (Foundation 501(c)(3)): gateway self-hosted 29 channel, 142 plugin, policy-as-code, OCE, Microsoft Autopilot; adopsi decision models. (2026-10-08)
-- [Hermes Agent](entities/hermes-agent.md) — AI agent open-source MIT (Nous Research) dengan learning loop; 7 backend, 21+ platform; Nous Portal $0–200/bln (+Business/Enterprise/Cloud); Series B Okt 2026. (2026-10-08)
+- [Hermes Agent](entities/hermes-agent.md) — AI agent open-source MIT (Nous Research) dengan learning loop; 7 backend, 21+ platform; Nous Portal $0–200/bln (+Business/Enterprise/Cloud); Series B Okt 2026; rute pemula 1-klik + profiles & Kanban (tutorial 14 Okt). (2026-10-14)
 - [DeepSeek](entities/deepseek.md) — Platform API resmi: Flash/V4 Pro (1M context), off-peak pricing, konkurensi, integrasi "no code" ke Claude Code/Codex/OpenClaw/Hermes/OpenCode/dll. (2026-10-08)
 - [DeepSeek Harness](entities/deepseek-harness.md) — Agent harness MIT (developer preview): everything-is-a-plugin (Cordis), Web UI/Python SDK/desktop/ACP; MCP, reminder, webhook; official vs custom model data policy. (2026-10-08)
 - [OpenAI](entities/openai.md) — Lab GPT/Codex: model GPT-6 (Astra/Sol/Luna) + pricing resmi, ChatGPT (Chat/Work), platform API, gpt-oss open-weight, plan bisnis; 40+ sumber baru. (2026-10-08)

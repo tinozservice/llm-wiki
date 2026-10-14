@@ -2,7 +2,7 @@
 title: Log
 type: meta
 created: 2026-10-01
-updated: 2026-10-12
+updated: 2026-10-14
 sources: []
 tags: [log]
 ---
@@ -290,3 +290,14 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Temuan: (1) **Manus 2.0** — Cascade agent harness (klaim vendor: −23,2% token, −28,2% waktu, −32% biaya di satu konfigurasi uji), Cloud Computer, Automations (event-triggered), Studio (Video Editor + Alchemy; Game Dev + multiplayer), Remote Control/Computer Use; (2) **Cue** — app agen pribadi terpisah: tiap agen punya email, nomor telepon, wallet, komputer sendiri; group chat multi-agen; connector (Trip.com, Oura, Gmail, MyFitnessPal) + routines; early access gratis via invite code (mis. `MEETCUE`); (3) **Terms** — aksi agen "may be attributed to you"; kredit expire & non-refundable (konsumen EU/UK/Turki 14 hari); cap liabilitas 3 bulan; arbitrase SIAC/NAM + opt-out 30 hari (AS); (4) **Privacy** — hapus akun ≤30 hari; sandbox 7/21 hari; Owner Team Plan dapat mengakses session data anggota; kredensial pihak ketiga disimpan untuk autentikasi.
 - Diperbarui: `entities/manus` (ditulis ulang), `entities/dots` (tautan silang Cue), `concepts/agent-identity` (baru), `overview.md` (314 sumber; domain 1 = 159; frontmatter sources +24 slug — 20 slug Anthropic/Groq legal/x402/Solana yang tertinggal + 4 baru), `index.md`, `README.md` (status; pengecualian *Security edits* di aturan inti).
 - Tidak ada kontradiksi; harga Manus (tier & Cloud Computer) dan harga Cue pasca-early-access tetap open question.
+
+## [2026-10-14] maintenance | Redaksi email pribadi di klip tutorial Hermes
+- Sumber baru `raw/2026/oktober/14/The Ultimate Beginner's Guide to Hermes Agent.md` (belum ter-commit) memuat **email pribadi** pada contoh prompt kalender (diawali `guest@…`). Diredaksi → `*_redacted` sesuai `AGENTS.md` → *Security edits*; makna sumber tidak berubah; tanpa rewrite riwayat git karena file belum pernah di-commit.
+- Sisa scan bersih: tanpa kredensial/API key/JWT/ID akun/telepon; email lain hanya kontak perusahaan/publik.
+
+## [2026-10-14] ingest | Hermes Agent — The Ultimate Beginner's Guide (Metics Media)
+- 1 klip diarsipkan ke `raw/2026/oktober/14/` (created 2026-10-14): transkrip video YouTube "The Ultimate Beginner's Guide to Hermes Agent" (~1 jam 44 mnt; kanal Metics Media; publikasi 2026-10-08). Scan keamanan/privasi: lihat entri maintenance di atas.
+- Dibuat: 1 halaman sumber (`sources/hermes-agent-yt-beginner-guide.md`).
+- Temuan: (1) **rute deploy pemula tanpa terminal** — template Hermes 1 klik di VPS Hostinger (Docker Manager: Hermes + Traefik, login page, backup, update/restart; KVM 1 cukup); (2) **operasional harian** — Telegram via QR + allow-list + `/sethome`, desktop app mode remote gateway (HUD/diktasi/TTS/wake word/voice), `/handoff` `/new` `/model`; (3) **skill & MCP** — Google Workspace (GCP OAuth desktop client; akun terpisah; folder Drive Inbox/Outbox), katalog MCP toggle, `/learn`, Skills Hub dipindai tapi tidak sempurna, self-improvement review (agen menulis skill + update memori); (4) **memori** — `MEMORY.md`/`USER.md` pendek + pola `NOTES_INDEX.md`; `SOUL.md` vs `/personality`; (5) **otomasi & biaya** — cron script deterministik (tanpa LLM per run), create paused, idempoten via label, fallback chain, pin model per job, `/moa` + aggregator; contoh: satu tugas MoA $1,30 vs ≈$0,08/hari DeepSeek Flash; (6) **tim & proyek** — subagent sekali pakai, profiles/teammates (memori/skill/model sendiri), Kanban board (orchestrator, dependency, kartu blocked butuh cron penjaga), Achievements 60 badge.
+- Diperbarui: `entities/hermes-agent` (section Operasional baru + deployment), `entities/hostinger` (template Hermes 1 klik), `concepts/self-hosted-agent-platforms` (rute pemula), `overview.md` (315 sumber; domain 4 = 53; bullet baru; varian harga `deepseek-v4-flash`), `index.md`, `README.md`.
+- Tidak ada kontradiksi keras. Catatan: harga "DeepSeek V4 Flash $0,07/$0,14" (Portal, dikutip tutorial) vs $0,14/$0,28 (Zen) — kemungkinan promo/snapshot, belum diverifikasi; klaim "200+" model Portal mengulang kontradiksi lama; sumber = tutorial ber-afiliasi → klaim ditandai.

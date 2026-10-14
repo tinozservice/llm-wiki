@@ -2,8 +2,8 @@
 title: Platform Agen Self-Hosted
 type: concept
 created: 2026-10-08
-updated: 2026-10-08
-sources: [openclaw-landing, openclaw-docs-why-openclaw, openclaw-docs-trust-boundary, openclaw-docs-vs-hermes, hermes-agent-landing, hermes-agent-readme, hermes-agent-nous-research, hermes-agent-nous-portal-subscription, hermes-agent-cloud, hermes-agent-business, openrouter-hermes-integration, exabytes-nvme-vps-hermes, deepseek-harness-readme, deepseek-harness-architecture, deepseek-harness-landing]
+updated: 2026-10-14
+sources: [openclaw-landing, openclaw-docs-why-openclaw, openclaw-docs-trust-boundary, openclaw-docs-vs-hermes, hermes-agent-landing, hermes-agent-readme, hermes-agent-nous-research, hermes-agent-nous-portal-subscription, hermes-agent-cloud, hermes-agent-business, openrouter-hermes-integration, exabytes-nvme-vps-hermes, deepseek-harness-readme, deepseek-harness-architecture, deepseek-harness-landing, hermes-agent-yt-beginner-guide]
 tags: [agent, self-hosted, openclaw, hermes, gateway]
 ---
 
@@ -19,7 +19,7 @@ tags: [agent, self-hosted, openclaw, hermes, gateway]
 - **Eksekusi nyata**: shell, file, browser, form, API — dengan pilihan **sandbox** (Docker/SSH/OpenShell/Singularity/Modal) dan policy/approval di kode.
 - **Otomasi**: cron/heartbeat/hooks/webhook; subagent paralel; cloud worker sekali pakai.
 - **Model bebas**: provider mana pun (termasuk [OpenCode Zen/Go](../entities/opencode.md), OpenRouter, model lokal Ollama/RTX); model percakapan dapat dipisah dari **[model keputusan](../concepts/decision-models.md)** (OpenClaw) dan model auxiliary (Hermes).
-- **Distribusi**: MIT open source; bundel VPS siap pakai oleh hoster ([Exabytes](../entities/exabytes.md), [Hostinger](../entities/hostinger.md)); install desktop/CLI/container; opsi **hosting terkelola** (Hermes Cloud; OpenClaw OCE/cloud workers).
+- **Distribusi**: MIT open source; bundel VPS siap pakai oleh hoster ([Exabytes](../entities/exabytes.md), [Hostinger](../entities/hostinger.md)); install desktop/CLI/container; opsi **hosting terkelola** (Hermes Cloud; OpenClaw OCE/cloud workers). Rute pemula kini terdokumentasi end-to-end: template VPS 1 klik → Nous Portal → Telegram/desktop → skill/MCP → cron deterministik → Kanban ([tutorial Hermes](../sources/hermes-agent-yt-beginner-guide.md)).
 
 ## Dua filosofi (per Okt 2026)
 

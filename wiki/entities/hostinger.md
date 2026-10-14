@@ -2,8 +2,8 @@
 title: Hostinger
 type: entity
 created: 2026-10-02
-updated: 2026-10-08
-sources: [hostinger-nodejs-overview, hostinger-nodejs-product, hostinger-nodejs-creating-app, hostinger-nodejs-build-settings, hostinger-nodejs-env-vars, hostinger-nodejs-file-structure, hostinger-nodejs-deployments, hostinger-nodejs-github, hostinger-nodejs-runtime-logs, hostinger-nodejs-frameworks, hostinger-nodejs-vulnerabilities, hostinger-cloud-hosting, hostinger-vps, hostinger-web-hosting, hostinger-price-list]
+updated: 2026-10-14
+sources: [hostinger-nodejs-overview, hostinger-nodejs-product, hostinger-nodejs-creating-app, hostinger-nodejs-build-settings, hostinger-nodejs-env-vars, hostinger-nodejs-file-structure, hostinger-nodejs-deployments, hostinger-nodejs-github, hostinger-nodejs-runtime-logs, hostinger-nodejs-frameworks, hostinger-nodejs-vulnerabilities, hostinger-cloud-hosting, hostinger-vps, hostinger-web-hosting, hostinger-price-list, hermes-agent-yt-beginner-guide]
 tags: [hostinger, hosting, nodejs, vps]
 ---
 
@@ -20,7 +20,7 @@ tags: [hostinger, hosting, nodejs, vps]
 | Node.js | Unlimited / Cloud Startup | Rp38.900 / 116.900 per bln | 121.900 / 310.900 |
 | VPS KVM | KVM 1 / 2 / 4 / 8 | Rp116.900 / 155.900 / 213.900 / 426.900 per bln | 193.900 / 232.900 / 465.900 / 853.900 |
 
-Cloud hosting: klaim 4× lebih cepat & resource 20×; Cloud Professional Rp174.900 dan Enterprise Rp368.900 (48 bln). VPS: full root, AMD EPYC, NVMe, Hostinger Agent, API + MCP server; deploy 1 klik (Django, Nextcloud, Deepseek Harness, app Docker/AI agent).
+Cloud hosting: klaim 4× lebih cepat & resource 20×; Cloud Professional Rp174.900 dan Enterprise Rp368.900 (48 bln). VPS: full root, AMD EPYC, NVMe, Hostinger Agent, API + MCP server; deploy 1 klik (Django, Nextcloud, Deepseek Harness, app Docker/AI agent); katalog Docker Manager termasuk **template Hermes 1 klik** (Hermes + Traefik, halaman login, backup, update/restart) ([tutorial Hermes](../sources/hermes-agent-yt-beginner-guide.md)).
 
 ## Node.js hosting
 
