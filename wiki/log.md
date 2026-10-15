@@ -308,3 +308,14 @@ Quick view: `grep "^## \[" wiki/log.md | tail -5`
 - Dibuat: `wiki/analyses/perbandingan-deepseek-v4-1-flash.md`.
 - Diperbarui: `wiki/index.md`, `wiki/log.md`, `README.md` (kini 5 analisis).
 - Tidak ada kontradiksi. Caveat: definisi cap bulanan Go & keberlakuan off-peak pada pass belum terkonfirmasi; estimasi request = angka penerbit.
+## [2026-10-15] schema | Project skills Hermes: cermin .opencode/skills
+- Menambahkan tier **project skill** Hermes di `.hermes/skills/` untuk tiga skill workflow wiki (`wiki-ingest`, `wiki-query`, `wiki-lint`) sebagai cermin `.opencode/skills/`. Skill hanya aktif pada sesi Hermes yang dijalankan di dalam repo ini (precedence `project > local(~/.hermes/skills) > external_dirs`), bukan disalin ke profil global.
+- Berkas baru: `.hermes/skills/{wiki-ingest,wiki-query,wiki-lint}/SKILL.md`, `.hermes/skills/sync-from-opencode.sh`, `.hermes/skills/README.md`.
+- Aktivasi: `hermes skills trust "D:\Project\VibeCode\LLM-WIKI"` (tersimpan sebagai flag di `skills.trusted_project_dirs` pada config global, bukan salinan skill). Scan skills-guard: verdict safe untuk ketiga SKILL.md.
+- Sumber kebenaran isi tetap `.opencode/skills/`; salinan Hermes hanya berbeda pada baris frontmatter `name:` (disamakan dengan nama direktori). Sinkron ulang: `bash .hermes/skills/sync-from-opencode.sh`.
+- Usulan belum diterapkan: menambah bagian `.hermes/skills/` pada `AGENTS.md` (Layout + catatan sinkronisasi).
+
+## [2026-10-15] schema | AGENTS.md & README: tier project skill .hermes/skills
+- Menerapkan usulan entri sebelumnya: `AGENTS.md` dapat bagian **Project skills (tier Hermes)** plus entri `.hermes/skills/` di blok Layout; `README.md` dapat entri layout dan catatan sinkronisasi di bagian *Tiga workflow*.
+- Inti aturan: `.hermes/skills/` adalah cermin `.opencode/skills/` (sumber kebenaran isi tetap `.opencode/skills/`), hanya dimuat pada sesi Hermes di dalam repo ini, sinkron lewat `bash .hermes/skills/sync-from-opencode.sh`, aktivasi lewat `hermes skills trust "<path repo>"`.
+- Berkas disentuh: `AGENTS.md`, `README.md`.

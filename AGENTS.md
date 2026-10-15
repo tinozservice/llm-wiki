@@ -44,8 +44,26 @@ wiki/
 ├── concepts/           # ideas, methods, terms, technologies
 └── analyses/           # comparisons, syntheses, answers filed back
 AGENTS.md               # this schema
-.opencode/skills/       # wiki-ingest / wiki-query / wiki-lint workflows
+.opencode/skills/       # wiki-ingest / wiki-query / wiki-lint workflows (sumber kebenaran isi)
+.hermes/skills/         # cermin tier *project skill* Hermes; jangan diedit manual, pakai sync
 ```
+
+## Project skills (tier Hermes)
+
+Ketiga workflow di `.opencode/skills/` juga tersedia untuk Hermes lewat tier **project
+skill**: skill di `.hermes/skills/` hanya dimuat pada sesi Hermes yang dijalankan di dalam
+repo ini (precedence `project > local (~/.hermes/skills) > external_dirs`) dan **tidak**
+disalin ke profil global.
+
+- `.hermes/skills/<nama>/SKILL.md` adalah **cermin** `.opencode/skills/<nama>/SKILL.md`.
+  Sumber kebenaran isi tetap `.opencode/skills/`; satu-satunya perbedaan adalah baris
+  frontmatter `name:` yang disamakan dengan nama direktori.
+- Setiap kali `.opencode/skills/*/SKILL.md` diubah, jalankan
+  `bash .hermes/skills/sync-from-opencode.sh` supaya salinan Hermes tidak basi.
+- Aktivasi sekali per mesin/repo: `hermes skills trust "<path repo>"`. Di CLI, sertakan
+  path repo eksplisit karena `TERMINAL_CWD` bisa menunjuk direktori lain.
+- `.hermes/skills/` ikut aturan schema ini (bukan `raw/`): bahas dulu sebelum mengubah isi
+  skill, dan catat perubahan tipe `schema` di `wiki/log.md`.
 
 ## Raw archive layout
 

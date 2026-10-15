@@ -31,7 +31,8 @@ wiki/                 # dikelola penuh oleh LLM
 ├── concepts/         # ide, metode, istilah, teknologi
 └── analyses/         # perbandingan & jawaban yang dibukukan
 AGENTS.md             # schema & manual operasi
-.opencode/skills/     # workflow: wiki-ingest · wiki-query · wiki-lint
+.opencode/skills/     # workflow: wiki-ingest · wiki-query · wiki-lint (sumber kebenaran isi)
+.hermes/skills/       # cermin project skill Hermes (hanya aktif di repo ini)
 ```
 
 ## Cara pakai
@@ -48,6 +49,8 @@ AGENTS.md             # schema & manual operasi
 | [`wiki-ingest`](.opencode/skills/wiki-ingest/SKILL.md) | Arsipkan sumber → buat halaman sumber → perbarui entitas/konsep terkait → perbarui `index.md` + `log.md`. |
 | [`wiki-query`](.opencode/skills/wiki-query/SKILL.md) | Jawab pertanyaan dari isi wiki dengan sitasi; tawarkan membukukan jawaban berharga. |
 | [`wiki-lint`](.opencode/skills/wiki-lint/SKILL.md) | Audit kesehatan wiki: kontradiksi, klaim basi, halaman orphan, tautan rusak, knowledge gap. |
+
+Untuk sesi **Hermes**, ketiganya juga dimuat sebagai *project skill* dari `.hermes/skills/` (aktif hanya di dalam repo ini, tidak menyentuh profil global). Setelah isi skill di `.opencode/skills/` berubah, jalankan `bash .hermes/skills/sync-from-opencode.sh` lalu commit; detail di `AGENTS.md` → *Project skills (tier Hermes)*.
 
 ## Aturan inti
 
